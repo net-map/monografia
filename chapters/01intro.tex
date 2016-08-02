@@ -1,0 +1,47 @@
+\chapter{Introdução}\label{chp:intro}
+
+\section{Apresentação}\label{sec:presentation}
+
+Com a modernização das tecnologias de telefonia móvel torna-se cada vez maior o
+número de pessoas com celulares associados a tecnologias de rede, como WiFi, 3G e
+4G, que tem o potencial de fornecer informações sobre seu usuário a todo momento, tais
+como o conteúdo acessado por seus navegadores ou aplicativos, e também informações
+sobre posição e deslocamento. Dados de localização por si possuem pouco valor, mas
+quando aliados a outros conteúdos, é possível fornecer conteúdo personalizado em
+tempo real, reativo ao ambiente, passando a oferecer um grande retorno por um pouco
+mais de ocupação na banda[1].
+Enquanto sistemas de posicionamento por satélite como GPS (EUA) ou GALILEO
+(Europa), por um lado, conseguem precisar a posição do usuário em até centímetros em
+um ambiente outdoor, por outro há uma dificuldade deste sistema em calcular o
+posicionamento em lugares fechados, devido basicamente à atenuação dos sinais
+causada pelas paredes e seus materiais.Tendo em vista o crescimento das cidades e
+consequente aumento no número de construções as pessoas cada vez passam mais
+tempo em ambientes fechados. A necessidade de serviços de localização indoor tem se
+tornado cada vez mais crítica[2].
+Respondendo a essa necessidade surgiram alternativas para o posicionamento em
+ambientes fechado, entre eles há o uso da Identificação por Rádio Frequência (RFID ?
+Radio Frequency IDentification), do bluetooth, do Zigbee ou do Wi-fi. A determinação de
+posicionamento via Wi-fi é uma tecnologia que usa os sinais modulados do Wi-fi para;
+detectar a presença de um aparelho, em seguida o sistema é capaz de triangular a
+posição deste aparelho a partir dos sinais recebidos pelo ponto de acesso [1]. Um dos
+primeiros exemplos de um sistema de posicionamento utilizando Wi-fi foi RADAR,
+desenvolvido pela Microsoft, que também criou o RightSPOT que utilizava um ranking das
+frequências moduladas pelos pontos de acesso, no lugar de usar a potência dos sinais
+para determinar a posição do aparelho.
+Tendo em vista este cenário e as condições tecnológicas atuais, nosso projeto procura
+apresentar uma solução para localização de pessoas em ambientes fechados, como
+shoppings e eventos em galpões. Para tal, será combinado o usa de Big Data à
+tecnologia de Wi-fi já citada e ainda implementando um algoritmo de machine learning. O
+Big Data, que possui como uma de suas principais características a capacidade de
+armazenar uma grande quantidade de dados, será usado para armazenar todas as
+leituras de intensidade dos sinais feitas durante uma fase inicial, chamada de treinamento.
+À partir dessa larga quantidade de dados recebidos serão empregados algoritmos de
+machine learning processando-os para permitir que o sistema consiga determinar a
+posição do usuário dentro do ambiente mapeado anteriormente.
+Esta abordagem se mostra interessante ao ponto de que sua implementação não
+necessita configuração particular na rede que será usada, uma vez que se baseia em
+leituras feitas pelo aparelho móvel e no processamento dos dados feitos em um servidor
+em nuvem. Também se destaca o fato de que em decorrência do machine learning à
+medida de que o sistema é usado em uma determinada localidade a precisão tende a
+aumentar, uma vez que cada vez há mais dados para serem consultados para
+?Aprendizado?. Esse approach difere de outro também amplamente empregado em esquemas de localização indoor, que é o de modelar o próprio sinal de Wi-Fi, deduzindo a sua distância a partir da intensidade medida, como em [4] e [5]. Esse método se torna ineficiente porque se torna necessário que sejam conhecidas as coordernadas de todos as APs locais, e também o próprio modelo de atenuação dos sinais RSSI de WiFi sofrem todo o tipo de interferência tornando difícil a obtenção de uma boa precisão. 
