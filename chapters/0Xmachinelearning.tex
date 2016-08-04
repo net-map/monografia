@@ -28,6 +28,58 @@ $ZoneID$ & $BSSID_1$ & $BSSID_2$ & ... &  $BSSID_n$ \\
 \end{block}
 \end{blockarray}
  
+\section{\textit{Cross-Validation} para os Modelos Usados}
 
+A chamada \textit{Cross-Validation} dos modelos de ML é o teste para encontrar os parâmetros ótimos para o treinamento. O método escolhido de \textit{Cross-Validation} foi o \textit{K-Fold}. O método \textit{K-Fold} divide o dataset em $K$ subconjuntos de igual tamanho e então um dos conjuntos é usado como validação do treinamento feito pelos $K-1$ subconjuntos restantes. O processo é repetido $K$ vezes e em cada subdivisão possível podem ser usados valores de parâmetros de treino distintos. 
+
+\subsection{KNN : K-Nearest-Neighbors }
+
+
+Para o algoritmo de KNN, foi usado o método \textit{K-Fold} com $K=10$. O método foi aplicado duas vezes. Na primeira o modelo de KNN foi treinado com os cálculos de distância usando-se a distância Euclidiana, e variando-se o valor de $K$ do número de vizinhos em cada  \textit{fold}. Então, foi feito o mesmo processo, mas com a distância de Manhattan. Os resultados são mostrados a seguir:
+
+
+
+\centerline{\includegraphics[scale=.55]{euclidianKNNCrossVal2zonas}}
+
+
+\centerline{\includegraphics[scale=.55]{manhattanKNNCrossVAl2zonas}}
+
+
+Podemos concluir então que (1) o erro é menor no geral com a distância de Manhattan e (2) o valor de K que minimiza o erro fica entre 2 e 4 vizinhos.
+No restante do trabalho foi escolhido o valor de $K=3$ vizinhos.
+\subsection{Rede Neural}
+
+Para a \textit{Cross-Validation} das Redes Neurais, também foi usado o método de  \textit{K-Fold} com $K=10$. Para cada uns dos \textit{folds} foi testado um número de neurônios em uma  \textit{hidden-layer} única. (Outros testes mostraram não valer a pena para o nosso problema usar mais de uma camada de  \textit{hidden layer} ou \textit{deep learning}). Os resultados são mostrados a seguir:
+
+\centerline{\includegraphics[scale=.55]{CROSSVALE4ZonasNNCERTO}}
+
+
+Concluímos que o número ideal de neurônios na  \textit{hidden-layer} está próximo de 200. E é esse valor que usaremos daqui para frente.
+
+
+
+
+
+\section{Métodos de Votação}
+
+Os chamados sistemas de \textit{Ensenble Learning} são aqueles em que diversos modelos de ML são treinados e então é feito um sistema de votação para que a classificação final seja feita. No nosso sistema experimentamos com 2 modelos de votação diferentes, documentados a seguir.
+
+
+\subsection{Votação Simples}
+
+Na votação simples os resultados da classificação de todos os modelos são contabilizados e é escolhido aquele com o maior número de ocorrências entre os classificadores. Os testes foram feitos calculando-se o erro de validação no MESMO dataset de treino com uma quantidade cada vez maior de pontos de treino, estes retirados de um dataset de treino também fixado.
+
+
+A votação simples foi  testada com os algoritmos de Rede Neural, KNN e SVM
 
 \centerline{\includegraphics[scale=.55]{VoteError2zonesUCI}}
+
+Para comparação, foram calculados os erros de validação independentes de cada um dos algoritmos usados.
+
+
+\centerline{\includegraphics[scale=.55]{KNNerror2zonesUCI}}
+
+\centerline{\includegraphics[scale=.55]{NNerror2zonesUCI}}
+
+\centerline{\includegraphics[scale=.55]{SVMerror2zonesUCI}}
+
