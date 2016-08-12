@@ -3,7 +3,7 @@
 \section{Tratamento dos dados}\label{sec:data1}
 
 \subsection{Dados obtidos da UCI}
-	Para grande parte dos testes de  \textbf{\textit{Cross-Validation}}, foi usado um dataset obtido por meio do repositório online da UCI. 
+	Para grande parte dos testes de  \textbf{\textit{Cross-Validation}}, foi usado um dataset obtido por meio do repositório online da UCI, desenvolvido em \cite{uji}. 
 	
 	
 \subsection{Dados do Servidor}	
@@ -38,11 +38,21 @@ A chamada \textit{Cross-Validation} dos modelos de ML é o teste para encontrar o
 Para o algoritmo de KNN, foi usado o método \textit{K-Fold} com $K=10$. O método foi aplicado duas vezes. Na primeira o modelo de KNN foi treinado com os cálculos de distância usando-se a distância Euclidiana, e variando-se o valor de $K$ do número de vizinhos em cada  \textit{fold}. Então, foi feito o mesmo processo, mas com a distância de Manhattan. Os resultados são mostrados a seguir:
 
 
+\begin{figure}[H]
+\centering
+\caption{Erros para uso da distância Euclidiana}
+ \includegraphics[width=0.9\textwidth]{euclidianKNNCrossVal2zonas}
+\label{fig:euclidian}  
+\end{figure}
 
-\centerline{\includegraphics[scale=.55]{euclidianKNNCrossVal2zonas}}
 
+\begin{figure}[H]
+	\centering
+	\caption{Erros para uso da distância Manhattan}
+  \includegraphics[width=0.9\textwidth]{manhattanKNNCrossVAl2zonas}
+\label{fig:manhattan}  
 
-\centerline{\includegraphics[scale=.55]{manhattanKNNCrossVAl2zonas}}
+\end{figure}
 
 
 Podemos concluir então que (1) o erro é menor no geral com a distância de Manhattan e (2) o valor de K que minimiza o erro fica entre 2 e 4 vizinhos.
@@ -51,7 +61,17 @@ No restante do trabalho foi escolhido o valor de $K=3$ vizinhos.
 
 Para a \textit{Cross-Validation} das Redes Neurais, também foi usado o método de  \textit{K-Fold} com $K=10$. Para cada uns dos \textit{folds} foi testado um número de neurônios em uma  \textit{hidden-layer} única. (Outros testes mostraram não valer a pena para o nosso problema usar mais de uma camada de  \textit{hidden layer} ou \textit{deep learning}). Os resultados são mostrados a seguir:
 
-\centerline{\includegraphics[scale=.55]{CROSSVALE4ZonasNNCERTO}}
+
+
+\begin{figure}[!ht]
+	\centering
+	\caption{Erro para diversas quantidades de neurônios na rede neural.}
+  \includegraphics[width=0.9\textwidth]{CROSSVALE4ZonasNNCERTO}
+\label{fig:crossNN}  
+
+\end{figure}
+
+
 
 
 Concluímos que o número ideal de neurônios na  \textit{hidden-layer} está próximo de 200. E é esse valor que usaremos daqui para frente.
@@ -72,14 +92,47 @@ Na votação simples os resultados da classificação de todos os modelos são contab
 
 A votação simples foi  testada com os algoritmos de Rede Neural, KNN e SVM
 
-\centerline{\includegraphics[scale=.55]{VoteError2zonesUCI}}
+
+
+\begin{figure}[!ht]
+	\centering
+	\caption{Erro de votação simples para uma quantidade crescente de pontos de treino.}
+  \includegraphics[width=0.9\textwidth]{VoteError2zonesUCI}
+\label{fig:simpleVote}  
+
+\end{figure}
+
 
 Para comparação, foram calculados os erros de validação independentes de cada um dos algoritmos usados.
 
 
-\centerline{\includegraphics[scale=.55]{KNNerror2zonesUCI}}
+\begin{figure}[!ht]
+	\centering
+	\caption{Erro do algoritmo KNN  para uma quantidade crescente de pontos de treino.}
+  \includegraphics[width=0.9\textwidth]{KNNerror2zonesUCI}
+\label{fig:crossKNN}  
 
-\centerline{\includegraphics[scale=.55]{NNerror2zonesUCI}}
+\end{figure}
 
-\centerline{\includegraphics[scale=.55]{SVMerror2zonesUCI}}
+
+\begin{figure}[!ht]
+	\centering
+	\caption{Erro da Rede Neural  para uma quantidade crescente de pontos de treino.}
+  \includegraphics[width=0.9\textwidth]{NNerror2zonesUCI}
+\label{fig:crossNN2}  
+
+\end{figure}
+
+
+
+\begin{figure}[!ht]
+	\centering
+	\caption{Erro do algoritmo SVM  para uma quantidade crescente de pontos de treino.}
+  \includegraphics[width=0.9\textwidth]{SVMerror2zonesUCI}
+\label{fig:crossSVM}  
+
+\end{figure}
+
+
+
 
