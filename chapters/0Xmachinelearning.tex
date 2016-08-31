@@ -2,8 +2,8 @@
 
 \section{Tratamento dos dados}\label{sec:data1}
 
-\subsection{Dados obtidos da UCI}
-	Para grande parte dos testes de  \textbf{\textit{Cross-Validation}}, foi usado um dataset obtido por meio do repositório online da UCI, desenvolvido em \cite{uji}. 
+\subsection{Dados obtidos do Repositório UCI}
+	Para grande parte dos testes de  \textbf{\textit{Cross-Validation}}, foi usado   \textbf{\textit{dataset}}  UJIIndoorLoc apresentado em \cite{uji}. O  \textbf{\textit{dataset}}  consiste em diversas medidas de potência de sinal Wi-Fi medidas com diversos aparelhos celulares em 3 prédios diferentes de uma faculdade. As medidas estão separadas por prédio, andar e sala. Para os fins dessa monografia, serão realizados testes com medidas sempre de um mesmo andar, afim de classificar as zonas de um mesmo ambiente. 
 	
 	
 \subsection{Dados do Servidor}	
@@ -28,35 +28,39 @@ $ZoneID$ & $BSSID_1$ & $BSSID_2$ & ... &  $BSSID_n$ \\
 \end{block}
 \end{blockarray}
  
-\section{\textit{Cross-Validation} para os Modelos Usados}
+\section{Modelos Usados e \textit{Cross-Validation} de parâmetros }
 
-A chamada \textit{Cross-Validation} dos modelos de ML é o teste para encontrar os parâmetros ótimos para o treinamento. O método escolhido de \textit{Cross-Validation} foi o \textit{K-Fold}. O método \textit{K-Fold} divide o dataset em $K$ subconjuntos de igual tamanho e então um dos conjuntos é usado como validação do treinamento feito pelos $K-1$ subconjuntos restantes. O processo é repetido $K$ vezes e em cada subdivisão possível podem ser usados valores de parâmetros de treino distintos. 
+A chamada \textit{Cross-Validation} dos modelos de ML é o teste para encontrar os parâmetros ótimos para o treinamento. Um dos métodos escolhidos de \textit{Cross-Validation} foi o \textit{K-Fold}. O método \textit{K-Fold} divide o dataset em $K$ subconjuntos de igual tamanho e então um dos conjuntos é usado como validação do treinamento feito pelos $K-1$ subconjuntos restantes. O processo é repetido $K$ vezes e em cada subdivisão possível podem ser usados valores de parâmetros de treino distintos. O restante dos testes foram feitos da maneira padrão em sistemas de ML: Dividindo-se o  \textbf{\textit{dataset}} em 80\% de pontos de treino e 20\% de pontos de validação, e então realizando respectivamente o treino e os testes com esses subconjuntos.
 
 \subsection{KNN : K-Nearest-Neighbors }
 
 
-Para o algoritmo de KNN, foi usado o método \textit{K-Fold} com $K=10$. O método foi aplicado duas vezes. Na primeira o modelo de KNN foi treinado com os cálculos de distância usando-se a distância Euclidiana, e variando-se o valor de $K$ do número de vizinhos em cada  \textit{fold}. Então, foi feito o mesmo processo, mas com a distância de Manhattan. Os resultados são mostrados a seguir:
+Para o algoritmo de KNN, foram feitos dois testes de \textit{Cross-Validation}. No primeiro, a métrica de distância foi decidida, e no segundo, o número de vizinhos ($K$).
+Para que fosse definida a métrica de distância, foi usado o método  \textit{K-Fold}  com $K=2$. E em cada \textit{fold} o modelo foi treinado com uma métrica diferente. Foram calculados 20 conjuntos diferentes de \textit{folds} e foi tirada a média do erro de validação para cada uma das métricas.
 
 
 \begin{figure}[H]
 \centering
-\caption{Erros para uso da distância Euclidiana}
- \includegraphics[width=0.9\textwidth]{euclidianKNNCrossVal2zonas}
+\caption{Erros para uso de Diferentes Distâncias}
+ \includegraphics[width=0.9\textwidth]{euclidianManhattanknn21zonas}
 \label{fig:euclidian}  
 \end{figure}
 
 
-\begin{figure}[H]
-	\centering
-	\caption{Erros para uso da distância Manhattan}
-  \includegraphics[width=0.9\textwidth]{manhattanKNNCrossVAl2zonas}
-\label{fig:manhattan}  
+Depois, foi usado o método  \textit{K-Fold} com $K=10$ para a decisão do número de vizinhos. Foram testados os valores de 1 até 10 para o número de vizinhos. Na imagem a seguir vemos detalhes desse teste.
 
+
+\begin{figure}[H]
+\centering
+\caption{Erro em função do número de vizinhos}
+ \includegraphics[width=0.9\textwidth]{CrossValKNN25zonasvalorK}
+\label{fig:euclidian}  
 \end{figure}
 
 
-Podemos concluir então que (1) o erro é menor no geral com a distância de Manhattan e (2) o valor de K que minimiza o erro fica entre 2 e 4 vizinhos.
-No restante do trabalho foi escolhido o valor de $K=3$ vizinhos.
+
+Podemos concluir então que (1) o erro é menor no geral com a distância de Manhattan e (2) o valor de K que minimiza o erro fica proximo de 4 vizinhos.
+No restante do trabalho foi escolhido o valor de $K=4$ vizinhos.
 \subsection{Rede Neural}
 
 Para a \textit{Cross-Validation} das Redes Neurais, também foi usado o método de  \textit{K-Fold} com $K=10$. Para cada uns dos \textit{folds} foi testado um número de neurônios em uma  \textit{hidden-layer} única. (Outros testes mostraram não valer a pena para o nosso problema usar mais de uma camada de  \textit{hidden layer} ou \textit{deep learning}). Os resultados são mostrados a seguir:
@@ -76,6 +80,21 @@ Para a \textit{Cross-Validation} das Redes Neurais, também foi usado o método de
 
 Concluímos que o número ideal de neurônios na  \textit{hidden-layer} está próximo de 200. E é esse valor que usaremos daqui para frente.
 
+\subsection{Arvore de decisão}
+
+
+Baseado no trabalho apresentado por \cite{comparative}, foi escolhida uma implementação do algoritmo C4.5 \cite{quinlan} em Java, da biblioteca Weka, para serem geradas árvores de decisão. Os métodos porém foram chamados pela interface da Weka para R, chamada RWeka.
+A função J48 do Weka foi testada com o os pontos de treino referentes ao primeiro andar do prédio 1 do dataset  bla bla bla 
+
+
+\begin{figure}[H]
+\centering
+\caption{Erro em função do número de vizinhos}
+ \includegraphics[width=0.9\textwidth]{J48Validacaopredio1andar0}
+\label{fig:euclidian}  
+\end{figure}
+
+
 
 
 
@@ -90,7 +109,7 @@ Os chamados sistemas de \textit{Ensenble Learning} são aqueles em que diversos m
 Na votação simples os resultados da classificação de todos os modelos são contabilizados e é escolhido aquele com o maior número de ocorrências entre os classificadores. Os testes foram feitos calculando-se o erro de validação no MESMO dataset de treino com uma quantidade cada vez maior de pontos de treino, estes retirados de um dataset de treino também fixado.
 
 
-A votação simples foi  testada com os algoritmos de Rede Neural, KNN e SVM
+A votação simples foi  primeiramente testada com os algoritmos de Rede Neural, KNN e SVM com zonas escolhidas aleatoriamente do  \textbf{\textit{dataset}} UJIIndoorLoc 
 
 
 
