@@ -115,12 +115,13 @@ Podemos notar que com um número grande de pontos de treino, obtemos uma melhora 
 
 \section{Métodos de Votação}
 
-Os chamados sistemas de \textit{Ensenble Learning} são aqueles em que diversos modelos de ML são treinados e então é feito um sistema de votação para que a classificação final seja feita. No nosso sistema experimentamos com 2 modelos de votação diferentes, documentados a seguir.
+Os chamados sistemas de \textit{Ensemble Learning} são aqueles em que uma classificação é feita com base em diversos modelos treinados. Em tópicos anteriores foi discutido o uso do algoritmo AdaBoost, que é um método desse tipo para melhorar o poder de algoritmos "fracos" (i.e. \textit{Weak Learners}) treinando iterativamente diversos modelos fracos progressivamente. Porém, para agregar os modelos usados até agora, iremos implementar algo mais simples: sistemas de votação, ambos documentados a seguir.
+
 
 
 \subsection{Votação Simples}
 
-Na votação simples os resultados da classificação de todos os modelos são contabilizados e é escolhido aquele com o maior número de ocorrências entre os classificadores. Os testes foram feitos calculando-se o erro de validação no MESMO dataset de treino com uma quantidade cada vez maior de pontos de treino, estes retirados de um dataset de treino também fixado.
+Na votação simples os resultados da classificação de todos os modelos são contabilizados e é escolhido aquele com o maior número de ocorrências entre os classificadores. Os testes foram feitos calculando-se o erro de validação no mesmo dataset de treino com uma quantidade cada vez maior de pontos de treino, estes retirados de um dataset de treino também fixado.
 
 
 A votação simples foi  primeiramente testada com os algoritmos de Rede Neural, KNN e SVM com zonas escolhidas aleatoriamente do  \textbf{\textit{dataset}} UJIIndoorLoc 
