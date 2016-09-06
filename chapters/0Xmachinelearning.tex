@@ -28,6 +28,9 @@ $ZoneID$ & $BSSID_1$ & $BSSID_2$ & ... &  $BSSID_n$ \\
 \end{block}
 \end{blockarray}
  
+Cada coluna representa a medida de uma \textit{BSSID} (i.e. um Roteador), ou seja, uma \textit{feature} para o ML, e cada linha é um ponto de treino (i.e.  uma medida para cada  \textit{BSSID}, nossas \textit{features}).
+ 
+ 
 \section{Modelos Usados e \textit{Cross-Validation} de parâmetros }
 
 A chamada \textit{Cross-Validation} dos modelos de ML é o teste para encontrar os parâmetros ótimos para o treinamento. Um dos métodos escolhidos de \textit{Cross-Validation} foi o \textit{K-Fold}. O método \textit{K-Fold} divide o dataset em $K$ subconjuntos de igual tamanho e então um dos conjuntos é usado como validação do treinamento feito pelos $K-1$ subconjuntos restantes. O processo é repetido $K$ vezes e em cada subdivisão possível podem ser usados valores de parâmetros de treino distintos. O restante dos testes foram feitos da maneira padrão em sistemas de ML: Dividindo-se o  \textbf{\textit{dataset}} em 80\% de pontos de treino e 20\% de pontos de validação, e então realizando respectivamente o treino e os testes com esses subconjuntos. Para essa última modalidade de \textit{Cross-Validation} foram feitos também testes em que se usava o subconjunto de 20\% para testes, mas uma quantidade crescente dos pontos de treino para o treinamento dos modelos (e.g. 10,15,20,25,30,35,40 ... até o total dos 80\%), e em cada treinamento calcula-se a taxa de erro. 
@@ -97,7 +100,11 @@ A função J48 do Weka foi testada com o os pontos de treino referentes ao primeir
 \subsubsection{Acoplamento com o Algoritmo AdaBoost}
 
 
-Também baseados em \cite{comparative}. Usamos o algoritmo AdaBoost \cite{Freund} e sua implementação na biblioteca Weka para melhorar a precisão das árvores de decisão C4.5. A seguir vemos um gráfico comparando a classificação para o mesmo andar do dataset UJIIndoorLoc com os mesmos pontos de teste e uma quantidade crescente de pontos de treino, assim como feito no tópico anterior.
+
+
+\textit{Boosting} é a ideia em ML de criar uma predição forte e precisa combinando diversas previsões mais fracas. O algoritmo AdaBoost \cite{adaboost} é um método para melhorar a precisão de classificadores fracos (i.e. \textit{Weak Learners}) por meio de uma votação ponderada , que, por prova, se torna um classificador forte \cite{explainingadaboost}. Por definição, um classificador fraco é aquele que consistentemente consegue ser melhor que um chute para a classificação (e.g. o erro é menor que 50\% para o caso de duas classes possíveis de classificação).
+
+Também baseados em \cite{comparative}. Usaremos o algoritmo AdaBoost  e sua implementação na biblioteca Weka para melhorar a precisão das árvores de decisão C4.5. A seguir vemos um gráfico comparando a classificação para o mesmo andar do dataset UJIIndoorLoc com os mesmos pontos de teste e uma quantidade crescente de pontos de treino, assim como feito no tópico anterior.
 
 
 \begin{figure}[H]
@@ -115,7 +122,7 @@ Podemos notar que com um número grande de pontos de treino, obtemos uma melhora 
 
 \section{Métodos de Votação}
 
-Os chamados sistemas de \textit{Ensemble Learning} são aqueles em que uma classificação é feita com base em diversos modelos treinados. Em tópicos anteriores foi discutido o uso do algoritmo AdaBoost, que é um método desse tipo para melhorar o poder de algoritmos "fracos" (i.e. \textit{Weak Learners}) treinando iterativamente diversos modelos fracos progressivamente. Porém, para agregar os modelos usados até agora, iremos implementar algo mais simples: sistemas de votação, ambos documentados a seguir.
+Os chamados sistemas de \textit{Ensemble Learning} são aqueles em que uma classificação é feita com base em diversos modelos treinados. Em tópicos anteriores foi discutido o uso do algoritmo AdaBoost, que é um método desse tipo para melhorar o poder de classificadores fracos treinando iterativamente diversos modelos fracos progressivamente. Porém, para agregar os modelos usados até agora, iremos implementar algo mais simples, porém seguindo a mesma lógica: Sistemas de Votação.
 
 
 
