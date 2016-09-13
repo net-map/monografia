@@ -104,7 +104,7 @@ A função J48 do Weka foi testada com o os pontos de treino referentes ao primeir
 
 \textit{Boosting} é a ideia em ML de criar uma predição forte e precisa combinando diversas previsões mais fracas. O algoritmo AdaBoost \cite{adaboost} é um método para melhorar a precisão de classificadores fracos (i.e. \textit{Weak Learners}) por meio de uma votação ponderada , que, por prova, se torna um classificador forte \cite{explainingadaboost}. Por definição, um classificador fraco é aquele que consistentemente consegue ser melhor que um chute para a classificação (e.g. o erro é menor que 50\% para o caso de duas classes possíveis de classificação).
 
-Também baseados em \cite{comparative}. Usaremos o algoritmo AdaBoost  e sua implementação na biblioteca Weka para melhorar a precisão das árvores de decisão C4.5. A seguir vemos um gráfico comparando a classificação para o mesmo andar do dataset UJIIndoorLoc com os mesmos pontos de teste e uma quantidade crescente de pontos de treino, assim como feito no tópico anterior.
+Também baseados em \cite{comparative} e \cite{comparativeEN}. Usaremos o algoritmo AdaBoost  e sua implementação na biblioteca Weka para melhorar a precisão das árvores de decisão C4.5. A seguir vemos um gráfico comparando a classificação para o mesmo andar do dataset UJIIndoorLoc com os mesmos pontos de teste e uma quantidade crescente de pontos de treino, assim como feito no tópico anterior.
 
 
 \begin{figure}[H]
@@ -122,7 +122,7 @@ Podemos notar que com um número grande de pontos de treino, obtemos uma melhora 
 
 \section{Métodos de Votação}
 
-Os chamados sistemas de \textit{Ensemble Learning} são aqueles em que uma classificação é feita com base em diversos modelos treinados. Em tópicos anteriores foi discutido o uso do algoritmo AdaBoost, que é um método desse tipo para melhorar o poder de classificadores fracos treinando iterativamente diversos modelos fracos progressivamente. Porém, para agregar os modelos usados até agora, iremos implementar algo mais simples, porém seguindo a mesma lógica: Sistemas de Votação.
+Os chamados sistemas de \textit{Ensemble Learning} são aqueles em que uma classificação é feita com base em diversos modelos treinados. Em tópicos anteriores foi discutido o uso do algoritmo AdaBoost, que é um método desse tipo para melhorar o poder de classificadores fracos treinando iterativamente diversos modelos fracos progressivamente com os erros do anterior \cite {explainingadaboost}. Porém, para agregar os modelos usados até agora, iremos implementar algo mais simples, porém seguindo a mesma lógica: Sistemas de Votação.
 
 
 
