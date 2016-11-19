@@ -41,36 +41,33 @@
 
 % ========== Opções do documento ==========
 % Título
-\titulo{Título}
+\titulo{net.map - Sistema de Posicionamento Indoor}
 
 % Autor
-\autor{Nome Sobrenome}
+%\autor{Nome Sobrenome}
 
 % Para múltiplos autores (TCC)
-%\autor{Nome Sobrenome\\%
-%		Nome Sobrenome\\%
-%		Nome Sobrenome}
+\autor{Adriano Dennanni\\
+		Ricardo Nagano\\
+		Thiago Lira}
 
 % Orientador / Coorientador
-\orientador{Nome do orientador}
-\coorientador{Nome do coorientador (opcional)}
+\orientador{Prof. Dr. Reginaldo Arakaki}
+\coorientador{Eng. Marcelo Pita}
+
 
 % Tipo de documento
-%\tcc{Eletricista com ênfase em Sistemas Eletrônicos}
-\dissertacao{Engenharia Elétrica}
-%\teseDOC{Engenharia Elétrica}
-%\teseLD
-%\memorialLD
+\tcc{Eletricista com ênfase em Computação}
 
 % Departamento e área de concentração
-\departamento{Nome do departamento}
-\areaConcentracao{Área de concentração}
+\departamento{PCS}
+\areaConcentracao{Engenharia de Computação}
 
 % Local
 \local{São Paulo}
 
 % Ano
-\data{2013}
+\data{2016}
 
 
 
@@ -96,60 +93,55 @@
 
 
 % ========== Dedicatória (opcional) ==========
-\dedicatoria{Dedicatória}
+%\dedicatoria{Dedicatória}
 
 
 % ========== Agradecimentos ==========
 \begin{agradecimentos}
 
-Thanks...
-
 \end{agradecimentos}
 
 
 % ========== Epígrafe (opcional) ==========
-\epigrafe{%
-	\emph{``Epígrafe''}
+\epigrafe{
+
+	\emph{``Anything one man can imagine, other men can make real''}
 	\begin{flushright}
-		-{}- Autor
+		-{}- Jules Verne
+	\end{flushright}
+	
+	\hfill \break
+	
+	\emph{``Enquanto sentir vontade de competir, buscar desafios e correr atrás de torneios, vou jogar''}
+	\begin{flushright}
+		-{}- Gustvo Kuerten
+	\end{flushright}
+	
+	\hfill \break
+	
+	\emph{``Not all those who wander are lost''}
+	\begin{flushright}
+		-{}- J. R. R. Tolkien
 	\end{flushright}
 }
 
 
 % ========== Resumo ==========
-\begin{resumo}
-Resumo...
-%
-\\[3\baselineskip]
-%
-\textbf{Palavras-Chave} -- Palavra, Palavra, Palavra, Palavra, Palavra.
-\end{resumo}
-
+\input{chapters/resumo.tex}
 
 % ========== Abstract ==========
-\begin{abstract}
-Abstract...
-%
-\\[3\baselineskip]
-%
-\textbf{Keywords} -- Word, Word, Word, Word, Word.
-\end{abstract}
-
+\input{chapters/abstract.tex}
 
 % ========== Listas (opcional) ==========
 \listadefiguras
 \listadetabelas
 
 % ========== Listas definidas pelo usuário (opcional) ==========
-\begin{pretextualsection}{Lista de símbolos}
-
-Lista de símbolos...
-
-\end{pretextualsection}
+%\begin{pretextualsection}{Lista de símbolos}
+%\end{pretextualsection}
 
 % ========== Sumário ==========
 \sumario
-
 
 
 % ========== Elementos textuais ==========
@@ -159,17 +151,7 @@ Lista de símbolos...
 \chapter{Capítulo com epígrafe}
 \capepigrafe[0.5\textwidth]{``Frase espirituosa de um autor famoso''}{Autor famoso}
 
-\blindtext
 
-\begin{citacaoLonga}
-	\blindtext
-\end{citacaoLonga}
-
-\blindtext
-
-
-
-\blinddocument
 
 
 % ========== Referências ==========
@@ -179,21 +161,19 @@ Lista de símbolos...
 
 % --- ABNT (requer ABNTeX 2) ---
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/abntex2
-%\bibliographystyle{abntex2-num}
+\bibliographystyle{abntex2-num}
 
-%\bibliography{}
+\bibliography{}
 
 
 % ========== Apêndices (opcional) ==========
 \apendice
-\chapter{}
-\chapter{Beta}
+%\chapter{Alpha}
 
 
 % ========== Anexos (opcional) ==========
 \anexo
-\chapter{Alpha}
-\chapter{}
+%\chapter{Beta}
 
 
 

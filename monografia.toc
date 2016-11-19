@@ -1,0 +1,3 @@
+\select@language {brazil}
+\contentsline {chapter}{Parte~I:~\MakeUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{9}
+\contentsline {chapter}{\numberline {1}Cap\IeC {\'\i }tulo com ep\IeC {\'\i }grafe}{10}
