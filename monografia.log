@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  19 NOV 2016 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  20 NOV 2016 00:20
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -655,18 +655,18 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (monografia.aux)
 \openout1 = `monografia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -760,22 +760,22 @@ G,.JBIG2,.JB2,.eps]
 
 
 {C:/Users/adria/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+LaTeX Font Info:    Try loading font information for U+msa on input line 80.
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+LaTeX Font Info:    Try loading font information for U+msb on input line 80.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
@@ -785,27 +785,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--79
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 128.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 
  []
 
 
-Overfull \hbox (17.97797pt too wide) in paragraph at lines 126--127
+Overfull \hbox (17.97797pt too wide) in paragraph at lines 128--129
 []  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -837,35 +842,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 149.
+less on input line 151.
 
 [9
 
 
 ]
 Cap\'{\i }tulo 1.
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 154.
+
+
 No file monografia.bbl.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 180.
+less on input line 182.
 
 [10
 
 ] (monografia.aux) ) 
 Here is how much of TeX's memory you used:
- 4570 strings out of 493333
- 59916 string characters out of 3139193
- 149649 words of memory out of 3000000
- 7979 multiletter control sequences out of 15000+200000
- 11103 words of font info for 41 fonts, out of 3000000 for 9000
+ 4575 strings out of 493333
+ 59992 string characters out of 3139193
+ 148650 words of memory out of 3000000
+ 7982 multiletter control sequences out of 15000+200000
+ 11401 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,45p,244b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,10n,45p,244b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on monografia.pdf (12 pages, 78815 bytes).
+/cmss10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.
+pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><D:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
+Output written on monografia.pdf (12 pages, 68177 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
