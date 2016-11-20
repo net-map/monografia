@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  20 NOV 2016 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  20 NOV 2016 02:23
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -627,46 +627,21 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-))
-(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\latex\blindtext\blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count117
-\c@Blindtext=\count118
-\c@blind@countparstart=\count119
-\blind@countxx=\count120
-\blindtext@numBlindtext=\count121
-\blind@countyy=\count122
-\c@blindlist=\count123
-\c@blindlistlevel=\count124
-\c@blindlist@level=\count125
-\blind@listitem=\count126
-\c@blind@listcount=\count127
-\c@blind@levelcount=\count128
-\blind@mathformula=\count129
-\blind@Mathformula=\count130
-\c@blind@randomcount=\count131
-\c@blind@randommax=\count132
-\c@blind@pangramcount=\count133
-\c@blind@pangrammax=\count134
-) (monografia.aux)
+)) (monografia.aux)
 \openout1 = `monografia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -704,16 +679,16 @@ LaTeX Font Info:    ... okay on input line 77.
 
 (C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count135
+\scratchcounter=\count117
 \scratchdimen=\dimen134
 \scratchbox=\box54
-\nofMPsegments=\count136
-\nofMParguments=\count137
+\nofMPsegments=\count118
+\nofMParguments=\count119
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count138
+\MPscratchCnt=\count120
 \MPscratchDim=\dimen135
-\MPnumerator=\count139
-\makeMPintoPDFobject=\count140
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
 \everyMPtoPDFconversion=\toks31
 ) ("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
@@ -760,22 +735,22 @@ G,.JBIG2,.JB2,.eps]
 
 
 {C:/Users/adria/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 80.
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 80.
+LaTeX Font Info:    Try loading font information for U+msb on input line 77.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
 
@@ -785,32 +760,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 128.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 125.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 
  []
 
 
-Overfull \hbox (17.97797pt too wide) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+
+ []
+
+
+Overfull \hbox (17.97797pt too wide) in paragraph at lines 125--126
 []  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
@@ -839,45 +814,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  [8
 
-]
+] (chapters/intro.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 151.
+less on input line 1.
+
+Cap\'{\i }tulo 1.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 35.
 
 [9
 
 
-]
-Cap\'{\i }tulo 1.
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 154.
-
-
+])
 No file monografia.bbl.
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 182.
-
-[10
-
-] (monografia.aux) ) 
+[10] (monografia.aux) ) 
 Here is how much of TeX's memory you used:
- 4575 strings out of 493333
- 59992 string characters out of 3139193
- 148650 words of memory out of 3000000
- 7982 multiletter control sequences out of 15000+200000
- 11401 words of font info for 42 fonts, out of 3000000 for 9000
+ 4400 strings out of 493333
+ 57086 string characters out of 3139193
+ 139932 words of memory out of 3000000
+ 7812 multiletter control sequences out of 15000+200000
+ 10751 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,45p,244b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmss10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.
-pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><D:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
-Output written on monografia.pdf (12 pages, 68177 bytes).
+ 40i,10n,45p,244b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmss10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss
+12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
+Output written on monografia.pdf (12 pages, 62062 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
