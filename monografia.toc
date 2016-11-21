@@ -1,4 +1,36 @@
 \select@language {brazil}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{9}
-\contentsline {section}{\numberline {1.1}Objetivo}{9}
-\contentsline {section}{\numberline {1.2}Motiva\IeC {\c c}\IeC {\~a}o}{9}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{10}
+\contentsline {section}{\numberline {1.1}Objetivo}{10}
+\contentsline {section}{\numberline {1.2}Motiva\IeC {\c c}\IeC {\~a}o}{10}
+\contentsline {section}{\numberline {1.3}Justificativa}{11}
+\contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o}{11}
+\contentsline {chapter}{\numberline {2}Aspectos Conceituais}{12}
+\contentsline {section}{\numberline {2.1}\textit {Bias} vs. Vari\GenericError {(inputenc) }{Package inputenc Error: Unicode char ânc (U+D3)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}ia: Um \textit {tradeoff} }{12}
+\contentsline {section}{\numberline {2.2}Algoritmos de Machine Learning}{12}
+\contentsline {subsection}{\numberline {2.2.1}KNN}{12}
+\contentsline {subsection}{\numberline {2.2.2}\@inpenc@undefined@ {utf8}rvore de Decis\par }{13}
+\contentsline {subsection}{\numberline {2.2.3}Support Vector Machines}{13}
+\contentsline {chapter}{\numberline {3}Especifica\GenericError {(inputenc) }{Package inputenc Error: Unicode char ção (U+7)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}}{15}
+\contentsline {section}{\numberline {3.1}Requisitos}{15}
+\contentsline {subsection}{\numberline {3.1.1}Requisitos Funcionais}{15}
+\contentsline {subsection}{\numberline {3.1.2}Requisitos N\GenericError {(inputenc) }{Package inputenc Error: Unicode char ão- (U+9F)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}Funcionais}{15}
+\contentsline {section}{\numberline {3.2}Pontos de Vista}{15}
+\contentsline {subsection}{\numberline {3.2.1}Ponto de Vista da Empresa}{15}
+\contentsline {subsection}{\numberline {3.2.2}Ponto de Vista da Informa\GenericError {(inputenc) }{Package inputenc Error: Unicode char ção (U+7)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}}{16}
+\contentsline {subsection}{\numberline {3.2.3}Ponto de Vista da Computa\GenericError {(inputenc) }{Package inputenc Error: Unicode char ção (U+7)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}}{16}
+\contentsline {subsection}{\numberline {3.2.4}Ponto de Vista da Engenharia}{16}
+\contentsline {subsection}{\numberline {3.2.5}Ponto de Vista da Tecnologia}{17}
+\contentsline {chapter}{\numberline {4}Metodologia}{18}
+\contentsline {chapter}{\numberline {5}Machine Learning}{19}
+\contentsline {section}{\numberline {5.1}Tratamento dos dados}{19}
+\contentsline {subsection}{\numberline {5.1.1}Dados obtidos do Reposit\GenericError {(inputenc) }{Package inputenc Error: Unicode char ório (U+14D)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.} UCI}{19}
+\contentsline {subsection}{\numberline {5.1.2}Dados do Servidor}{19}
+\contentsline {section}{\numberline {5.2}Formato dos dados tratados}{19}
+\contentsline {section}{\numberline {5.3}Modelos Usados e \textit {Cross-Validation} de par\GenericError {(inputenc) }{Package inputenc Error: Unicode char âme (U+D4)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}tros }{20}
+\contentsline {subsection}{\numberline {5.3.1}KNN : K-Nearest-Neighbors }{20}
+\contentsline {subsection}{\numberline {5.3.2}Rede Neural}{21}
+\contentsline {subsection}{\numberline {5.3.3}Arvore de decis\par }{21}
+\contentsline {subsubsection}{\numberline {5.3.3.1}Acoplamento com o Algoritmo AdaBoost}{21}
+\contentsline {subsection}{\numberline {5.3.4}Compara\GenericError {(inputenc) }{Package inputenc Error: Unicode char ção (U+7)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.} dos Modelos Usados}{22}
+\contentsline {section}{\numberline {5.4}M\GenericError {(inputenc) }{Package inputenc Error: Unicode char éto (U+EC)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}dos de Vota\GenericError {(inputenc) }{Package inputenc Error: Unicode char ção (U+7)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}}{24}
+\contentsline {subsection}{\numberline {5.4.1}Testes com os M\GenericError {(inputenc) }{Package inputenc Error: Unicode char éto (U+EC)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}dos de Vota\GenericError {(inputenc) }{Package inputenc Error: Unicode char ção (U+7)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}}{24}

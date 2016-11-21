@@ -1,0 +1,33 @@
+
+\chapter{Especificação}\label{chp:espec}
+
+\section{Requisitos}\label{sec:req}
+
+\subsection{Requisitos Funcionais}
+- Enviar dados sobre a intensidade dos sinais de \textit{Wi-fi} ao servidor. \par
+- Retornar a posição do usuário baseado nos dados enviados.\par
+- Disponibilizar uma API para ser usada por outras aplicações.\par
+
+
+\subsection{Requisitos Não-Funcionais}
+
+- O sistema deve ser transparente ao usuário.\par
+
+\section{Pontos de Vista}\label{sec:req}
+\subsection{Ponto de Vista da Empresa}
+Este projeto deverá criar um sistema de localização precisa em ambientes fechados, utilizando como parâmetros as intensidades de sinais redes sem fio próximas. O resultado deste projeto incluirá duas aplicações:\par
+Aplicativo para o celular com dois módulos utilizados para capturar informações das redes sem fio próximas e enviá-las servidor, além de receber resultados deste servidor e exibi-los para o usuário;\par
+Aplicação em nuvem que receberá os dados dos celulares e responderá com a localização do usuário.\par
+Para tal serão feitas análises estatísticas do comportamento e flutuação do sinal de \textit{Wi-fi} em diversas medições e com aparelhos de celular diferentes e posteriormente, estes dados serão analisados por um algoritmo de inteligência artificial baseado em \textit{machine learning}, para que a localização seja definida.
+\subsection{Ponto de Vista da Informação}
+As informações processadas pelo sistema seguirão dois fluxos. No primeiro as intensidades dos sinais provenientes dos pontos de acesso de redes sem fio serão capturadas pelo sensor do celular e registradas pelo módulo de aquisição de dados do aplicativo. Em seguida, estas informações serão enviadas para o servidor para que recebam o devido tratamento.\par
+Após o período de treinamento do sistema o segundo fluxo será possível. Nele após o dispositivo móvel enviar os sinais capturados por um usuário regular, o servidor deve executar seu algoritmo de \textit{machine learning} e retornar à posição que o usuário se encontra dentro do prédio previamente estabelecido, usando como base estes dados enviados.\par
+A troca de dados em ambos os fluxos será feita usando o formato JSON, este formato é muito utilizado principalmente quando é necessária a implementação de tabelas de bancos de dados por conta de sua simplicidade para manipular as informações representadas.
+\subsection{Ponto de Vista da Computação}
+O sistema será composto por duas partes funcionais, a primeira é o aplicativo desenvolvido para dispositivos Android, ele será responsável pela captura dos dados, em seguida ele organizará as informações coletas no formato JSON e finalmente realizará a transmissão por meio da rede à qual o dispositivo estiver conectado, uma rede 3G/4G ou pela conexão a uma rede \textit{Wi-fi} disponível.\par
+A segunda parte é o servidor em nuvem, que deverá processar os dados executando o algoritmo de \textit{machine learning} e em seguida disponibilizará os resultados obtidos para posterior consulta feita quando forem requisitadas informações a respeito do ambiente fechado já mapeado anteriormente, retornando a posição do usuário.
+\subsection{Ponto de Vista da Engenharia}
+Para o uso do sistema será necessário que o dispositivo móvel que executar o aplicativo tenha uma antena de \textit{Wi-fi}, para que possam ser realizadas as medições de intensidades dos sinais. Tais dados serão enviados pela própria antena de \textit{Wi-fi} usando a rede que estiver conectada ou pela antena de 3G/4G usando as redes móveis para o servidor. O serviço funcionará em uma máquina virtual hospedada no serviço Amazon AWS, sendo que esta máquina deverá ser capaz de execução do algoritmo de \textit{machine learning}.\par
+É necessário também que exista uma estrutura mínima no local a ser mapeado, deve existir um número mínimo de pontos de acesso de rede sem fio suficiente para englobar todo o ambiente. Esta cobertura não deve ser apenas de pelo menos um sinal \textit{Wi-fi} na parcela de área, é indispensável que mais de um sinal atinja cada ponto para que seja possível haver a determinação do ponto escolhido.
+\subsection{Ponto de Vista da Tecnologia}
+O processamento e aplicação dos algoritmos de \textit{machine learning} serão feitos por meio da linguagem R. O aplicativo é feito para a plataforma Android e o servidor é implementado na plataforma \textit{Ruby on Rails}, hosteado em servidor Amazon AWS, para pequenas aplicações que devem rodar na nuvem. O R é servido por meio de uma plataforma REST por meio da biblioteca Plumber, que permite que chamadas as funções do R sejam feitas por meio de requisições HTTP.
