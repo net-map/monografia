@@ -1,33 +1,32 @@
 
-\chapter{EspecificaÁ„o}\label{chp:espec}
-
+\chapter{Especifica√ß√£o}\label{chp:espec}
 \section{Requisitos}\label{sec:req}
 
 \subsection{Requisitos Funcionais}
 - Enviar dados sobre a intensidade dos sinais de \textit{Wi-fi} ao servidor. \par
-- Retornar a posiÁ„o do usu·rio baseado nos dados enviados.\par
-- Disponibilizar uma API para ser usada por outras aplicaÁıes.\par
+- Retornar a posi√ß√£o do usu√°rio baseado nos dados enviados.\par
+- Disponibilizar uma API para ser usada por outras aplica√ß√µes.\par
 
 
-\subsection{Requisitos N„o-Funcionais}
+\subsection{Requisitos N√£o-Funcionais}
 
-- O sistema deve ser transparente ao usu·rio.\par
+- O sistema deve ser transparente ao usu√°rio.\par
 
 \section{Pontos de Vista}\label{sec:req}
 \subsection{Ponto de Vista da Empresa}
-Este projeto dever· criar um sistema de localizaÁ„o precisa em ambientes fechados, utilizando como par‚metros as intensidades de sinais redes sem fio prÛximas. O resultado deste projeto incluir· duas aplicaÁıes:\par
-Aplicativo para o celular com dois mÛdulos utilizados para capturar informaÁıes das redes sem fio prÛximas e envi·-las servidor, alÈm de receber resultados deste servidor e exibi-los para o usu·rio;\par
-AplicaÁ„o em nuvem que receber· os dados dos celulares e responder· com a localizaÁ„o do usu·rio.\par
-Para tal ser„o feitas an·lises estatÌsticas do comportamento e flutuaÁ„o do sinal de \textit{Wi-fi} em diversas mediÁıes e com aparelhos de celular diferentes e posteriormente, estes dados ser„o analisados por um algoritmo de inteligÍncia artificial baseado em \textit{machine learning}, para que a localizaÁ„o seja definida.
-\subsection{Ponto de Vista da InformaÁ„o}
-As informaÁıes processadas pelo sistema seguir„o dois fluxos. No primeiro as intensidades dos sinais provenientes dos pontos de acesso de redes sem fio ser„o capturadas pelo sensor do celular e registradas pelo mÛdulo de aquisiÁ„o de dados do aplicativo. Em seguida, estas informaÁıes ser„o enviadas para o servidor para que recebam o devido tratamento.\par
-ApÛs o perÌodo de treinamento do sistema o segundo fluxo ser· possÌvel. Nele apÛs o dispositivo mÛvel enviar os sinais capturados por um usu·rio regular, o servidor deve executar seu algoritmo de \textit{machine learning} e retornar ‡ posiÁ„o que o usu·rio se encontra dentro do prÈdio previamente estabelecido, usando como base estes dados enviados.\par
-A troca de dados em ambos os fluxos ser· feita usando o formato JSON, este formato È muito utilizado principalmente quando È necess·ria a implementaÁ„o de tabelas de bancos de dados por conta de sua simplicidade para manipular as informaÁıes representadas.
-\subsection{Ponto de Vista da ComputaÁ„o}
-O sistema ser· composto por duas partes funcionais, a primeira È o aplicativo desenvolvido para dispositivos Android, ele ser· respons·vel pela captura dos dados, em seguida ele organizar· as informaÁıes coletas no formato JSON e finalmente realizar· a transmiss„o por meio da rede ‡ qual o dispositivo estiver conectado, uma rede 3G/4G ou pela conex„o a uma rede \textit{Wi-fi} disponÌvel.\par
-A segunda parte È o servidor em nuvem, que dever· processar os dados executando o algoritmo de \textit{machine learning} e em seguida disponibilizar· os resultados obtidos para posterior consulta feita quando forem requisitadas informaÁıes a respeito do ambiente fechado j· mapeado anteriormente, retornando a posiÁ„o do usu·rio.
+Este projeto dever√° criar um sistema de localiza√ß√£o precisa em ambientes fechados, utilizando como par√¢metros as intensidades de sinais redes sem fio pr√≥ximas. O resultado deste projeto incluir√° duas aplica√ß√µes:\par
+Aplicativo para o celular com dois m√≥dulos utilizados para capturar informa√ß√µes das redes sem fio pr√≥ximas e envi√°-las servidor, al√©m de receber resultados deste servidor e exibi-los para o usu√°rio;\par
+Aplica√ß√£o em nuvem que receber√° os dados dos celulares e responder√° com a localiza√ß√£o do usu√°rio.\par
+Para tal ser√£o feitas an√°lises estat√≠sticas do comportamento e flutua√ß√£o do sinal de \textit{Wi-fi} em diversas medi√ß√µes e com aparelhos de celular diferentes e posteriormente, estes dados ser√£o analisados por um algoritmo de intelig√™ncia artificial baseado em \textit{machine learning}, para que a localiza√ß√£o seja definida.
+\subsection{Ponto de Vista da Informa√ß√£o}
+As informa√ß√µes processadas pelo sistema seguir√£o dois fluxos. No primeiro as intensidades dos sinais provenientes dos pontos de acesso de redes sem fio ser√£o capturadas pelo sensor do celular e registradas pelo m√≥dulo de aquisi√ß√£o de dados do aplicativo. Em seguida, estas informa√ß√µes ser√£o enviadas para o servidor para que recebam o devido tratamento.\par
+Ap√≥s o per√≠odo de treinamento do sistema o segundo fluxo ser√° poss√≠vel. Nele ap√≥s o dispositivo m√≥vel enviar os sinais capturados por um usu√°rio regular, o servidor deve executar seu algoritmo de \textit{machine learning} e retornar √† posi√ß√£o que o usu√°rio se encontra dentro do pr√©dio previamente estabelecido, usando como base estes dados enviados.\par
+A troca de dados em ambos os fluxos ser√° feita usando o formato JSON, este formato √© muito utilizado principalmente quando √© necess√°ria a implementa√ß√£o de tabelas de bancos de dados por conta de sua simplicidade para manipular as informa√ß√µes representadas.
+\subsection{Ponto de Vista da Computa√ß√£o}
+O sistema ser√° composto por duas partes funcionais, a primeira √© o aplicativo desenvolvido para dispositivos Android, ele ser√° respons√°vel pela captura dos dados, em seguida ele organizar√° as informa√ß√µes coletas no formato JSON e finalmente realizar√° a transmiss√£o por meio da rede √† qual o dispositivo estiver conectado, uma rede 3G/4G ou pela conex√£o a uma rede \textit{Wi-fi} dispon√≠vel.\par
+A segunda parte √© o servidor em nuvem, que dever√° processar os dados executando o algoritmo de \textit{machine learning} e em seguida disponibilizar√° os resultados obtidos para posterior consulta feita quando forem requisitadas informa√ß√µes a respeito do ambiente fechado j√° mapeado anteriormente, retornando a posi√ß√£o do usu√°rio.
 \subsection{Ponto de Vista da Engenharia}
-Para o uso do sistema ser· necess·rio que o dispositivo mÛvel que executar o aplicativo tenha uma antena de \textit{Wi-fi}, para que possam ser realizadas as mediÁıes de intensidades dos sinais. Tais dados ser„o enviados pela prÛpria antena de \textit{Wi-fi} usando a rede que estiver conectada ou pela antena de 3G/4G usando as redes mÛveis para o servidor. O serviÁo funcionar· em uma m·quina virtual hospedada no serviÁo Amazon AWS, sendo que esta m·quina dever· ser capaz de execuÁ„o do algoritmo de \textit{machine learning}.\par
-… necess·rio tambÈm que exista uma estrutura mÌnima no local a ser mapeado, deve existir um n˙mero mÌnimo de pontos de acesso de rede sem fio suficiente para englobar todo o ambiente. Esta cobertura n„o deve ser apenas de pelo menos um sinal \textit{Wi-fi} na parcela de ·rea, È indispens·vel que mais de um sinal atinja cada ponto para que seja possÌvel haver a determinaÁ„o do ponto escolhido.
+Para o uso do sistema ser√° necess√°rio que o dispositivo m√≥vel que executar o aplicativo tenha uma antena de \textit{Wi-fi}, para que possam ser realizadas as medi√ß√µes de intensidades dos sinais. Tais dados ser√£o enviados pela pr√≥pria antena de \textit{Wi-fi} usando a rede que estiver conectada ou pela antena de 3G/4G usando as redes m√≥veis para o servidor. O servi√ßo funcionar√° em uma m√°quina virtual hospedada no servi√ßo Amazon AWS, sendo que esta m√°quina dever√° ser capaz de execu√ß√£o do algoritmo de \textit{machine learning}.\par
+√â necess√°rio tamb√©m que exista uma estrutura m√≠nima no local a ser mapeado, deve existir um n√∫mero m√≠nimo de pontos de acesso de rede sem fio suficiente para englobar todo o ambiente. Esta cobertura n√£o deve ser apenas de pelo menos um sinal \textit{Wi-fi} na parcela de √°rea, √© indispens√°vel que mais de um sinal atinja cada ponto para que seja poss√≠vel haver a determina√ß√£o do ponto escolhido.
 \subsection{Ponto de Vista da Tecnologia}
-O processamento e aplicaÁ„o dos algoritmos de \textit{machine learning} ser„o feitos por meio da linguagem R. O aplicativo È feito para a plataforma Android e o servidor È implementado na plataforma \textit{Ruby on Rails}, hosteado em servidor Amazon AWS, para pequenas aplicaÁıes que devem rodar na nuvem. O R È servido por meio de uma plataforma REST por meio da biblioteca Plumber, que permite que chamadas as funÁıes do R sejam feitas por meio de requisiÁıes HTTP.
+O processamento e aplica√ß√£o dos algoritmos de \textit{machine learning} ser√£o feitos por meio da linguagem R. O aplicativo √© feito para a plataforma Android e o servidor √© implementado na plataforma \textit{Ruby on Rails}, hosteado em servidor Amazon AWS, para pequenas aplica√ß√µes que devem rodar na nuvem. O R √© servido por meio de uma plataforma REST por meio da biblioteca Plumber, que permite que chamadas as fun√ß√µes do R sejam feitas por meio de requisi√ß√µes HTTP.

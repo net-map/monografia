@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: monografia.aux
+The style file: abntex2-num.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: monografia.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em explainingadaboost
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-num.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 9 entries,
+            6714 wiz_defined-function locations,
+            1246 strings with 10826 characters,
+and the built_in function-call counts, 7205 in all, are:
+= -- 676
+> -- 218
+< -- 7
++ -- 133
+- -- 66
+* -- 479
+:= -- 1009
+add.period$ -- 34
+call.type$ -- 9
+change.case$ -- 92
+chr.to.int$ -- 15
+cite$ -- 10
+duplicate$ -- 333
+empty$ -- 526
+format.name$ -- 348
+if$ -- 1721
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 158
+newline$ -- 51
+num.names$ -- 36
+pop$ -- 245
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 408
+stack$ -- 1
+substring$ -- 264
+swap$ -- 145
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2
+warning$ -- 1
+while$ -- 53
+width$ -- 0
+write$ -- 123
+(There was 1 warning)

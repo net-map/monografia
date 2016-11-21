@@ -2,15 +2,15 @@
 \chapter{Aspectos Conceituais}\label{chp:fc}
 
 
-Grande parte da pesquisa e fundamentaÁ„o teÛrica feita sobre \textit{machine learning} foi feita no livro "An Introduction to Statistical Learning" \cite{statbook} e no curso online ministrado por Andrew Ng \cite{coursera}. A seguir s„o explicados detalhadamente alguns pontos teÛricos importantes usados no trabalho.
+Grande parte da pesquisa e fundamenta√ß√£o te√≥rica feita sobre \textit{machine learning} foi feita no livro "An Introduction to Statistical Learning" \cite{statbook} e no curso online ministrado por Andrew Ng \cite{coursera}. A seguir s√£o explicados detalhadamente alguns pontos te√≥ricos importantes usados no trabalho.
 
 
 
 
-\section{\textit{Bias} vs. Vari‚ncia: Um \textit{tradeoff} }
+\section{\textit{Bias} vs. Vari√¢ncia: Um \textit{tradeoff} }
 
 
-Um dilema comum que se aparece ao usar \textit{Machine Learning} È o de \textit{Bias} contra Vari‚ncia. \textit{Bias} È a medida do erro do modelo treinado e da realidade que nÛs tentamos modelar. Vari‚ncia È o erro decorrente de pequenas flutuaÁıes nos pontos de treino, ou seja, diversos modelos treinados com pequenas mudanÁas dos pontos de treino ir„o gerar erros drasticamente diferentes. Uma maneira comum de generalizar o erro de modelos de \textit{Machine Learning} È em dividi-lo em uma parcela de erro proveniente de \textit{bias}, outra de vari‚ncia e uma terceira parcela de ruÌdo com mÈdia nula. Esse dilema aparece pela contradiÁ„o clara entre desejar reduzir \textit{bias} e vari‚ncia ao mesmo tempo. Um modelo com baixo \textit{bias} È mais complexo, (e.g. um polinÙmio de ordem alta) de modo que a curva representa de maneira mais prÛxima os pontos de treino, porÈm, isso tambÈm acaba por fazer que o ruÌdo desse conjunto particular de pontos de treino seja capturado pelo modelo, o que n„o È desejado, visto que queremos que o modelo se adeque a \textit{qualquer} conjunto de pontos, n„o apenas os que foram usados para treina-lo. A soluÁ„o poderia ser diminuir ent„o a complexidade do modelo, mas isso invariavelmente aumenta nosso erro de \textit{bias}, por mais que diminuia o de vari‚ncia.
+Um dilema comum que se aparece ao usar \textit{Machine Learning} √© o de \textit{Bias} contra Vari√¢ncia. \textit{Bias} √© a medida do erro do modelo treinado e da realidade que n√≥s tentamos modelar. Vari√¢ncia √© o erro decorrente de pequenas flutua√ß√µes nos pontos de treino, ou seja, diversos modelos treinados com pequenas mudan√ßas dos pontos de treino ir√£o gerar erros drasticamente diferentes. Uma maneira comum de generalizar o erro de modelos de \textit{Machine Learning} √© em dividi-lo em uma parcela de erro proveniente de \textit{bias}, outra de vari√¢ncia e uma terceira parcela de ru√≠do com m√©dia nula. Esse dilema aparece pela contradi√ß√£o clara entre desejar reduzir \textit{bias} e vari√¢ncia ao mesmo tempo. Um modelo com baixo \textit{bias} √© mais complexo, (e.g. um polin√¥mio de ordem alta) de modo que a curva representa de maneira mais pr√≥xima os pontos de treino, por√©m, isso tamb√©m acaba por fazer que o ru√≠do desse conjunto particular de pontos de treino seja capturado pelo modelo, o que n√£o √© desejado, visto que queremos que o modelo se adeque a \textit{qualquer} conjunto de pontos, n√£o apenas os que foram usados para treina-lo. A solu√ß√£o poderia ser diminuir ent√£o a complexidade do modelo, mas isso invariavelmente aumenta nosso erro de \textit{bias}, por mais que diminuia o de vari√¢ncia.
 
 
 \section{Algoritmos de Machine Learning}
@@ -18,7 +18,7 @@ Um dilema comum que se aparece ao usar \textit{Machine Learning} È o de \textit{
 \subsection{KNN}
 
 
-O Algoritmo KNN busca criar regiıes de classificaÁ„o no espaÁo pelo voto majorit·rio dos K pontos de treino mais prÛximos, sendo K um par‚metro do algoritmo. Na imagem a seguir podemos ver essa classificaÁ„o em duas dimensıes, supondo que os pontos roxos representam uma classe, e os verdes, outra. A imagem da esquerda representa a saÌda do algoritmo para um valor de K escolhido pequeno, e a da direta, para um valor grande K, com o risto de \textit{overfit}. Pode-se reparar que com um K maior, um ponto solit·rio que pode representar um erro dos dados de treino È ignorado por estar cercado de pontos que representam outra classe.
+O Algoritmo KNN busca criar regi√µes de classifica√ß√£o no espa√ßo pelo voto majorit√°rio dos K pontos de treino mais pr√≥ximos, sendo K um par√¢metro do algoritmo. Na imagem a seguir podemos ver essa classifica√ß√£o em duas dimens√µes, supondo que os pontos roxos representam uma classe, e os verdes, outra. A imagem da esquerda representa a sa√≠da do algoritmo para um valor de K escolhido pequeno, e a da direta, para um valor grande K, com o risto de \textit{overfit}. Pode-se reparar que com um K maior, um ponto solit√°rio que pode representar um erro dos dados de treino √© ignorado por estar cercado de pontos que representam outra classe.
 
 \begin{figure}[ht]
 	\centering
@@ -28,35 +28,35 @@ O Algoritmo KNN busca criar regiıes de classificaÁ„o no espaÁo pelo voto majorit
 
 \end{figure}
 
-\subsection{¡rvore de Decis„o}
+\subsection{√Årvore de Decis√£o}
 
 
 
 
 
 
-Em sua forma mais simples, ·rvores de decis„o s„o uma classe de algoritmos que buscam (no caso de classificaÁ„o) achar a classe de um ponto de treino testando intervalos de suas \textit{features}. Vejamos o exemplo de uma ·rvore treinada a seguir:
+Em sua forma mais simples, √°rvores de decis√£o s√£o uma classe de algoritmos que buscam (no caso de classifica√ß√£o) achar a classe de um ponto de treino testando intervalos de suas \textit{features}. Vejamos o exemplo de uma √°rvore treinada a seguir:
 
 
 \begin{figure}[ht]
 	\centering
-	\caption{¡rvore de Decis„o para prever a sobrevivÍncia de passageiros do Titanic}
+	\caption{√Årvore de Decis√£o para prever a sobreviv√™ncia de passageiros do Titanic}
   \includegraphics[width=0.9\textwidth]{tree1}
 \label{fig:tree1}  
 
 \end{figure}
 
-Essa ·rvore busca prever se um determinado passageiro do Titanic sobreviveu ou n„o ao acidente testando diversas caracterÌsticas desse indivÌduo. Por exemplo, podemos ver que caso o sexo do passageiro seja feminino, ela tem uma alta chance de ter sobrevivido. Caso contr·rio, j· s„o testadas outras duas cl·usulas referentes a idade ao n˙mero de familiares tambÈm a bordo do navio. Por construÁ„o, temos um \textit{trade-off} para ·rvores, podendo trocar \textbf{legibilidade} por \textbf{precis„o} (menos \textit{bias}). … possÌvel construir ·rvores mais complexas que poder„o a sua facilidade de interpretaÁ„o por uma pessoa, porÈm poder„o se adequar melhor ao dados treinados, e È essa ideia que È explorada por algoritmos de \textit{ensemble learning} como \textit{Random Forests} ou \textit{Adaboost}, que ser„o explicados em outra parte desse documento, mas que basicamente combinam o poder de diversas ·rvores treinadas iterativamente, para aumentar seu poder de classificaÁ„o.
+Essa √°rvore busca prever se um determinado passageiro do Titanic sobreviveu ou n√£o ao acidente testando diversas caracter√≠sticas desse indiv√≠duo. Por exemplo, podemos ver que caso o sexo do passageiro seja feminino, ela tem uma alta chance de ter sobrevivido. Caso contr√°rio, j√° s√£o testadas outras duas cl√°usulas referentes a idade ao n√∫mero de familiares tamb√©m a bordo do navio. Por constru√ß√£o, temos um \textit{trade-off} para √°rvores, podendo trocar \textbf{legibilidade} por \textbf{precis√£o} (menos \textit{bias}). √â poss√≠vel construir √°rvores mais complexas que poder√£o a sua facilidade de interpreta√ß√£o por uma pessoa, por√©m poder√£o se adequar melhor ao dados treinados, e √© essa ideia que √© explorada por algoritmos de \textit{ensemble learning} como \textit{Random Forests} ou \textit{Adaboost}, que ser√£o explicados em outra parte desse documento, mas que basicamente combinam o poder de diversas √°rvores treinadas iterativamente, para aumentar seu poder de classifica√ß√£o.
 
 
 \subsection{Support Vector Machines}
 
-Essa classe de algoritmos busca, para um conjunto de dados N-dimensionais, encontrar um hiperplano que separa o espaÁo dos dados em regiıes de classificaÁ„o. Vejamos um exemplo simples a seguir:
+Essa classe de algoritmos busca, para um conjunto de dados N-dimensionais, encontrar um hiperplano que separa o espa√ßo dos dados em regi√µes de classifica√ß√£o. Vejamos um exemplo simples a seguir:
 
 
 \begin{figure}[ht]
 	\centering
-	\caption{SVM aplicado para classificar dados linearmente separ·veis}
+	\caption{SVM aplicado para classificar dados linearmente separ√°veis}
   \includegraphics[width=0.9\textwidth]{svm1}
 \label{fig:svm1}  
 
@@ -64,11 +64,11 @@ Essa classe de algoritmos busca, para um conjunto de dados N-dimensionais, encon
 
 
 
-A reta na imagem foi encontrada de modo a separar o espaÁo de classificaÁ„o da classe "azul" do espaÁo de classificaÁ„o da classe "vermelha". A linha pontilhada representa a margem de classificaÁ„o, o algoritmo busca chegar a um hiperplano que tenha ainda uma dist‚ncia dos pontos mais prÛximos da regi„o de separaÁ„o. A seguir, um exemplo mais complexo usando um \textit{kernel}  para poder classificar dados n„o linearmente separ·veis:
+A reta na imagem foi encontrada de modo a separar o espa√ßo de classifica√ß√£o da classe "azul" do espa√ßo de classifica√ß√£o da classe "vermelha". A linha pontilhada representa a margem de classifica√ß√£o, o algoritmo busca chegar a um hiperplano que tenha ainda uma dist√¢ncia dos pontos mais pr√≥ximos da regi√£o de separa√ß√£o. A seguir, um exemplo mais complexo usando um \textit{kernel}  para poder classificar dados n√£o linearmente separ√°veis:
 
 \begin{figure}[ht]
 	\centering
-	\caption{SVM aplicado para classificar dados de maneira n„o linear}
+	\caption{SVM aplicado para classificar dados de maneira n√£o linear}
   \includegraphics[width=0.9\textwidth]{svm2}
 \label{fig:svm2}  
 

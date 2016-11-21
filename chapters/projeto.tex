@@ -3,10 +3,10 @@
 
 \section{Tratamento dos dados}\label{sec:data1}
 
-\subsection{Dados obtidos do RepositÛrio UCI}
-	Para grande parte dos testes de \textit{cross-validation}, foi usado o \textit{dataset}  \textit{UJIIndoorLoc} apresentado em \cite{uji}. O \textit{dataset} consiste em diversas medidas de potÍncia de sinal \textit{Wi-fi} medidas com diversos aparelhos celulares em 3 prÈdios diferentes de uma faculdade. As medidas est„o separadas por prÈdio, andar e sala. Para os fins dessa monografia, ser„o realizados testes com medidas sempre de um mesmo andar, afim de classificar as zonas de um mesmo ambiente.  Esse  \textit{dataset} usa a constante $100$ para designar valores n„o medidos. Para comeÁar o tratamento os substituÌmos pelo valor de $-120$ (dB), que para todos os fins pr·ticos, È uma medida de potÍncia que representa um valor nulo. E finalmente, antes de serem usados para treinar os modelos, os dados s„o transformados de modo a ficarem com mÈdia 0 e vari‚ncia 1 por coluna, o que È necess·rio para evitar comportamentos indesejados dos algoritmos de ML.
+\subsection{Dados obtidos do Reposit√≥rio UCI}
+	Para grande parte dos testes de \textit{cross-validation}, foi usado o \textit{dataset}  \textit{UJIIndoorLoc} apresentado em \cite{uji}. O \textit{dataset} consiste em diversas medidas de pot√™ncia de sinal \textit{Wi-fi} medidas com diversos aparelhos celulares em 3 pr√©dios diferentes de uma faculdade. As medidas est√£o separadas por pr√©dio, andar e sala. Para os fins dessa monografia, ser√£o realizados testes com medidas sempre de um mesmo andar, afim de classificar as zonas de um mesmo ambiente.  Esse  \textit{dataset} usa a constante $100$ para designar valores n√£o medidos. Para come√ßar o tratamento os substitu√≠mos pelo valor de $-120$ (dB), que para todos os fins pr√°ticos, √© uma medida de pot√™ncia que representa um valor nulo. E finalmente, antes de serem usados para treinar os modelos, os dados s√£o transformados de modo a ficarem com m√©dia 0 e vari√¢ncia 1 por coluna, o que √© necess√°rio para evitar comportamentos indesejados dos algoritmos de ML.
 	
-A transformaÁ„o È realizada da seguinte maneira, com $X_j$ representando a j-Èsima coluna da matriz de dados, com mÈdia $\mu$ e desvio-padr„o $\sigma$, para cada elemento $i$ dessa coluna:
+A transforma√ß√£o √© realizada da seguinte maneira, com $X_j$ representando a j-√©sima coluna da matriz de dados, com m√©dia $\mu$ e desvio-padr√£o $\sigma$, para cada elemento $i$ dessa coluna:
 
 \begin{center}
 $X_{ij}=\frac{X_{ij}-\mu}{\sigma}$	
@@ -14,7 +14,7 @@ $X_{ij}=\frac{X_{ij}-\mu}{\sigma}$
 
 \subsection{Dados do Servidor}	
 
-De modo an·logo aos dados pegos do RepositÛrio UCI, a matriz de dados È transformada para ter mÈdia nula e vari‚ncia unit·ria em cada coluna, sendo que antes disso valores nulos s„o substituÌdos por $-120$.
+De modo an√°logo aos dados pegos do Reposit√≥rio UCI, a matriz de dados √© transformada para ter m√©dia nula e vari√¢ncia unit√°ria em cada coluna, sendo que antes disso valores nulos s√£o substitu√≠dos por $-120$.
 
 
 
@@ -34,41 +34,41 @@ $ZoneID$ & $BSSID_1$ & $BSSID_2$ & ... &  $BSSID_n$ \\
 \end{block}
 \end{blockarray}
  
-Cada coluna representa a medida de uma \textit{BSSID} (i.e. um Roteador), ou seja, uma \textit{feature} para o ML, e cada linha È um ponto de treino (i.e.  uma medida para cada  \textit{BSSID}, nossas \textit{features}).
+Cada coluna representa a medida de uma \textit{BSSID} (i.e. um Roteador), ou seja, uma \textit{feature} para o ML, e cada linha √© um ponto de treino (i.e.  uma medida para cada  \textit{BSSID}, nossas \textit{features}).
  
  
-\section{Modelos Usados e \textit{Cross-Validation} de par‚metros }
+\section{Modelos Usados e \textit{Cross-Validation} de par√¢metros }
 
-A chamada \textit{cross-validation} dos modelos de ML È o teste para encontrar os par‚metros Ûtimos para o treinamento. Um dos mÈtodos escolhidos de \textit{cross-validation} foi o \textit{k-fold}. O mÈtodo \textit{k-fold} divide o dataset em $K$ subconjuntos de igual tamanho e ent„o um dos conjuntos È usado como validaÁ„o do treinamento feito pelos $K-1$ subconjuntos restantes. O processo È repetido $K$ vezes e em cada subdivis„o possÌvel podem ser usados valores de par‚metros de treino distintos. Para a comparaÁ„o dos modelos, ser„o feitos diversos testes com um n˙mero crescente de zonas de classificaÁ„o. Nesse caso, s„o escolhidas iterativamente e aleatoriamente $n$ zonas do \textit{dataset}  \textit{UJIIndoorLoc}, s„o pegos todos os pontos associados as $n$ zonas selecionadas. Ent„o, o \textit{dataset}  È separado em 80\% de pontos de treino e 20\% para testes. Para valores de $n$ de 1 a 30 s„o finalmente medidos as taxas de erro de cada algoritmo e essa informaÁ„o È apresentada em gr·ficos.
+A chamada \textit{cross-validation} dos modelos de ML √© o teste para encontrar os par√¢metros √≥timos para o treinamento. Um dos m√©todos escolhidos de \textit{cross-validation} foi o \textit{k-fold}. O m√©todo \textit{k-fold} divide o dataset em $K$ subconjuntos de igual tamanho e ent√£o um dos conjuntos √© usado como valida√ß√£o do treinamento feito pelos $K-1$ subconjuntos restantes. O processo √© repetido $K$ vezes e em cada subdivis√£o poss√≠vel podem ser usados valores de par√¢metros de treino distintos. Para a compara√ß√£o dos modelos, ser√£o feitos diversos testes com um n√∫mero crescente de zonas de classifica√ß√£o. Nesse caso, s√£o escolhidas iterativamente e aleatoriamente $n$ zonas do \textit{dataset}  \textit{UJIIndoorLoc}, s√£o pegos todos os pontos associados as $n$ zonas selecionadas. Ent√£o, o \textit{dataset}  √© separado em 80\% de pontos de treino e 20\% para testes. Para valores de $n$ de 1 a 30 s√£o finalmente medidos as taxas de erro de cada algoritmo e essa informa√ß√£o √© apresentada em gr√°ficos.
 
 \subsection{KNN : K-Nearest-Neighbors }
 
 
-Para o algoritmo de KNN, foram feitos dois testes de \textit{cross-validation}. No primeiro, a mÈtrica de dist‚ncia foi decidida, e no segundo, o n˙mero de vizinhos ($K$).
-Para que fosse definida a mÈtrica de dist‚ncia, foi usado o mÈtodo  \textit{k-fold}  com $K=2$. E em cada \textit{fold} o modelo foi treinado com uma mÈtrica diferente. Foram calculados 20 conjuntos diferentes de \textit{folds} e foi tirada a mÈdia do erro de validaÁ„o para cada uma das mÈtricas.
+Para o algoritmo de KNN, foram feitos dois testes de \textit{cross-validation}. No primeiro, a m√©trica de dist√¢ncia foi decidida, e no segundo, o n√∫mero de vizinhos ($K$).
+Para que fosse definida a m√©trica de dist√¢ncia, foi usado o m√©todo  \textit{k-fold}  com $K=2$. E em cada \textit{fold} o modelo foi treinado com uma m√©trica diferente. Foram calculados 20 conjuntos diferentes de \textit{folds} e foi tirada a m√©dia do erro de valida√ß√£o para cada uma das m√©tricas.
 
 
 \begin{figure}[H]
 \centering
-\caption{Erros para uso de Diferentes Dist‚ncias}
+\caption{Erros para uso de Diferentes Dist√¢ncias}
  \includegraphics[width=0.9\textwidth]{euclidianManhattanknn21zonas}
 \label{fig:euclidian}  
 \end{figure}
 
 
-Depois, foi usado o mÈtodo  \textit{k-fold} com $K=10$ para a decis„o do n˙mero de vizinhos. Foram testados os valores de 1 atÈ 10 para o n˙mero de vizinhos. Na imagem a seguir vemos detalhes desse teste.
+Depois, foi usado o m√©todo  \textit{k-fold} com $K=10$ para a decis√£o do n√∫mero de vizinhos. Foram testados os valores de 1 at√© 10 para o n√∫mero de vizinhos. Na imagem a seguir vemos detalhes desse teste.
 
 
 \begin{figure}[h]
 \centering
-\caption{Erro em funÁ„o do n˙mero de vizinhos}
+\caption{Erro em fun√ß√£o do n√∫mero de vizinhos}
  \includegraphics[width=0.9\textwidth]{CrossValKNN25zonasvalorK}
 \label{fig:euclidian}  
 \end{figure}
 
 
 
-Podemos concluir ent„o que (1) o erro È menor no geral com a dist‚ncia de \textit{Manhattan} e (2) embora tenha muita vari‚ncia envolvida no teste, o valor de K que minimiza o erro fica proximo de 4 vizinhos.
+Podemos concluir ent√£o que (1) o erro √© menor no geral com a dist√¢ncia de \textit{Manhattan} e (2) embora tenha muita vari√¢ncia envolvida no teste, o valor de K que minimiza o erro fica proximo de 4 vizinhos.
 
 
 No restante do trabalho foi escolhido o valor de $K=4$ vizinhos.
@@ -77,13 +77,13 @@ No restante do trabalho foi escolhido o valor de $K=4$ vizinhos.
 
 \subsection{Rede Neural}
 
-Para a \textit{cross-validation} das Redes Neurais, tambÈm foi usado o mÈtodo de  \textit{k-fold} com $K=10$. Para cada uns dos\textit{folds} foi testado um n˙mero de neurÙnios em uma  \textit{hidden-layer} ˙nica. (Outros testes mostraram n„o valer a pena para o nosso problema usar mais de uma camada de  \textit{hidden layer} ou \textit{deep learning}). Os resultados s„o mostrados a seguir:
+Para a \textit{cross-validation} das Redes Neurais, tamb√©m foi usado o m√©todo de  \textit{k-fold} com $K=10$. Para cada uns dos\textit{folds} foi testado um n√∫mero de neur√¥nios em uma  \textit{hidden-layer} √∫nica. (Outros testes mostraram n√£o valer a pena para o nosso problema usar mais de uma camada de  \textit{hidden layer} ou \textit{deep learning}). Os resultados s√£o mostrados a seguir:
 
 
 
 \begin{figure}[!ht]
 	\centering
-	\caption{Erro para diversas quantidades de neurÙnios na rede neural.}
+	\caption{Erro para diversas quantidades de neur√¥nios na rede neural.}
   \includegraphics[width=0.9\textwidth]{CROSSVALE4ZonasNNCERTO}
 \label{fig:crossNN}  
 
@@ -92,18 +92,18 @@ Para a \textit{cross-validation} das Redes Neurais, tambÈm foi usado o mÈtodo de
 
 
 
-ConcluÌmos que o n˙mero ideal de neurÙnios na  \textit{hidden-layer} est· prÛximo de 200. E È esse valor que usaremos daqui para frente.
+Conclu√≠mos que o n√∫mero ideal de neur√¥nios na  \textit{hidden-layer} est√° pr√≥ximo de 200. E √© esse valor que usaremos daqui para frente.
 
-\subsection{Arvore de decis„o}
+\subsection{Arvore de decis√£o}
 
 
-Baseado no trabalho apresentado por \cite{comparative}, foi escolhida uma implementaÁ„o do algoritmo C4.5 \cite{quinlan} em Java, da biblioteca Weka, para serem geradas ·rvores de decis„o. Os mÈtodos porÈm foram chamados pela interface da Weka para R, chamada RWeka.
-A funÁ„o J48 do Weka foi testada com o os pontos de treino referentes ao primeiro andar do prÈdio 1 (i.e. BuildingID 1, FloorID 0)  do dataset \textit{UJIIndoorLoc}. Foi levantada a curva de erro de classificaÁ„o para uma quantidade crescente de pontos de treino (como explicado em 2.3).
+Baseado no trabalho apresentado por \cite{comparative}, foi escolhida uma implementa√ß√£o do algoritmo C4.5 \cite{quinlan} em Java, da biblioteca Weka, para serem geradas √°rvores de decis√£o. Os m√©todos por√©m foram chamados pela interface da Weka para R, chamada RWeka.
+A fun√ß√£o J48 do Weka foi testada com o os pontos de treino referentes ao primeiro andar do pr√©dio 1 (i.e. BuildingID 1, FloorID 0)  do dataset \textit{UJIIndoorLoc}. Foi levantada a curva de erro de classifica√ß√£o para uma quantidade crescente de pontos de treino (como explicado em 2.3).
 
 
 \begin{figure}[H]
 \centering
-\caption{Teste de ValidaÁ„o do Algoritmo C4.5}
+\caption{Teste de Valida√ß√£o do Algoritmo C4.5}
  \includegraphics[width=0.9\textwidth]{J48Validacaopredio1andar0}
 \label{fig:euclidian}  
 \end{figure}
@@ -113,32 +113,32 @@ A funÁ„o J48 do Weka foi testada com o os pontos de treino referentes ao primeir
 
 
 
-\textit{Boosting} È a ideia em ML de criar uma prediÁ„o forte e precisa combinando diversas previsıes mais fracas. O algoritmo AdaBoost \cite{adaboost} È um mÈtodo para melhorar a precis„o de classificadores fracos (i.e. \textit{Weak Learners}) por meio de uma votaÁ„o ponderada que leva em conta o erro de diversos votadores fracos treinados no processo. … provado que o modelo final se torna um classificador forte \cite{explainingadaboost}. Por definiÁ„o, um classificador fraco È aquele que consistentemente consegue ser melhor que um chute para a classificaÁ„o (e.g. o erro È menor que 50\% para o caso de duas classes possÌveis de classificaÁ„o).
+\textit{Boosting} √© a ideia em ML de criar uma predi√ß√£o forte e precisa combinando diversas previs√µes mais fracas. O algoritmo AdaBoost \cite{adaboost} √© um m√©todo para melhorar a precis√£o de classificadores fracos (i.e. \textit{Weak Learners}) por meio de uma vota√ß√£o ponderada que leva em conta o erro de diversos votadores fracos treinados no processo. √â provado que o modelo final se torna um classificador forte \cite{explainingadaboost}. Por defini√ß√£o, um classificador fraco √© aquele que consistentemente consegue ser melhor que um chute para a classifica√ß√£o (e.g. o erro √© menor que 50\% para o caso de duas classes poss√≠veis de classifica√ß√£o).
 
-TambÈm baseados em \cite{comparative} e \cite{comparativeEN}. Usaremos o algoritmo AdaBoost  e sua implementaÁ„o na biblioteca Weka para melhorar a precis„o das ·rvores de decis„o C4.5. A seguir vemos um gr·fico comparando a classificaÁ„o para o mesmo andar do \textit{dataset UJIIndoorLoc} com os mesmos pontos de teste e uma quantidade crescente de pontos de treino, assim como feito no tÛpico anterior.
+Tamb√©m baseados em \cite{comparative} e \cite{comparativeEN}. Usaremos o algoritmo AdaBoost  e sua implementa√ß√£o na biblioteca Weka para melhorar a precis√£o das √°rvores de decis√£o C4.5. A seguir vemos um gr√°fico comparando a classifica√ß√£o para o mesmo andar do \textit{dataset UJIIndoorLoc} com os mesmos pontos de teste e uma quantidade crescente de pontos de treino, assim como feito no t√≥pico anterior.
 
 
 \begin{figure}[!h]
 \centering
-\caption{ComparaÁ„o do C4.5 com o uso do AdaBoost}
+\caption{Compara√ß√£o do C4.5 com o uso do AdaBoost}
  \includegraphics[width=0.9\textwidth]{J48xADAValidacaopredio1andar0}
 \label{fig:euclidian}  
 \end{figure}
 
 
-Podemos notar que com um n˙mero grande de pontos de treino, obtemos uma melhora sensÌvel de precis„o para a classificaÁ„o, e portanto, no restante do trabalho, iremos usar o algoritmo C4.5 acoplado com o algoritmo AdaBoost.
+Podemos notar que com um n√∫mero grande de pontos de treino, obtemos uma melhora sens√≠vel de precis√£o para a classifica√ß√£o, e portanto, no restante do trabalho, iremos usar o algoritmo C4.5 acoplado com o algoritmo AdaBoost.
 
 
 
-\subsection{ComparaÁ„o dos Modelos Usados}
+\subsection{Compara√ß√£o dos Modelos Usados}
 
 
-Reiterando o que foi explicado em outra sess„o, os testes a seguir ir„o contemplar todos os modelos usados. Os modelos tem seu erro testado para datasets com um n˙mero crescente de zonas aleatÛrias a serem classificadas. Todos os testes foram feitos com os dados do primeiro andar do prÈdio 1 do dataset \textit{UJIIndoorLoc }(i.e. BuildingID 1, FloorID 0).
+Reiterando o que foi explicado em outra sess√£o, os testes a seguir ir√£o contemplar todos os modelos usados. Os modelos tem seu erro testado para datasets com um n√∫mero crescente de zonas aleat√≥rias a serem classificadas. Todos os testes foram feitos com os dados do primeiro andar do pr√©dio 1 do dataset \textit{UJIIndoorLoc }(i.e. BuildingID 1, FloorID 0).
 
 
 \begin{figure}[!h]
 	\centering
-	\caption{Erro do algoritmo SMO  para uma quantidade crescente de zonas de classificaÁ„o.}
+	\caption{Erro do algoritmo SMO  para uma quantidade crescente de zonas de classifica√ß√£o.}
   \includegraphics[width=0.9\textwidth]{errorporzonaSMO}
 \label{fig:zonaSMO}  
 
@@ -148,7 +148,7 @@ Reiterando o que foi explicado em outra sess„o, os testes a seguir ir„o contempl
 
 \begin{figure}[!h]
 	\centering
-	\caption{Erro do algoritmo de Redes Neurais  para uma quantidade crescente de zonas de classificaÁ„o.}
+	\caption{Erro do algoritmo de Redes Neurais  para uma quantidade crescente de zonas de classifica√ß√£o.}
   \includegraphics[width=0.9\textwidth]{errorporzonaNN}
 \label{fig:zonaNN}  
 
@@ -157,7 +157,7 @@ Reiterando o que foi explicado em outra sess„o, os testes a seguir ir„o contempl
 
 \begin{figure}[!h]
 	\centering
-	\caption{Erro do algoritmo KNN para uma quantidade crescente de zonas de classificaÁ„o.}
+	\caption{Erro do algoritmo KNN para uma quantidade crescente de zonas de classifica√ß√£o.}
   \includegraphics[width=0.9\textwidth]{errorporzonaKNN}
 \label{fig:zonaKNN}  
 
@@ -167,7 +167,7 @@ Reiterando o que foi explicado em outra sess„o, os testes a seguir ir„o contempl
 
 \begin{figure}[!hb]
 	\centering
-	\caption{Erro do algoritmo de ¡rvore de Decis„o com e sem o Adaboost  para uma quantidade crescente de zonas de classificaÁ„o.}
+	\caption{Erro do algoritmo de √Årvore de Decis√£o com e sem o Adaboost  para uma quantidade crescente de zonas de classifica√ß√£o.}
   \includegraphics[width=0.9\textwidth]{errorporzonaJ48+Ada}
 \label{fig:zonaAda}  
 
@@ -176,23 +176,23 @@ Reiterando o que foi explicado em outra sess„o, os testes a seguir ir„o contempl
 \clearpage
 
 
-\section{MÈtodos de VotaÁ„o}
+\section{M√©todos de Vota√ß√£o}
 
-Os chamados sistemas de \textit{Ensemble Learning} s„o aqueles em que uma classificaÁ„o È feita com base em diversos modelos treinados. Em tÛpicos anteriores foi discutido o uso do algoritmo AdaBoost, que È um mÈtodo desse tipo para melhorar o poder de classificadores fracos treinando iterativamente diversos modelos fracos progressivamente com os erros do anterior \cite {explainingadaboost}. PorÈm, para agregar os modelos usados atÈ agora, iremos implementar algo mais simples, porÈm seguindo a mesma lÛgica: Sistemas de VotaÁ„o. Baseados em \cite{Nagi2013}, usaremos diversos mÈtodos para combinar as classificaÁıes dos nossos modelos treinados. Em um, usaremos apenas a classe de saÌda dos modelos, e posteriormente, as probabilidades (\textit{supports}) para cada uma das classes, que tambÈm s„o saÌdas dos modelos. Esses \textit{supports} podem ser, dependendo do modelo, a probabilidade posterior ou o grau de confianÁa fornecido pelos algoritmos. Por exemplo, nas redes neurais a saÌda de um neurÙnio È a funÁ„o sigmoide aplicada nas entradas multiplicada pela matriz de pesos da rede, que, por definiÁ„o, È um n˙mero entre 0 e 1 que representa uma probabilidade. 
-
-
+Os chamados sistemas de \textit{Ensemble Learning} s√£o aqueles em que uma classifica√ß√£o √© feita com base em diversos modelos treinados. Em t√≥picos anteriores foi discutido o uso do algoritmo AdaBoost, que √© um m√©todo desse tipo para melhorar o poder de classificadores fracos treinando iterativamente diversos modelos fracos progressivamente com os erros do anterior \cite {explainingadaboost}. Por√©m, para agregar os modelos usados at√© agora, iremos implementar algo mais simples, por√©m seguindo a mesma l√≥gica: Sistemas de Vota√ß√£o. Baseados em \cite{Nagi2013}, usaremos diversos m√©todos para combinar as classifica√ß√µes dos nossos modelos treinados. Em um, usaremos apenas a classe de sa√≠da dos modelos, e posteriormente, as probabilidades (\textit{supports}) para cada uma das classes, que tamb√©m s√£o sa√≠das dos modelos. Esses \textit{supports} podem ser, dependendo do modelo, a probabilidade posterior ou o grau de confian√ßa fornecido pelos algoritmos. Por exemplo, nas redes neurais a sa√≠da de um neur√¥nio √© a fun√ß√£o sigmoide aplicada nas entradas multiplicada pela matriz de pesos da rede, que, por defini√ß√£o, √© um n√∫mero entre 0 e 1 que representa uma probabilidade. 
 
 
-\subsection{Testes com os MÈtodos de VotaÁ„o}
 
-Como na sess„o de comparaÁ„o dos modelos, os mÈtodos tem seu erro testado para datasets com um n˙mero crescente de zonas aleatÛrias a serem classificadas. Todos os testes foram feitos com os dados do primeiro andar do prÈdio 1 do dataset \textit{UJIIndoorLoc} (i.e. BuildingID 1, FloorID 0).
+
+\subsection{Testes com os M√©todos de Vota√ß√£o}
+
+Como na sess√£o de compara√ß√£o dos modelos, os m√©todos tem seu erro testado para datasets com um n√∫mero crescente de zonas aleat√≥rias a serem classificadas. Todos os testes foram feitos com os dados do primeiro andar do pr√©dio 1 do dataset \textit{UJIIndoorLoc} (i.e. BuildingID 1, FloorID 0).
 
 
 
 
 \begin{figure}[!ht]
 	\centering
-	\caption{Erro do Voto Simples e Voto Ponderado para uma quantidade crescente de zonas de classificaÁ„o.}
+	\caption{Erro do Voto Simples e Voto Ponderado para uma quantidade crescente de zonas de classifica√ß√£o.}
   \includegraphics[width=0.9\textwidth]{errorporzonaVotos}
 \label{fig:zonaVotos}  
 
