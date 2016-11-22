@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  22 NOV 2016 05:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  22 NOV 2016 06:14
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -674,23 +674,7 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 LaTeX Info: Redefining \citeonline on input line 677.
 \ABCItoken=\toks33
-) (monografia.aux
-
-LaTeX Warning: Label `sec:justify' multiply defined.
-
-
-LaTeX Warning: Label `sec:req' multiply defined.
-
-
-LaTeX Warning: Label `fig:euclidian' multiply defined.
-
-
-LaTeX Warning: Label `fig:euclidian' multiply defined.
-
-
-LaTeX Warning: Label `fig:euclidian' multiply defined.
-
-)
+) (monografia.aux)
 \openout1 = `monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -705,7 +689,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -911,20 +894,20 @@ Package pdftex.def Info: imagens/knn1.png used on input line 26.
 <imagens/tree1.png, id=51, 361.35pt x 341.275pt>
 File: imagens/tree1.png Graphic file (type png)
  <use imagens/tree1.png>
-Package pdftex.def Info: imagens/tree1.png used on input line 44.
+Package pdftex.def Info: imagens/tree1.png used on input line 41.
 (pdftex.def)             Requested size: 409.71692pt x 386.95894pt.
 
 [13 <./imagens/knn1.png>] <imagens/svm1.png, id=56, 325.9377pt x 245.718pt>
 File: imagens/svm1.png Graphic file (type png)
 
 <use imagens/svm1.png>
-Package pdftex.def Info: imagens/svm1.png used on input line 60.
+Package pdftex.def Info: imagens/svm1.png used on input line 57.
 (pdftex.def)             Requested size: 409.71692pt x 308.90518pt.
  <imagens/svm2.png, id=58, 578.16pt x 435.7881pt>
 File: imagens/svm2.png Graphic file (type png)
 
 <use imagens/svm2.png>
-Package pdftex.def Info: imagens/svm2.png used on input line 72.
+Package pdftex.def Info: imagens/svm2.png used on input line 69.
 (pdftex.def)             Requested size: 409.71692pt x 308.81989pt.
  [14 <./imagens/tree1.png>]) (chapters/especificacao.tex
 [15 <./imagens/svm1.png>] [16 <./imagens/svm2.png>]
@@ -1059,15 +1042,12 @@ less on input line 180.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 5309 strings out of 493333
- 70493 string characters out of 3139193
- 153308 words of memory out of 3000000
- 8663 multiletter control sequences out of 15000+200000
+ 5314 strings out of 493333
+ 70595 string characters out of 3139193
+ 153318 words of memory out of 3000000
+ 8668 multiletter control sequences out of 15000+200000
  12755 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,10n,47p,1414b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1082,7 +1062,7 @@ fonts/cm/cmss10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 0.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><
 D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on monografia.pdf (35 pages, 1760306 bytes).
+Output written on monografia.pdf (35 pages, 1758748 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
