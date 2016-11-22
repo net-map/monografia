@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  22 NOV 2016 04:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  22 NOV 2016 05:45
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -671,8 +671,8 @@ Package: relsize 2003/07/04 ver 3.1
 )
 \biblabelsep=\skip70
 LaTeX Info: Redefining \newblock on input line 591.
-LaTeX Info: Redefining \cite on input line 862.
-LaTeX Info: Redefining \citeonline on input line 866.
+LaTeX Info: Redefining \cite on input line 618.
+LaTeX Info: Redefining \citeonline on input line 677.
 \ABCItoken=\toks33
 ) (monografia.aux
 
@@ -948,7 +948,7 @@ less on input line 1.
 Cap\'{\i }tulo 5.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 36.
+less on input line 25.
 
 [21
 
@@ -1064,13 +1064,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5311 strings out of 493333
- 70534 string characters out of 3139193
- 153657 words of memory out of 3000000
- 8665 multiletter control sequences out of 15000+200000
+ 5309 strings out of 493333
+ 70493 string characters out of 3139193
+ 153308 words of memory out of 3000000
+ 8663 multiletter control sequences out of 15000+200000
  12755 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,47p,1414b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,10n,47p,1414b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Program Files/MiKTe
@@ -1082,7 +1082,7 @@ fonts/cm/cmss10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 0.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><
 D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on monografia.pdf (35 pages, 1748838 bytes).
+Output written on monografia.pdf (35 pages, 1759541 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
