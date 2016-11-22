@@ -4,7 +4,7 @@
 \section{Tratamento dos dados}\label{sec:data1}
 
 \subsection{Dados obtidos do Repositório UCI}
-	Para grande parte dos testes de \textit{cross-validation}, foi usado o \textit{dataset}  \textit{UJIIndoorLoc} apresentado em \cite{uji}. O \textit{dataset} consiste em diversas medidas de potência de sinal \textit{Wi-fi} medidas com diversos aparelhos celulares em 3 prédios diferentes de uma faculdade. As medidas estão separadas por prédio, andar e sala. Para os fins dessa monografia, serão realizados testes com medidas sempre de um mesmo andar, afim de classificar as zonas de um mesmo ambiente.  Esse  \textit{dataset} usa a constante $100$ para designar valores não medidos. Para começar o tratamento os substituímos pelo valor de $-120$ (dB), que para todos os fins práticos, é uma medida de potência que representa um valor nulo. E finalmente, antes de serem usados para treinar os modelos, os dados são transformados de modo a ficarem com média 0 e variância 1 por coluna, o que é necessário para evitar comportamentos indesejados dos algoritmos de ML.
+	Para grande parte dos testes de \textit{cross-validation}, foi usado o \textit{dataset}  \textit{UJIIndoorLoc} apresentado em \cite{uji}. O \textit{dataset} consiste em diversas medidas de potência de sinal \textit{Wi-fi} medidas com diversos aparelhos celulares em 3 prédios diferentes de uma faculdade. As medidas estão separadas por prédio, andar e sala. Para os fins dessa monografia, serão realizados testes com medidas sempre de um mesmo andar, afim de classificar as zonas de um mesmo ambiente.  Esse  \textit{dataset} usa a constante $100$ para designar valores não medidos. Para começar o tratamento os substituímos pelo valor de $-120$ (dB), que para todos os fins práticos, é uma medida de potência que representa um valor nulo, já que representa um valor de potência insignificante. E finalmente, antes de serem usados para treinar os modelos, os dados são transformados de modo a ficarem com média 0 e variância 1 por coluna, o que é necessário para evitar comportamentos indesejados dos algoritmos de ML.
 	
 A transformação é realizada da seguinte maneira, com $X_j$ representando a j-ésima coluna da matriz de dados, com média $\mu$ e desvio-padrão $\sigma$, para cada elemento $i$ dessa coluna:
 
@@ -20,9 +20,9 @@ De modo análogo aos dados pegos do Repositório UCI, a matriz de dados é trans
 
 
 \section{Formato dos dados tratados}
-A matriz de dados ,depois de tratada, tem o seguinte formato:
+A matriz de dados, depois de tratada, tem o seguinte formato:
 
-
+\begin{center}
 \begin{blockarray}{cccccc}
 $ZoneID$ & $BSSID_1$ & $BSSID_2$ & ... &  $BSSID_n$ \\
 \begin{block}{(ccccc)c}
@@ -33,6 +33,7 @@ $ZoneID$ & $BSSID_1$ & $BSSID_2$ & ... &  $BSSID_n$ \\
   1&-48 & -36 & ... &   -29&  $Measure_n$ \\
 \end{block}
 \end{blockarray}
+\end{center}
  
 Cada coluna representa a medida de uma \textit{BSSID} (i.e. um Roteador), ou seja, uma \textit{feature} para o ML, e cada linha é um ponto de treino (i.e.  uma medida para cada  \textit{BSSID}, nossas \textit{features}).
  
