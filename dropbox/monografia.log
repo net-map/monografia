@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.28)  21 NOV 2016 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.28)  21 NOV 2016 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,9 +925,9 @@ less on input line 1.
 Cap\'{\i }tulo 5.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 37.
+less on input line 35.
 
-[21
+[0
 
 ]
 <imagens/euclidianManhattanknn21zonas.png, id=94, 596.2275pt x 486.31688pt>
@@ -937,7 +937,7 @@ File: imagens/euclidianManhattanknn21zonas.png Graphic file (type png)
 Package pdftex.def Info: imagens/euclidianManhattanknn21zonas.png used on input
  line 54.
 (pdftex.def)             Requested size: 409.71692pt x 334.1862pt.
- [22]
+ [1]
 <imagens/CrossValKNN25zonasvalorK.png, id=100, 530.98375pt x 484.81125pt>
 File: imagens/CrossValKNN25zonasvalorK.png Graphic file (type png)
 
@@ -956,7 +956,7 @@ File: imagens/CROSSVALE4ZonasNNCERTO.png Graphic file (type png)
 Package pdftex.def Info: imagens/CROSSVALE4ZonasNNCERTO.png used on input line 
 87.
 (pdftex.def)             Requested size: 409.71692pt x 316.20377pt.
- [23 <./imagens/euclidianManhattanknn21zonas.png (PNG copy)>]
+ [2 <./imagens/euclidianManhattanknn21zonas.png (PNG copy)>]
 <imagens/J48Validacaopredio1andar0.jpeg, id=106, 1957.3125pt x 1806.75pt>
 File: imagens/J48Validacaopredio1andar0.jpeg Graphic file (type jpg)
 
@@ -964,12 +964,12 @@ File: imagens/J48Validacaopredio1andar0.jpeg Graphic file (type jpg)
 Package pdftex.def Info: imagens/J48Validacaopredio1andar0.jpeg used on input l
 ine 107.
 (pdftex.def)             Requested size: 409.71692pt x 378.18811pt.
- [24 <./imagens/CrossValKNN25zonasvalorK.png>]
+ [3 <./imagens/CrossValKNN25zonasvalorK.png>]
 Overfull \vbox (50.94205pt too high) has occurred while \output is active []
 
 
-[25 <./imagens/CROSSVALE4ZonasNNCERTO.png (PNG copy)> <./imagens/J48Validacaopr
-edio1andar0.jpeg>]
+[4 <./imagens/CROSSVALE4ZonasNNCERTO.png (PNG copy)> <./imagens/J48Validacaopre
+dio1andar0.jpeg>]
 <imagens/J48xADAValidacaopredio1andar0.jpeg, id=114, 2007.5pt x 1706.375pt>
 File: imagens/J48xADAValidacaopredio1andar0.jpeg Graphic file (type jpg)
 
@@ -977,7 +977,7 @@ File: imagens/J48xADAValidacaopredio1andar0.jpeg Graphic file (type jpg)
 Package pdftex.def Info: imagens/J48xADAValidacaopredio1andar0.jpeg used on inp
 ut line 124.
 (pdftex.def)             Requested size: 409.71692pt x 348.24692pt.
- [26 <./imagens/J48xADAValidacaopredio1andar0.jpeg>]
+ [5 <./imagens/J48xADAValidacaopredio1andar0.jpeg>]
 <imagens/errorporzonaSMO.jpeg, id=118, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaSMO.jpeg Graphic file (type jpg)
 
@@ -1012,9 +1012,9 @@ File: imagens/errorporzonaJ48+Ada.jpeg Graphic file (type jpg)
 Package pdftex.def Info: imagens/errorporzonaJ48+Ada.jpeg used on input line 17
 1.
 (pdftex.def)             Requested size: 409.71692pt x 348.24692pt.
- [27 <./imagens/errorporzonaSMO.jpeg>]
-[28 <./imagens/errorporzonaNN.jpeg>] [29 <./imagens/errorporzonaKNN.jpeg>]
-[30 <./imagens/errorporzonaJ48+Ada.jpeg>]
+ [6 <./imagens/errorporzonaSMO.jpeg>]
+[7 <./imagens/errorporzonaNN.jpeg>] [8 <./imagens/errorporzonaKNN.jpeg>]
+[9 <./imagens/errorporzonaJ48+Ada.jpeg>]
 <imagens/errorporzonaVotos.jpeg, id=135, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaVotos.jpeg Graphic file (type jpg)
 
@@ -1022,26 +1022,44 @@ File: imagens/errorporzonaVotos.jpeg Graphic file (type jpg)
 Package pdftex.def Info: imagens/errorporzonaVotos.jpeg used on input line 196.
 
 (pdftex.def)             Requested size: 409.71692pt x 348.24692pt.
-) (./monografia.bbl [31
+) (./monografia.bbl [10
 
-] [32 <./imagens/errorporzonaVotos.jpeg>]
-Underfull \hbox (badness 2762) in paragraph at lines 55--61
-[]\OT1/cmss/m/n/12 NAGI, S.; BHAT-TA-CHARYYA, D. K. Clas-si-fi-ca-tion of mi-cr
-o-ar-ray can-cer data
- []
+] [11 <./imagens/errorporzonaVotos.jpeg>]
+
+! Package inputenc Error: Unicode char ÌNE (U+A0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 {TORRES-SOSPEDRA, J.; MONTOLIU, R.; MARTÌNE
+                                                Z-USÛ, A.; AVARIENTO, J.~P.;...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 55--61
-\OT1/cmss/m/sl/12 oin-for-ma-tics\OT1/cmss/m/n/12 , v. 2, n. 3, p. 159--173, 20
-13. ISSN 2192-6670. Dis-pon^^S^^Pvel em:
- []
+! Package inputenc Error: Unicode char Û,A. (U+9E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 ...SPEDRA, J.; MONTOLIU, R.; MARTÌNEZ-USÛ, A.
+                                                  ; AVARIENTO, J.~P.; ARNAU,
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 180.
 
-[33
+[12
 
 
 ] (./monografia.aux)
@@ -1053,13 +1071,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4871 strings out of 493013
- 64794 string characters out of 6133343
- 147939 words of memory out of 5000000
- 8257 multiletter control sequences out of 15000+600000
+ 4872 strings out of 493013
+ 64792 string characters out of 6133343
+ 148078 words of memory out of 5000000
+ 8258 multiletter control sequences out of 15000+600000
  12755 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,11n,47p,1412b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,47p,1412b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
@@ -1072,7 +1090,7 @@ l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on monografia.pdf (35 pages, 1731945 bytes).
+Output written on monografia.pdf (35 pages, 1732383 bytes).
 PDF statistics:
  185 PDF objects out of 1000 (max. 8388607)
  115 compressed objects within 2 object streams
