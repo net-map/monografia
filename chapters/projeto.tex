@@ -137,39 +137,39 @@ Podemos notar que com um número grande de pontos de treino, obtemos uma melhora
 Reiterando o que foi explicado em outra sessão, os testes a seguir irão contemplar todos os modelos usados. Os modelos tem seu erro testado para \textit{datasets} com um número crescente de zonas aleatórias a serem classificadas. Todos os testes foram feitos com os dados do primeiro andar do prédio 1 do \textit{dataset UJIIndoorLoc }(i.e. BuildingID 1, FloorID 0).
 
 
-\begin{figure}[!h]
+\begin{figure}
 	\centering
 	\caption{Erro do algoritmo SMO  para uma quantidade crescente de zonas de classificação.}
-  \includegraphics[width=0.9\textwidth]{errorporzonaSMO}
+  \includegraphics[width=0.8\textwidth]{errorporzonaSMO}
 \label{fig:zonaSMO}
 
 \end{figure}
 
 
 
-\begin{figure}[!h]
+\begin{figure}
 	\centering
 	\caption{Erro do algoritmo de Redes Neurais  para uma quantidade crescente de zonas de classificação.}
-  \includegraphics[width=0.9\textwidth]{errorporzonaNN}
+  \includegraphics[width=0.8\textwidth]{errorporzonaNN}
 \label{fig:zonaNN}
 
 \end{figure}
 
 
-\begin{figure}[!h]
+\begin{figure}
 	\centering
 	\caption{Erro do algoritmo KNN para uma quantidade crescente de zonas de classificação.}
-  \includegraphics[width=0.9\textwidth]{errorporzonaKNN}
+  \includegraphics[width=0.8\textwidth]{errorporzonaKNN}
 \label{fig:zonaKNN}
 
 \end{figure}
 
 
 
-\begin{figure}[!hb]
+\begin{figure}
 	\centering
 	\caption{Erro do algoritmo de Árvore de Decisão com e sem o Adaboost  para uma quantidade crescente de zonas de classificação.}
-  \includegraphics[width=0.9\textwidth]{errorporzonaJ48+Ada}
+  \includegraphics[width=0.8\textwidth]{errorporzonaJ48+Ada}
 \label{fig:zonaAda}
 
 \end{figure}
@@ -179,7 +179,7 @@ Reiterando o que foi explicado em outra sessão, os testes a seguir irão contem
 
 \section{Métodos de Votação}
 
-Os chamados sistemas de \textit{Ensemble Learning} são aqueles em que uma classificação é feita com base em diversos modelos treinados. Em tópicos anteriores foi discutido o uso do algoritmo AdaBoost, que é um método desse tipo para melhorar o poder de classificadores fracos treinando iterativamente diversos modelos fracos progressivamente com os erros do anterior \cite {explainingadaboost}. Porém, para agregar os modelos usados até agora, iremos implementar algo mais simples, porém seguindo a mesma lógica: Sistemas de Votação. Baseados em \cite{Nagi2013}, usaremos diversos métodos para combinar as classificações dos nossos modelos treinados. Em um, usaremos apenas a classe de saída dos modelos, e posteriormente, as probabilidades (\textit{supports}) para cada uma das classes, que também são saídas dos modelos. Esses \textit{supports} podem ser, dependendo do modelo, a probabilidade posterior ou o grau de confiança fornecido pelos algoritmos. Por exemplo, nas redes neurais a saída de um neurônio é a função sigmoide aplicada nas entradas multiplicada pela matriz de pesos da rede, que, por definição, é um número entre 0 e 1 que representa uma probabilidade.
+Os chamados sistemas de \textit{Ensemble Learning} são aqueles em que uma classificação é feita com base em diversos modelos treinados. Em tópicos anteriores foi discutido o uso do algoritmo AdaBoost, que é um método desse tipo para melhorar o poder de classificadores fracos treinando iterativamente diversos modelos fracos progressivamente com os erros do anterior \cite {explainingadaboost}. Porém, para agregar os modelos usados até agora, iremos implementar algo mais simples, porém seguindo a mesma lógica: Sistemas de Votação. Baseados em \cite{Nagi2013}, usaremos diversos métodos para combinar as classificações dos nossos modelos treinados. Em um, foi usado apenas a classe de saída dos modelos, e posteriormente, as probabilidades (\textit{supports}) para cada uma das classes, que também são saídas dos modelos. Esses \textit{supports} podem ser, dependendo do modelo, a probabilidade posterior ou o grau de confiança fornecido pelos algoritmos. Por exemplo, nas redes neurais a saída de um neurônio é a função sigmoide aplicada nas entradas multiplicada pela matriz de pesos da rede, que, por definição, é um número entre 0 e 1 que representa uma probabilidade.
 
 
 
