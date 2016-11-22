@@ -4,13 +4,14 @@
 \contentsline {figure}{\numberline {3}{\ignorespaces SVM aplicado para classificar dados linearmente separ\IeC {\'a}veis}}{15}
 \contentsline {figure}{\numberline {4}{\ignorespaces SVM aplicado para classificar dados de maneira n\IeC {\~a}o linear}}{16}
 \contentsline {figure}{\numberline {5}{\ignorespaces Diagrama da Arquitetura do Sistema net.map}}{18}
-\contentsline {figure}{\numberline {6}{\ignorespaces Erros para uso de Diferentes Dist\IeC {\^a}ncias}}{22}
-\contentsline {figure}{\numberline {7}{\ignorespaces Erro em fun\IeC {\c c}\IeC {\~a}o do n\IeC {\'u}mero de vizinhos}}{23}
-\contentsline {figure}{\numberline {8}{\ignorespaces Erro para diversas quantidades de neur\IeC {\^o}nios na rede neural.}}{24}
-\contentsline {figure}{\numberline {9}{\ignorespaces Teste de Valida\IeC {\c c}\IeC {\~a}o do Algoritmo C4.5}}{25}
-\contentsline {figure}{\numberline {10}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o do C4.5 com o uso do AdaBoost}}{26}
-\contentsline {figure}{\numberline {11}{\ignorespaces Erro do algoritmo SMO para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{27}
-\contentsline {figure}{\numberline {12}{\ignorespaces Erro do algoritmo de Redes Neurais para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{28}
-\contentsline {figure}{\numberline {13}{\ignorespaces Erro do algoritmo KNN para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{29}
-\contentsline {figure}{\numberline {14}{\ignorespaces Erro do algoritmo de \IeC {\'A}rvore de Decis\IeC {\~a}o com e sem o Adaboost para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{30}
-\contentsline {figure}{\numberline {15}{\ignorespaces Erro do Voto Simples e Voto Ponderado para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{32}
+\contentsline {figure}{\numberline {6}{\ignorespaces Fluxo de Dados do Sistema net.map}}{18}
+\contentsline {figure}{\numberline {7}{\ignorespaces Erros para uso de Diferentes Dist\IeC {\^a}ncias}}{22}
+\contentsline {figure}{\numberline {8}{\ignorespaces Erro em fun\IeC {\c c}\IeC {\~a}o do n\IeC {\'u}mero de vizinhos}}{23}
+\contentsline {figure}{\numberline {9}{\ignorespaces Erro para diversas quantidades de neur\IeC {\^o}nios na rede neural.}}{24}
+\contentsline {figure}{\numberline {10}{\ignorespaces Teste de Valida\IeC {\c c}\IeC {\~a}o do Algoritmo C4.5}}{25}
+\contentsline {figure}{\numberline {11}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o do C4.5 com o uso do AdaBoost}}{26}
+\contentsline {figure}{\numberline {12}{\ignorespaces Erro do algoritmo SMO para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{27}
+\contentsline {figure}{\numberline {13}{\ignorespaces Erro do algoritmo de Redes Neurais para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{28}
+\contentsline {figure}{\numberline {14}{\ignorespaces Erro do algoritmo KNN para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{29}
+\contentsline {figure}{\numberline {15}{\ignorespaces Erro do algoritmo de \IeC {\'A}rvore de Decis\IeC {\~a}o com e sem o Adaboost para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{30}
+\contentsline {figure}{\numberline {16}{\ignorespaces Erro do Voto Simples e Voto Ponderado para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{32}

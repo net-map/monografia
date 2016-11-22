@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.28)  22 NOV 2016 09:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.28)  22 NOV 2016 09:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -904,7 +904,14 @@ less on input line 29.
 
 [17
 
-]) (./chapters/metodologia.tex [18 <./imagens/Diagrama-arquitetura.jpg>]
+] <imagens/diagramafluxodados.png, id=77, 594.22pt x 302.12875pt>
+File: imagens/diagramafluxodados.png Graphic file (type png)
+
+<use imagens/diagramafluxodados.png>
+Package pdftex.def Info: imagens/diagramafluxodados.png used on input line 35.
+(pdftex.def)             Requested size: 409.71692pt x 208.32614pt.
+) (./chapters/metodologia.tex [18 <./imagens/Diagrama-arquitetura.jpg> <./image
+ns/diagramafluxodados.png>]
 Cap\'{\i }tulo 4.
 ) (./chapters/projeto.tex
 
@@ -922,7 +929,7 @@ less on input line 25.
 [20
 
 ]
-<imagens/euclidianManhattanknn21zonas.png, id=92, 596.2275pt x 486.31688pt>
+<imagens/euclidianManhattanknn21zonas.png, id=94, 596.2275pt x 486.31688pt>
 File: imagens/euclidianManhattanknn21zonas.png Graphic file (type png)
 
 <use imagens/euclidianManhattanknn21zonas.png>
@@ -930,7 +937,7 @@ Package pdftex.def Info: imagens/euclidianManhattanknn21zonas.png used on input
  line 55.
 (pdftex.def)             Requested size: 409.71692pt x 334.1862pt.
  [21]
-<imagens/CrossValKNN25zonasvalorK.png, id=98, 530.98375pt x 484.81125pt>
+<imagens/CrossValKNN25zonasvalorK.png, id=100, 530.98375pt x 484.81125pt>
 File: imagens/CrossValKNN25zonasvalorK.png Graphic file (type png)
 
 <use imagens/CrossValKNN25zonasvalorK.png>
@@ -938,7 +945,7 @@ Package pdftex.def Info: imagens/CrossValKNN25zonasvalorK.png used on input lin
 e 66.
 (pdftex.def)             Requested size: 409.71692pt x 374.09735pt.
  [22 <./imagens/euclidianManhattanknn21zonas.png (PNG copy)>]
-<imagens/CROSSVALE4ZonasNNCERTO.png, id=102, 596.98032pt x 460.72125pt>
+<imagens/CROSSVALE4ZonasNNCERTO.png, id=104, 596.98032pt x 460.72125pt>
 File: imagens/CROSSVALE4ZonasNNCERTO.png Graphic file (type png)
 
 <use imagens/CROSSVALE4ZonasNNCERTO.png>
@@ -946,7 +953,7 @@ Package pdftex.def Info: imagens/CROSSVALE4ZonasNNCERTO.png used on input line
 88.
 (pdftex.def)             Requested size: 409.71692pt x 316.20377pt.
  [23 <./imagens/CrossValKNN25zonasvalorK.png>]
-<imagens/J48Validacaopredio1andar0.jpeg, id=108, 1957.3125pt x 1806.75pt>
+<imagens/J48Validacaopredio1andar0.jpeg, id=110, 1957.3125pt x 1806.75pt>
 File: imagens/J48Validacaopredio1andar0.jpeg Graphic file (type jpg)
 
 <use imagens/J48Validacaopredio1andar0.jpeg>
@@ -954,7 +961,7 @@ Package pdftex.def Info: imagens/J48Validacaopredio1andar0.jpeg used on input l
 ine 108.
 (pdftex.def)             Requested size: 409.71692pt x 378.18811pt.
  [24 <./imagens/CROSSVALE4ZonasNNCERTO.png (PNG copy)>]
-<imagens/J48xADAValidacaopredio1andar0.jpeg, id=112, 2007.5pt x 1706.375pt>
+<imagens/J48xADAValidacaopredio1andar0.jpeg, id=114, 2007.5pt x 1706.375pt>
 File: imagens/J48xADAValidacaopredio1andar0.jpeg Graphic file (type jpg)
 
 <use imagens/J48xADAValidacaopredio1andar0.jpeg>
@@ -966,7 +973,7 @@ ut line 125.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25 <./imagens/J48Validacaopredio1andar0.jpeg>]
-<imagens/errorporzonaSMO.jpeg, id=116, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaSMO.jpeg, id=118, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaSMO.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaSMO.jpeg>
@@ -976,7 +983,7 @@ Package pdftex.def Info: imagens/errorporzonaSMO.jpeg used on input line 143.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imagens/errorporzonaNN.jpeg, id=117, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaNN.jpeg, id=119, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaNN.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaNN.jpeg>
@@ -986,7 +993,7 @@ Package pdftex.def Info: imagens/errorporzonaNN.jpeg used on input line 153.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imagens/errorporzonaKNN.jpeg, id=118, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaKNN.jpeg, id=120, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaKNN.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaKNN.jpeg>
@@ -996,7 +1003,7 @@ Package pdftex.def Info: imagens/errorporzonaKNN.jpeg used on input line 162.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imagens/errorporzonaJ48+Ada.jpeg, id=119, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaJ48+Ada.jpeg, id=121, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaJ48+Ada.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaJ48+Ada.jpeg>
@@ -1006,7 +1013,7 @@ Package pdftex.def Info: imagens/errorporzonaJ48+Ada.jpeg used on input line 17
  [26 <./imagens/J48xADAValidacaopredio1andar0.jpeg>] [27 <./imagens/errorporzon
 aSMO.jpeg>] [28 <./imagens/errorporzonaNN.jpeg>] [29 <./imagens/errorporzonaKNN
 .jpeg>] [30 <./imagens/errorporzonaJ48+Ada.jpeg>] <imagens/errorporzonaVotos.jp
-eg, id=136, 2007.5pt x 1706.375pt>
+eg, id=138, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaVotos.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaVotos.jpeg>
@@ -1041,10 +1048,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4881 strings out of 493013
- 65068 string characters out of 6133343
- 146948 words of memory out of 5000000
- 8266 multiletter control sequences out of 15000+600000
+ 4887 strings out of 493013
+ 65248 string characters out of 6133343
+ 146958 words of memory out of 5000000
+ 8271 multiletter control sequences out of 15000+600000
  12755 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,10n,45p,1412b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1060,10 +1067,10 @@ l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on monografia.pdf (35 pages, 1766362 bytes).
+Output written on monografia.pdf (35 pages, 1797911 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
+ 188 PDF objects out of 1000 (max. 8388607)
  115 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
