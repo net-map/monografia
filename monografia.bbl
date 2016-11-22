@@ -48,9 +48,9 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/s13721-013-0034-x}.}
 {QUINLAN, R. \emph{C4.5: Programs for Machine Learning}. San Mateo, CA: Morgan
   Kaufmann Publishers, 1993.}
 
-\bibitem[Schapire]{explainingadaboost}
-\abntrefinfo{Schapire}{SCHAPIRE}{}
-{SCHAPIRE, R.~E. \emph{Explaining AdaBoost}.}
+\bibitem[Schapire 2013]{explainingadaboost}
+\abntrefinfo{Schapire}{SCHAPIRE}{2013}
+{SCHAPIRE, R.~E. \emph{Explaining AdaBoost}. 2013.}
 
 \bibitem[Torres-Sospedra et al. 2014]{uji}
 \abntrefinfo{Torres-Sospedra et al.}{TORRES-SOSPEDRA et al.}{2014}
