@@ -1,62 +1,62 @@
 \providecommand{\abntreprintinfo}[1]{%
  \citeonline{#1}}
-\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Bozkurt et al. 2015]{comparative}
+\bibitem{statbook}
+\abntrefinfo{James et al.}{JAMES et al.}{2014}
+{JAMES, G. et al. \emph{An Introduction to Statistical Learning: With
+  Applications in R}. [S.l.]: Springer Publishing Company, Incorporated, 2014.
+ISBN 1461471370, 9781461471370.}
+
+\bibitem{coursera}
+\abntrefinfo{Ng}{NG}{2008}
+{NG, A. Stanford cs229 - machine learning - ng.
+2008.}
+
+\bibitem{uji}
+\abntrefinfo{Torres-Sospedra et al.}{TORRES-SOSPEDRA et al.}{2014}
+{TORRES-SOSPEDRA, J. et al. Ujiindoorloc: A new multi-building and multi-floor
+  database for wlan fingerprint-based indoor localization problems. In:
+  \emph{Indoor Positioning and Indoor Navigation (IPIN), 2014 International
+  Conference on}. [S.l.: s.n.], 2014. p. 261--270.}
+
+\bibitem{comparative}
 \abntrefinfo{Bozkurt et al.}{BOZKURT et al.}{2015}
 {BOZKURT, S. et al. A comparative study on machine learning algorithms for
   indoor positioning. In:  \emph{Innovations in Intelligent SysTems and
   Applications (INISTA), 2015 International Symposium on}. [S.l.: s.n.], 2015.
   p.~1--8.}
 
-\bibitem[Freund e Schapire 1996]{adaboost}
+\bibitem{quinlan}
+\abntrefinfo{Quinlan}{QUINLAN}{1993}
+{QUINLAN, R. \emph{C4.5: Programs for Machine Learning}. San Mateo, CA: Morgan
+  Kaufmann Publishers, 1993.}
+
+\bibitem{adaboost}
 \abntrefinfo{Freund e Schapire}{FREUND; SCHAPIRE}{1996}
 {FREUND, Y.; SCHAPIRE, R.~E. \emph{A Decision-Theoretic Generalization of
   on-Line Learning and an Application to Boosting}. 1996.}
 
-\bibitem[James et al. 2014]{statbook}
-\abntrefinfo{James et al.}{JAMES et al.}{2014}
-{JAMES, G. et al. \emph{An Introduction to Statistical Learning: With
-  Applications in R}. [S.l.]: Springer Publishing Company, Incorporated, 2014.
-ISBN 1461471370, 9781461471370.}
+\bibitem{explainingadaboost}
+\abntrefinfo{Schapire}{SCHAPIRE}{2013}
+{SCHAPIRE, R.~E. \emph{Explaining AdaBoost}. 2013.}
 
-\bibitem[Maclin e Opitz 2011]{comparativeEN}
+\bibitem{comparativeEN}
 \abntrefinfo{Maclin e Opitz}{MACLIN; OPITZ}{2011}
 {MACLIN, R.; OPITZ, D.~W. Popular ensemble methods: An empirical study.
 \emph{CoRR}, abs/1106.0257, 2011.
-Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1106.0257}.}
+Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1106.0257$>$.}
 
-\bibitem[Nagi e Bhattacharyya 2013]{Nagi2013}
+\bibitem{Nagi2013}
 \abntrefinfo{Nagi e Bhattacharyya}{NAGI; BHATTACHARYYA}{2013}
 {NAGI, S.; BHATTACHARYYA, D.~K. Classification of microarray cancer data using
   ensemble approach.
 \emph{Network Modeling Analysis in Health Informatics and Bioinformatics},
   v.~2, n.~3, p. 159--173, 2013.
 ISSN 2192-6670.
-Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/s13721-013-0034-x}.}
-
-\bibitem[Ng 2008]{coursera}
-\abntrefinfo{Ng}{NG}{2008}
-{NG, A. Stanford cs229 - machine learning - ng.
-2008.}
-
-\bibitem[Quinlan 1993]{quinlan}
-\abntrefinfo{Quinlan}{QUINLAN}{1993}
-{QUINLAN, R. \emph{C4.5: Programs for Machine Learning}. San Mateo, CA: Morgan
-  Kaufmann Publishers, 1993.}
-
-\bibitem[Schapire 2013]{explainingadaboost}
-\abntrefinfo{Schapire}{SCHAPIRE}{2013}
-{SCHAPIRE, R.~E. \emph{Explaining AdaBoost}. 2013.}
-
-\bibitem[Torres-Sospedra et al. 2014]{uji}
-\abntrefinfo{Torres-Sospedra et al.}{TORRES-SOSPEDRA et al.}{2014}
-{TORRES-SOSPEDRA, J. et al. Ujiindoorloc: A new multi-building and multi-floor
-  database for wlan fingerprint-based indoor localization problems. In:
-  \emph{Indoor Positioning and Indoor Navigation (IPIN), 2014 International
-  Conference on}. [S.l.: s.n.], 2014. p. 261--270.}
+Dispon{\'\i}vel em: $<$http://dx.doi.org/10.1007/s13721-013-0034-x$>$.}
 
 \end{thebibliography}
