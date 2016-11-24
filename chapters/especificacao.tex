@@ -57,7 +57,7 @@ No primeiro caso de uso do sistema net.map, temos um usuário desejando mapear u
 \multicolumn{2}{|l|}{\textbf{Zona 2}} & \multicolumn{3}{l|}{Exposição sobre Dom Pedro I}          \\ \hline
 \multicolumn{2}{|l|}{\textbf{Zona 3}} & \multicolumn{3}{l|}{Sala do quadro \textit{Independência ou Morte}}          \\ \hline
 \multicolumn{2}{|l|}{\textbf{Zona 4}} & \multicolumn{3}{l|}{Exposição sobre maquinário agrícola do séc. XIX}          \\ \hline
-\multicolumn{5}{|c|}{...}                                                    \\ \hline
+\multicolumn{5}{|c|}{\ldots}                                                    \\ \hline
 \multicolumn{2}{|l|}{\textbf{Zona n}} & \multicolumn{3}{l|}{Exposição x}     \\ \hline
 \end{tabular}
 \end{table}
@@ -66,9 +66,15 @@ As zonas idealmente são melhores definidas como salas separadas por divisões f
 \par
 Após demarcar as zonas, é necessário configurar alguns parâmetros no aplicativo: número de aquisições por ponto e método de normalização.
 
-\paragraph*{Número de aquisições por ponto\\}
-Conforme a zona é mapeada, andamos pela zona, escaneando pontos discretos dentro dela. Como a potência do sinal das redes \textit{Wi-fi} é muito flutuante, o ideal é fazer uma média de várias aquisições para normalizar o valor lido naquele ponto.
-\paragraph*{Método de normalização\\}
+\paragraph{Número de aquisições por ponto\\}
+Para mapear uma zona, andamos por ela com o aplicativo de celular aberto, escaneando pontos discretos dentro dela. Como a potência do sinal das redes \textit{Wi-fi} é muito flutuante, o ideal é fazer uma média de várias aquisições para normalizar o valor lido naquele ponto. Isso é feito automaticamente pelo aplicativo.
 
+\paragraph{Método de normalização\\}
+Conforme explicado no parágrafo acima, é necessário normalizar os dados adquiridos devido à flutuação da potência de sinal. Esses dados podem ser normalizados através de uma média aritmética simples ou através de um método matemático chamado \textbf{Filtro de Kalman}. Este último será detalhado mais a frente. Um comparativo dos dois existe no capítulo 6.
+\par
+
+Terminando a configuração, é necessário percorrer a zona desejada, fazendo aquisições em pontos discretos dentro da zona. Idealmente, quantos mais pontos são capturados, melhor é a precisão da resposta final do sistema.
 
 \subsection{Localização}
+O modo de localização de usuário interage com a API instalada no servidor em nuvem, podendo assim ser implementado em qualquer dispositivo capaz de receber sinais \textit{Wi-Fi}. Utilizando uma aplicação que se comunica com a API, o usuário recebe a localização do servidor a cada novo escaneamento que é feito pela aplicação.
+
