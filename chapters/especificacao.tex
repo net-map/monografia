@@ -20,7 +20,7 @@ O diagrama a seguir ilustra bem a arquitetura básica do sistema:
 \subsection{Requisitos Funcionais}
 
 \subsubsection{Aplicativo}
-- Enviar dados sobre a intensidade dos sinais de \textit{Wi-fi} ao servidor. \par
+- Enviar dados sobre a intensidade dos sinais de \textit{Wi-Fi} ao servidor. \par
 - Retornar a posição do usuário baseado nos dados enviados.\par
 - O usuário deve inserir seu usuário e senha para poder usar o serviço.
 \subsubsection{Servidor}
@@ -77,4 +77,16 @@ Terminando a configuração, é necessário percorrer a zona desejada, fazendo a
 
 \subsection{Localização}
 O modo de localização de usuário interage com a API instalada no servidor em nuvem, podendo assim ser implementado em qualquer dispositivo capaz de receber sinais \textit{Wi-Fi}. Utilizando uma aplicação que se comunica com a API, o usuário recebe a localização do servidor a cada novo escaneamento que é feito pela aplicação.
+
+\section{Modelo de classes}
+Como neste projeto utilizamos o MongoDB (banco de dados não-relacional orientado a documentos JSON), o conceito de entidade-relacionamento existente em bancos de dados SQL não faz muito sentido.
+\par
+Uma boa maneira de representar quais dados persistentes fazem parte do projeto é gerar um diagrama de classes da API no servidor:
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama das classes na API}
+  \includegraphics[width=0.8\textwidth]{classDiagram}
+\label{fig:diagramaClasse}
+\end{figure}
+
 

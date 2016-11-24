@@ -24,6 +24,7 @@
 \contentsline {paragraph}{N\IeC {\'u}mero de aquisi\IeC {\c c}\IeC {\~o}es por ponto\\}{19}
 \contentsline {paragraph}{M\IeC {\'e}todo de normaliza\IeC {\c c}\IeC {\~a}o\\}{19}
 \contentsline {subsection}{\numberline {3.3.2}Localiza\IeC {\c c}\IeC {\~a}o}{20}
+\contentsline {section}{\numberline {3.4}Modelo de classes}{20}
 \contentsline {chapter}{\numberline {4}Metodologia}{21}
 \contentsline {section}{\numberline {4.1}Gerenciamento de tarefas}{21}
 \contentsline {section}{\numberline {4.2}Gerenciamento de c\IeC {\'o}digo}{21}
