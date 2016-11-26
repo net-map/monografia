@@ -49,3 +49,4 @@
 \contentsline {chapter}{\numberline {7}Testes e Avalia\IeC {\c c}\IeC {\~a}o de Resultados}{36}
 \contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{37}
 \contentsline {chapter}{Refer\IeC {\^e}ncias}{38}
+\contentsline {chapter}{Ap\IeC {\^e}ndice{} A}{39}

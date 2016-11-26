@@ -1,26 +1,24 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.28)  26 NOV 2016 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  26 NOV 2016 21:25
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**monografia.tex
-(./monografia.tex
-LaTeX2e <2016/03/31> patch level 2
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(./politex.cls
+**./monografia.tex
+(monografia.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(politex.cls
 Document Class: politex 2013/12/29 POLI-USP LaTeX Class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -257,7 +255,7 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -298,7 +296,7 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -322,10 +320,10 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count79
 \calc@Bcount=\count80
@@ -338,7 +336,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count81
 \calc@Cskip=\skip43
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \c@tracingmulticols=\count82
 \mult@box=\box26
@@ -387,9 +385,9 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \colbreak@box=\box51
 \mc@col@check@num=\count90
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/report.cls
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count91
@@ -405,21 +403,21 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip47
 \bibindent=\dimen113
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count100
@@ -434,8 +432,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen120
 \Gm@layoutvoffset=\dimen121
 \Gm@dimlist=\toks17
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip48
 \f@ncyO@elh=\skip49
 \f@ncyO@erh=\skip50
@@ -446,7 +446,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \f@ncyO@olf=\skip55
 \f@ncyO@orf=\skip56
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 *geometry* verbose mode - [ newgeometry ] result:
@@ -487,27 +487,27 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 \ABNTsignthickness=\skip60
 \ABNTsignskip=\skip61
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/indentfirst.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/06/28 v2.15d AMS math features
 \@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen122
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen123
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count103
@@ -548,7 +548,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks23
 \thm@bodyfont=\toks24
@@ -560,37 +560,37 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip67
 \dth@everypar=\toks28
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count115
@@ -598,16 +598,16 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen131
 \Gin@req@width=\dimen132
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/cite/cite.sty
+(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks29
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/blkarray/blkarray.sty
+(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\latex\blkarray\blkarray.sty
 Package: blkarray 2015/02/27 v0.07 Block array (dpc)
 \c@BAenumi=\count116
 \BA@col=\count117
@@ -624,7 +624,7 @@ Package: blkarray 2015/02/27 v0.07 Block array (dpc)
 \BA@dashbox=\box56
 \BA@ddashbox=\box57
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count119
 \float@exts=\toks31
@@ -632,25 +632,32 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks32
 \@floatcapt=\box59
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/pifont.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upzd.fd
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upsy.fd
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/04/23 3.9r The Babel package
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-portuges\portuges.ld
+f
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+ ("D:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count120
 \U@D=\dimen139
@@ -658,11 +665,11 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\latex\abntex2\abntex2cite.sty
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\latex\abntex2\abntex2abrev.sty)
+(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -671,16 +678,15 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@ABCIaux=\count121
 \c@ABCImax=\count122
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
+("D:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
 )
 \biblabelsep=\skip70
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 LaTeX Info: Redefining \citeonline on input line 677.
 \ABCItoken=\toks33
-)
-(./monografia.aux)
+) (monografia.aux)
 \openout1 = `monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -695,7 +701,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -730,7 +735,7 @@ LaTeX Font Info:    ... okay on input line 78.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(C:\Users\adria\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
 \scratchdimen=\dimen140
@@ -743,11 +748,11 @@ LaTeX Font Info:    ... okay on input line 78.
 \MPnumerator=\count127
 \makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks35
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) ("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -756,22 +761,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -784,26 +789,21 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-[1
+) [1
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/Users/adria/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 81.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -847,32 +847,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-(./chapters/resumo.tex [3
+(chapters/resumo.tex [3
 
 ] [4
 
-]) (./chapters/abstract.tex [5
+]) (chapters/abstract.tex [5
 
-]) (./monografia.lof)
+]) (monografia.lof)
 \tf@lof=\write3
 \openout3 = `monografia.lof'.
 
- [6
 
-] (./monografia.lot)
+[6
+
+] (monografia.lot)
 \tf@lot=\write4
 \openout4 = `monografia.lot'.
 
  [7
 
-] (./monografia.toc [8
+] (monografia.toc [8
 
 ] [9])
 \tf@toc=\write5
 \openout5 = `monografia.toc'.
 
- [10]
-(./chapters/intro.tex
+ [10] (chapters/intro.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
@@ -885,7 +885,7 @@ less on input line 43.
 [11
 
 
-] [12]) (./chapters/fundconceituais.tex [13]
+] [12]) (chapters/fundconceituais.tex [13]
 Cap\'{\i }tulo 2.
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
@@ -897,35 +897,34 @@ less on input line 22.
 
 [14
 
-] <imagens/knn1.png, id=59, 624.3325pt x 269.005pt>
+] <imagens/knn1.png, id=58, 624.3325pt x 269.005pt>
 File: imagens/knn1.png Graphic file (type png)
  <use imagens/knn1.png>
 Package pdftex.def Info: imagens/knn1.png used on input line 26.
 (pdftex.def)             Requested size: 409.71692pt x 176.5382pt.
 
-<imagens/tree1.png, id=60, 361.35pt x 341.275pt>
+<imagens/tree1.png, id=59, 361.35pt x 341.275pt>
 File: imagens/tree1.png Graphic file (type png)
  <use imagens/tree1.png>
 Package pdftex.def Info: imagens/tree1.png used on input line 41.
 (pdftex.def)             Requested size: 409.71692pt x 386.95894pt.
 
-[15 <./imagens/knn1.png>] <imagens/svm1.png, id=65, 325.9377pt x 245.718pt>
+[15 <./imagens/knn1.png>] <imagens/svm1.png, id=64, 325.9377pt x 245.718pt>
 File: imagens/svm1.png Graphic file (type png)
 
 <use imagens/svm1.png>
 Package pdftex.def Info: imagens/svm1.png used on input line 57.
 (pdftex.def)             Requested size: 409.71692pt x 308.90518pt.
- <imagens/svm2.png, id=67, 578.16pt x 435.7881pt>
+ <imagens/svm2.png, id=66, 578.16pt x 435.7881pt>
 File: imagens/svm2.png Graphic file (type png)
 
 <use imagens/svm2.png>
 Package pdftex.def Info: imagens/svm2.png used on input line 69.
 (pdftex.def)             Requested size: 409.71692pt x 308.81989pt.
- [16 <./imagens/tree1.png>])
-(./chapters/especificacao.tex [17 <./imagens/svm1.png>] [18 <./imagens/svm2.png
->]
+ [16 <./imagens/tree1.png>]) (chapters/especificacao.tex
+[17 <./imagens/svm1.png>] [18 <./imagens/svm2.png>]
 Cap\'{\i }tulo 3.
-<imagens/diagramaArquitetura.png, id=81, 695.59875pt x 461.725pt>
+<imagens/diagramaArquitetura.png, id=80, 695.59875pt x 461.725pt>
 File: imagens/diagramaArquitetura.png Graphic file (type png)
 
 <use imagens/diagramaArquitetura.png>
@@ -940,15 +939,15 @@ less on input line 24.
 [19
 
  <./imagens/diagramaArquitetura.png>] [20] [21]
-<imagens/classDiagram.png, id=92, 532.99126pt x 364.36125pt>
+<imagens/classDiagram.png, id=91, 532.99126pt x 364.36125pt>
 File: imagens/classDiagram.png Graphic file (type png)
 
 <use imagens/classDiagram.png>
 Package pdftex.def Info: imagens/classDiagram.png used on input line 89.
 (pdftex.def)             Requested size: 364.19667pt x 248.97993pt.
-) (./chapters/metodologia.tex [22 <./imagens/classDiagram.png>]
+) (chapters/metodologia.tex [22 <./imagens/classDiagram.png>]
 Cap\'{\i }tulo 4.
-) (./chapters/projeto.tex
+) (chapters/projeto.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
@@ -964,7 +963,7 @@ less on input line 26.
 [24
 
 ]
-<imagens/euclidianManhattanknn21zonas.png, id=108, 596.2275pt x 486.31688pt>
+<imagens/euclidianManhattanknn21zonas.png, id=107, 596.2275pt x 486.31688pt>
 File: imagens/euclidianManhattanknn21zonas.png Graphic file (type png)
 
 <use imagens/euclidianManhattanknn21zonas.png>
@@ -972,7 +971,7 @@ Package pdftex.def Info: imagens/euclidianManhattanknn21zonas.png used on input
  line 56.
 (pdftex.def)             Requested size: 409.71692pt x 334.1862pt.
  [25]
-<imagens/CrossValKNN25zonasvalorK.png, id=114, 530.98375pt x 484.81125pt>
+<imagens/CrossValKNN25zonasvalorK.png, id=113, 530.98375pt x 484.81125pt>
 File: imagens/CrossValKNN25zonasvalorK.png Graphic file (type png)
 
 <use imagens/CrossValKNN25zonasvalorK.png>
@@ -980,7 +979,7 @@ Package pdftex.def Info: imagens/CrossValKNN25zonasvalorK.png used on input lin
 e 67.
 (pdftex.def)             Requested size: 409.71692pt x 374.09735pt.
  [26 <./imagens/euclidianManhattanknn21zonas.png (PNG copy)>]
-<imagens/CROSSVALE4ZonasNNCERTO.png, id=118, 596.98032pt x 460.72125pt>
+<imagens/CROSSVALE4ZonasNNCERTO.png, id=117, 596.98032pt x 460.72125pt>
 File: imagens/CROSSVALE4ZonasNNCERTO.png Graphic file (type png)
 
 <use imagens/CROSSVALE4ZonasNNCERTO.png>
@@ -988,7 +987,7 @@ Package pdftex.def Info: imagens/CROSSVALE4ZonasNNCERTO.png used on input line
 89.
 (pdftex.def)             Requested size: 409.71692pt x 316.20377pt.
  [27 <./imagens/CrossValKNN25zonasvalorK.png>]
-<imagens/J48Validacaopredio1andar0.jpeg, id=123, 1957.3125pt x 1806.75pt>
+<imagens/J48Validacaopredio1andar0.jpeg, id=122, 1957.3125pt x 1806.75pt>
 File: imagens/J48Validacaopredio1andar0.jpeg Graphic file (type jpg)
 
 <use imagens/J48Validacaopredio1andar0.jpeg>
@@ -1001,7 +1000,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
  []
 
 [29 <./imagens/J48Validacaopredio1andar0.jpeg>]
-<imagens/J48xADAValidacaopredio1andar0.jpeg, id=131, 2007.5pt x 1706.375pt>
+<imagens/J48xADAValidacaopredio1andar0.jpeg, id=130, 2007.5pt x 1706.375pt>
 File: imagens/J48xADAValidacaopredio1andar0.jpeg Graphic file (type jpg)
 
 <use imagens/J48xADAValidacaopredio1andar0.jpeg>
@@ -1009,28 +1008,28 @@ Package pdftex.def Info: imagens/J48xADAValidacaopredio1andar0.jpeg used on inp
 ut line 123.
 (pdftex.def)             Requested size: 409.71692pt x 348.24692pt.
 
-<imagens/errorporzonaSMO.jpeg, id=132, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaSMO.jpeg, id=131, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaSMO.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaSMO.jpeg>
 Package pdftex.def Info: imagens/errorporzonaSMO.jpeg used on input line 141.
 (pdftex.def)             Requested size: 364.19667pt x 309.55571pt.
 
-<imagens/errorporzonaNN.jpeg, id=133, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaNN.jpeg, id=132, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaNN.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaNN.jpeg>
 Package pdftex.def Info: imagens/errorporzonaNN.jpeg used on input line 151.
 (pdftex.def)             Requested size: 364.19667pt x 309.55571pt.
 
-<imagens/errorporzonaKNN.jpeg, id=134, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaKNN.jpeg, id=133, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaKNN.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaKNN.jpeg>
 Package pdftex.def Info: imagens/errorporzonaKNN.jpeg used on input line 160.
 (pdftex.def)             Requested size: 364.19667pt x 309.55571pt.
 
-<imagens/errorporzonaJ48+Ada.jpeg, id=135, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaJ48+Ada.jpeg, id=134, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaJ48+Ada.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaJ48+Ada.jpeg>
@@ -1040,23 +1039,19 @@ Package pdftex.def Info: imagens/errorporzonaJ48+Ada.jpeg used on input line 17
  [30 <./imagens/J48xADAValidacaopredio1andar0.jpeg>] [31 <./imagens/errorporzon
 aSMO.jpeg> <./imagens/errorporzonaNN.jpeg>] [32 <./imagens/errorporzonaKNN.jpeg
 > <./imagens/errorporzonaJ48+Ada.jpeg>]
-<imagens/errorporzonaVotos.jpeg, id=145, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaVotos.jpeg, id=144, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaVotos.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaVotos.jpeg>
 Package pdftex.def Info: imagens/errorporzonaVotos.jpeg used on input line 195.
 
 (pdftex.def)             Requested size: 409.71692pt x 348.24692pt.
-) (./chapters/implementacoes.tex [33
+) (chapters/implementacoes.tex [33
 
 ]
 [34 <./imagens/errorporzonaVotos.jpeg>]
 Cap\'{\i }tulo 6.
-
-LaTeX Warning: Reference `anexo:telasApscanner' on page 35 undefined on input l
-ine 9.
-
-) (./chapters/testes.tex
+) (chapters/testes.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
@@ -1065,7 +1060,7 @@ less on input line 1.
 
 ]
 Cap\'{\i }tulo 7.
-) (./chapters/consideracoes.tex
+) (chapters/consideracoes.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
@@ -1074,54 +1069,58 @@ less on input line 1.
 
 ]
 Cap\'{\i }tulo 8.
-) (./monografia.bbl
+) (monografia.bbl
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 3.
 
 [37
 
-])
+]) (attachments/telasApscanner.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 185.
+less on input line 1.
 
 [38
 
 
-] (./monografia.aux)
+]
+Apendice A.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 185.
+
+[39
+
+] (monografia.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 5384 strings out of 493013
- 72394 string characters out of 6133343
- 156144 words of memory out of 5000000
- 8732 multiletter control sequences out of 15000+600000
- 13445 words of font info for 51 fonts, out of 8000000 for 9000
+ 5396 strings out of 493333
+ 72099 string characters out of 3139193
+ 156062 words of memory out of 3000000
+ 8723 multiletter control sequences out of 15000+200000
+ 13739 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,14n,45p,1412b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on monografia.pdf (40 pages, 1871269 bytes).
+ 40i,14n,45p,1414b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmss10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmss12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx1
+0.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><
+D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files/
+MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on monografia.pdf (41 pages, 2017152 bytes).
 PDF statistics:
  210 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
