@@ -29,6 +29,7 @@
 \contentsline {chapter}{\numberline {4}Metodologia}{23}
 \contentsline {section}{\numberline {4.1}Gerenciamento de tarefas}{23}
 \contentsline {section}{\numberline {4.2}Gerenciamento de c\IeC {\'o}digo}{23}
+\contentsline {section}{\numberline {4.3}Pesquisa}{23}
 \contentsline {chapter}{\numberline {5}Projeto e Implementa\IeC {\c c}\IeC {\~a}o}{24}
 \contentsline {section}{\numberline {5.1}Machine Learning}{24}
 \contentsline {subsection}{\numberline {5.1.1}Tratamento dos dados}{24}
