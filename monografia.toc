@@ -1,45 +1,50 @@
 \select@language {brazil}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{10}
-\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{10}
-\contentsline {section}{\numberline {1.2}Objetivo}{11}
-\contentsline {section}{\numberline {1.3}Justificativa}{11}
-\contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o}{12}
-\contentsline {chapter}{\numberline {2}Aspectos Conceituais}{13}
-\contentsline {section}{\numberline {2.1}\textit {Bias} vs. Vari\IeC {\^a}ncia: Um \textit {tradeoff} }{13}
-\contentsline {section}{\numberline {2.2}Algoritmos de Machine Learning}{14}
-\contentsline {subsection}{\numberline {2.2.1}KNN}{14}
-\contentsline {subsection}{\numberline {2.2.2}\IeC {\'A}rvore de Decis\IeC {\~a}o}{14}
-\contentsline {subsection}{\numberline {2.2.3}Support Vector Machines}{15}
-\contentsline {section}{\numberline {2.3}Aplica\IeC {\c c}\IeC {\~a}o na Pr\IeC {\'a}tica}{16}
-\contentsline {chapter}{\numberline {3}Especifica\IeC {\c c}\IeC {\~a}o}{18}
-\contentsline {section}{\numberline {3.1}Arquitetura}{18}
-\contentsline {section}{\numberline {3.2}Requisitos}{19}
-\contentsline {subsection}{\numberline {3.2.1}Requisitos Funcionais}{19}
-\contentsline {subsubsection}{\numberline {3.2.1.1}Aplicativo}{19}
-\contentsline {subsubsection}{\numberline {3.2.1.2}Servidor}{19}
-\contentsline {subsection}{\numberline {3.2.2}Requisitos N\IeC {\~a}o-Funcionais}{19}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Aplicativo}{19}
-\contentsline {subsubsection}{\numberline {3.2.2.2}Servidor}{19}
-\contentsline {section}{\numberline {3.3}Casos de Uso}{20}
-\contentsline {subsection}{\numberline {3.3.1}Captura e Treinamento}{20}
-\contentsline {paragraph}{N\IeC {\'u}mero de aquisi\IeC {\c c}\IeC {\~o}es por ponto\\}{20}
-\contentsline {paragraph}{M\IeC {\'e}todo de normaliza\IeC {\c c}\IeC {\~a}o\\}{20}
-\contentsline {subsection}{\numberline {3.3.2}Localiza\IeC {\c c}\IeC {\~a}o}{21}
-\contentsline {section}{\numberline {3.4}Modelo de classes}{21}
-\contentsline {chapter}{\numberline {4}Metodologia}{22}
-\contentsline {section}{\numberline {4.1}Gerenciamento de tarefas}{22}
-\contentsline {section}{\numberline {4.2}Gerenciamento de c\IeC {\'o}digo}{22}
-\contentsline {chapter}{\numberline {5}Projeto e Implementa\IeC {\c c}\IeC {\~a}o}{23}
-\contentsline {section}{\numberline {5.1}Machine Learning}{23}
-\contentsline {subsection}{\numberline {5.1.1}Tratamento dos dados}{23}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Dados obtidos do Reposit\IeC {\'o}rio UCI}{23}
-\contentsline {subsubsection}{\numberline {5.1.1.2}Dados do Servidor}{23}
-\contentsline {subsection}{\numberline {5.1.2}Formato dos dados tratados}{24}
-\contentsline {subsection}{\numberline {5.1.3}Modelos Usados e \textit {Cross-Validation} de par\IeC {\^a}metros }{24}
-\contentsline {subsubsection}{\numberline {5.1.3.1}KNN : K-Nearest-Neighbors }{24}
-\contentsline {subsubsection}{\numberline {5.1.3.2}Rede Neural}{26}
-\contentsline {subsubsection}{\numberline {5.1.3.3}Arvore de decis\IeC {\~a}o}{27}
-\contentsline {subsubsection}{\numberline {5.1.3.4}Compara\IeC {\c c}\IeC {\~a}o dos Modelos Usados}{29}
-\contentsline {subsection}{\numberline {5.1.4}M\IeC {\'e}todos de Vota\IeC {\c c}\IeC {\~a}o}{32}
-\contentsline {subsection}{\numberline {5.1.5}Testes com os M\IeC {\'e}todos de Vota\IeC {\c c}\IeC {\~a}o}{32}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{34}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{11}
+\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{11}
+\contentsline {section}{\numberline {1.2}Objetivo}{12}
+\contentsline {section}{\numberline {1.3}Justificativa}{12}
+\contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o}{13}
+\contentsline {chapter}{\numberline {2}Aspectos Conceituais}{14}
+\contentsline {section}{\numberline {2.1}\textit {Bias} vs. Vari\IeC {\^a}ncia: Um \textit {tradeoff} }{14}
+\contentsline {section}{\numberline {2.2}Algoritmos de Machine Learning}{15}
+\contentsline {subsection}{\numberline {2.2.1}KNN}{15}
+\contentsline {subsection}{\numberline {2.2.2}\IeC {\'A}rvore de Decis\IeC {\~a}o}{15}
+\contentsline {subsection}{\numberline {2.2.3}Support Vector Machines}{16}
+\contentsline {section}{\numberline {2.3}Aplica\IeC {\c c}\IeC {\~a}o na Pr\IeC {\'a}tica}{17}
+\contentsline {chapter}{\numberline {3}Especifica\IeC {\c c}\IeC {\~a}o}{19}
+\contentsline {section}{\numberline {3.1}Arquitetura}{19}
+\contentsline {section}{\numberline {3.2}Requisitos}{20}
+\contentsline {subsection}{\numberline {3.2.1}Requisitos Funcionais}{20}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Aplicativo}{20}
+\contentsline {subsubsection}{\numberline {3.2.1.2}Servidor}{20}
+\contentsline {subsection}{\numberline {3.2.2}Requisitos N\IeC {\~a}o-Funcionais}{20}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Aplicativo}{20}
+\contentsline {subsubsection}{\numberline {3.2.2.2}Servidor}{20}
+\contentsline {section}{\numberline {3.3}Casos de Uso}{21}
+\contentsline {subsection}{\numberline {3.3.1}Captura e Treinamento}{21}
+\contentsline {paragraph}{N\IeC {\'u}mero de aquisi\IeC {\c c}\IeC {\~o}es por ponto\\}{21}
+\contentsline {paragraph}{M\IeC {\'e}todo de normaliza\IeC {\c c}\IeC {\~a}o\\}{21}
+\contentsline {subsection}{\numberline {3.3.2}Localiza\IeC {\c c}\IeC {\~a}o}{22}
+\contentsline {section}{\numberline {3.4}Modelo de classes}{22}
+\contentsline {chapter}{\numberline {4}Metodologia}{23}
+\contentsline {section}{\numberline {4.1}Gerenciamento de tarefas}{23}
+\contentsline {section}{\numberline {4.2}Gerenciamento de c\IeC {\'o}digo}{23}
+\contentsline {chapter}{\numberline {5}Projeto e Implementa\IeC {\c c}\IeC {\~a}o}{24}
+\contentsline {section}{\numberline {5.1}Machine Learning}{24}
+\contentsline {subsection}{\numberline {5.1.1}Tratamento dos dados}{24}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Dados obtidos do Reposit\IeC {\'o}rio UCI}{24}
+\contentsline {subsubsection}{\numberline {5.1.1.2}Dados do Servidor}{24}
+\contentsline {subsection}{\numberline {5.1.2}Formato dos dados tratados}{25}
+\contentsline {subsection}{\numberline {5.1.3}Modelos Usados e \textit {Cross-Validation} de par\IeC {\^a}metros }{25}
+\contentsline {subsubsection}{\numberline {5.1.3.1}KNN : K-Nearest-Neighbors }{25}
+\contentsline {subsubsection}{\numberline {5.1.3.2}Rede Neural}{27}
+\contentsline {subsubsection}{\numberline {5.1.3.3}Arvore de decis\IeC {\~a}o}{28}
+\contentsline {subsubsection}{\numberline {5.1.3.4}Compara\IeC {\c c}\IeC {\~a}o dos Modelos Usados}{30}
+\contentsline {subsection}{\numberline {5.1.4}M\IeC {\'e}todos de Vota\IeC {\c c}\IeC {\~a}o}{33}
+\contentsline {subsection}{\numberline {5.1.5}Testes com os M\IeC {\'e}todos de Vota\IeC {\c c}\IeC {\~a}o}{33}
+\contentsline {chapter}{\numberline {6}Implementa\IeC {\c c}\IeC {\~o}es do net.map}{35}
+\contentsline {section}{\numberline {6.1}APScanner}{35}
+\contentsline {section}{\numberline {6.2}EletricaGO}{35}
+\contentsline {chapter}{\numberline {7}Testes e Avalia\IeC {\c c}\IeC {\~a}o de Resultados}{36}
+\contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{37}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{38}
