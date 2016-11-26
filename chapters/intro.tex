@@ -23,8 +23,24 @@ Respondendo a essa necessidade, surgiram alternativas para o posicionamento em
 ambientes fechado, tais como o emprego de \textit{tags RFID} (\textit{Radio Frequency Identification}) e do \textit{Bluetooth}. Tendo em vista este
 cenário e as condições tecnológicas atuais, este projeto procura apresentar uma
 solução alternativa para localização de pessoas em ambientes fechados, como shoppings e
-eventos em galpões, sem ter que investir altos valores em infraestrutura. Para tal, será utilizada a tecnologia \textit{Wi-fi} combinada a técnicas de \textit{machine learning}.
+eventos em galpões, sem ter que investir altos valores em infraestrutura. Para tal, será utilizada a tecnologia \textit{Wi-Fi} combinada a técnicas de \textit{Machine Learning}.
 \par
+A seguir podemos ver uma tabela comparando os três métodos de localização citados no parágrafo acima:
+
+\begin{table}[!htb]
+\centering
+\caption{Comparativo entre diferentes métodos de localização}
+\label{comparativoLocaliz}
+\begin{tabular}{c|c|c|c|}
+\cline{2-4}
+                                                                                                           & \textbf{GPS}                                                               & \textbf{\begin{tabular}[c]{@{}c@{}}Triangulação\\ por Bluetooth\end{tabular}}                                                 & \textbf{\begin{tabular}[c]{@{}c@{}}Wi-Fi e\\ Machine Learning\end{tabular}}                                                                          \\ \hline
+\multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Localização em\\ ambientes fechados\end{tabular}}} & \xmark                                                                     & \cmark                                                                                                                        & \cmark                                                                                                                                               \\ \hline
+\multicolumn{1}{|c|}{\textbf{Precisão}}                                                                    & \begin{tabular}[c]{@{}c@{}}Boa\\ (Quando o sinal\\ é estável)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Boa $\sim$ Média\\ (Depende de como\\ foi instalado)\end{tabular}                                  & \begin{tabular}[c]{@{}c@{}}Boa $\sim$ Média\\ (Depende da quantidade\\ de Access Points e\\ medidas no ambiente)\end{tabular}                        \\ \hline
+\multicolumn{1}{|c|}{\textbf{Custo}}                                                                       & Uso gratuito                                                               & \begin{tabular}[c]{@{}c@{}}É necessário\\ adquirir, instalar\\ e arcar com a\\ manutenção de\\ Beacons Bluetooth\end{tabular} & \begin{tabular}[c]{@{}c@{}}Custo somente no\\ acesso aos servidores.\\ Leva em consideração\\ que o ambiente já\\ possui Access Points.\end{tabular} \\ \hline
+\multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Gasto de bateria\\ para o usuário\end{tabular}}}   & Alto                                                                       & Médio                                                                                                                         & Baixo                                                                                                                                                \\ \hline
+\end{tabular}
+\end{table}
+
 Esta abordagem se mostra interessante ao ponto de que sua implementação não
 necessita de configurações particulares nas redes ao redor, uma vez que se baseia
 em leituras feitas pelo aparelho móvel e no processamento dos dados feitos em um
@@ -36,7 +52,7 @@ O objetivo deste projeto é desenvolver um conjunto de ferramentas que possibili
 o mapeamento e a identificação de áreas dentro de ambientes fechados. Estas
 ferramentas serão utilizadas em dispositivos móveis, possibilitando que os
 usuários possam se localizar em locais fechados. Para chegar a esse objetivo, um
-sistema de Machine Learning utilizará os valores das potências das redes Wi-Fi
+sistema de Machine Learning utilizará os valores das potências das redes \textit{Wi-Fi}
 presentes nos arredores para aprender a mapear diversas zonas no ambiente.
 
 \section{Justificativa}\label{sec:justify}
@@ -44,4 +60,4 @@ Levando em conta a falta de alternativas práticas para sistemas de posicionamen
 
 \section{Organização}\label{sec:organization}
 
-O restante do documento tem a seguinte estrutura: Na sessão 2 temos uma breve explicação de alguns conceitos fundamentais para o desenvolvimento do trabalho, e uma breve explicação de cada um dos modelos de \textit{machine learning} usados. Na sessão 3 é detalhada a especificação do projeto. Na sessão 5 é documentado todo o estudo com o \textit{machine learning} e seus respectivos resultados. São apresentados gráficos e justificativas para todo o tratamento e treinamento dos dados.
+O restante do documento tem a seguinte estrutura: Na sessão 2 temos uma breve explicação de alguns conceitos fundamentais para o desenvolvimento do trabalho, e uma breve explicação de cada um dos modelos de \textit{Machine Learning} usados. Na sessão 3 é detalhada a especificação do projeto. Na sessão 5 é documentado todo o estudo com o \textit{Machine Learning} e seus respectivos resultados. São apresentados gráficos e justificativas para todo o tratamento e treinamento dos dados.
