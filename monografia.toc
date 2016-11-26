@@ -10,6 +10,7 @@
 \contentsline {subsection}{\numberline {2.2.1}KNN}{13}
 \contentsline {subsection}{\numberline {2.2.2}\IeC {\'A}rvore de Decis\IeC {\~a}o}{13}
 \contentsline {subsection}{\numberline {2.2.3}Support Vector Machines}{14}
+\contentsline {section}{\numberline {2.3}Aplica\IeC {\c c}\IeC {\~a}o na Pr\IeC {\'a}tica}{15}
 \contentsline {chapter}{\numberline {3}Especifica\IeC {\c c}\IeC {\~a}o}{17}
 \contentsline {section}{\numberline {3.1}Arquitetura}{17}
 \contentsline {section}{\numberline {3.2}Requisitos}{18}
@@ -19,8 +20,8 @@
 \contentsline {subsection}{\numberline {3.2.2}Requisitos N\IeC {\~a}o-Funcionais}{18}
 \contentsline {subsubsection}{\numberline {3.2.2.1}Aplicativo}{18}
 \contentsline {subsubsection}{\numberline {3.2.2.2}Servidor}{18}
-\contentsline {section}{\numberline {3.3}Casos de Uso}{18}
-\contentsline {subsection}{\numberline {3.3.1}Captura e Treinamento}{18}
+\contentsline {section}{\numberline {3.3}Casos de Uso}{19}
+\contentsline {subsection}{\numberline {3.3.1}Captura e Treinamento}{19}
 \contentsline {paragraph}{N\IeC {\'u}mero de aquisi\IeC {\c c}\IeC {\~o}es por ponto\\}{19}
 \contentsline {paragraph}{M\IeC {\'e}todo de normaliza\IeC {\c c}\IeC {\~a}o\\}{19}
 \contentsline {subsection}{\numberline {3.3.2}Localiza\IeC {\c c}\IeC {\~a}o}{20}
