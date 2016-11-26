@@ -809,7 +809,7 @@
 \let\sumario\tableofcontents\relax
 
 %% Contents shows up to subsubsection.
-\setcounter{tocdepth}{4}
+\setcounter{tocdepth}{3}
 
 %% Section number will appear up to \subsubsection
 \setcounter{secnumdepth}{3}
