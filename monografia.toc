@@ -46,8 +46,8 @@
 \contentsline {chapter}{\numberline {6}Aplica\IeC {\c c}\IeC {\~o}es do net.map}{35}
 \contentsline {section}{\numberline {6.1}APScanner}{35}
 \contentsline {section}{\numberline {6.2}EletricaGO}{35}
-\contentsline {chapter}{\numberline {7}Testes e Avalia\IeC {\c c}\IeC {\~a}o de Resultados}{37}
-\contentsline {section}{\numberline {7.1}Testes Realizados}{37}
+\contentsline {chapter}{\numberline {7}Testes \textit {in loco} e Avalia\IeC {\c c}\IeC {\~a}o de Resultados}{37}
+\contentsline {section}{\numberline {7.1}Testes \textit {in loco}}{37}
 \contentsline {section}{\numberline {7.2}Objetivos e Resultados}{37}
 \contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{39}
 \contentsline {chapter}{Refer\IeC {\^e}ncias}{40}
