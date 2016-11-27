@@ -51,5 +51,5 @@
 \contentsline {section}{\numberline {7.2}Objetivos e Resultados}{37}
 \contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{39}
 \contentsline {chapter}{Refer\IeC {\^e}ncias}{40}
-\contentsline {chapter}{Ap\IeC {\^e}ndice{} A}{41}
+\contentsline {chapter}{Anexo{} A}{41}
 \contentsline {section}{\numberline {A.1}Telas do aplicativo APScanner}{41}
