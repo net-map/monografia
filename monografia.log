@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  27 NOV 2016 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  27 NOV 2016 15:47
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -686,7 +686,11 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 LaTeX Info: Redefining \citeonline on input line 677.
 \ABCItoken=\toks33
-) (monografia.aux)
+) (monografia.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+)
 \openout1 = `monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -701,6 +705,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -864,13 +869,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  [7
 
-] (monografia.toc [8
+] (siglas.tex) [8
 
-] [9])
+] (monografia.toc [9
+
+] [10])
 \tf@toc=\write5
 \openout5 = `monografia.toc'.
 
- [10] (chapters/intro.tex
+
+[11] (chapters/intro.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
@@ -880,10 +888,10 @@ Cap\'{\i }tulo 1.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 43.
 
-[11
+[12
 
 
-] [12]) (chapters/fundconceituais.tex [13]
+] [13]) (chapters/fundconceituais.tex [14]
 Cap\'{\i }tulo 2.
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
@@ -893,37 +901,37 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 22.
 
-[14
+[15
 
-] <imagens/knn1.png, id=58, 624.3325pt x 269.005pt>
+] <imagens/knn1.png, id=61, 624.3325pt x 269.005pt>
 File: imagens/knn1.png Graphic file (type png)
  <use imagens/knn1.png>
 Package pdftex.def Info: imagens/knn1.png used on input line 26.
 (pdftex.def)             Requested size: 409.71692pt x 176.5382pt.
 
-<imagens/tree1.png, id=59, 361.35pt x 341.275pt>
+<imagens/tree1.png, id=62, 361.35pt x 341.275pt>
 File: imagens/tree1.png Graphic file (type png)
  <use imagens/tree1.png>
 Package pdftex.def Info: imagens/tree1.png used on input line 41.
 (pdftex.def)             Requested size: 409.71692pt x 386.95894pt.
 
-[15 <./imagens/knn1.png>] <imagens/svm1.png, id=64, 325.9377pt x 245.718pt>
+[16 <./imagens/knn1.png>] <imagens/svm1.png, id=67, 325.9377pt x 245.718pt>
 File: imagens/svm1.png Graphic file (type png)
 
 <use imagens/svm1.png>
 Package pdftex.def Info: imagens/svm1.png used on input line 57.
 (pdftex.def)             Requested size: 364.19667pt x 274.58363pt.
- [16 <./imagens/tree1.png>]
-<imagens/svm2.png, id=70, 578.16pt x 435.7881pt>
+ [17 <./imagens/tree1.png>]
+<imagens/svm2.png, id=74, 578.16pt x 435.7881pt>
 File: imagens/svm2.png Graphic file (type png)
  <use imagens/svm2.png>
 Package pdftex.def Info: imagens/svm2.png used on input line 69.
 (pdftex.def)             Requested size: 364.19667pt x 274.50804pt.
 
-[17 <./imagens/svm1.png>]) (chapters/especificacao.tex [18 <./imagens/svm2.png>
+[18 <./imagens/svm1.png>]) (chapters/especificacao.tex [19 <./imagens/svm2.png>
 ]
 Cap\'{\i }tulo 3.
-<imagens/diagramaArquitetura.png, id=80, 695.59875pt x 461.725pt>
+<imagens/diagramaArquitetura.png, id=83, 695.59875pt x 461.725pt>
 File: imagens/diagramaArquitetura.png Graphic file (type png)
 
 <use imagens/diagramaArquitetura.png>
@@ -935,23 +943,23 @@ Package pdftex.def Info: imagens/diagramaArquitetura.png used on input line 13.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 24.
 
-[19
+[20
 
- <./imagens/diagramaArquitetura.png>] [20] [21]
-<imagens/classDiagram.png, id=91, 532.99126pt x 364.36125pt>
+ <./imagens/diagramaArquitetura.png>] [21] [22]
+<imagens/classDiagram.png, id=94, 532.99126pt x 364.36125pt>
 File: imagens/classDiagram.png Graphic file (type png)
 
 <use imagens/classDiagram.png>
 Package pdftex.def Info: imagens/classDiagram.png used on input line 89.
 (pdftex.def)             Requested size: 364.19667pt x 248.97993pt.
-) (chapters/metodologia.tex [22 <./imagens/classDiagram.png>]
+) (chapters/metodologia.tex [23 <./imagens/classDiagram.png>]
 Cap\'{\i }tulo 4.
 ) (chapters/projeto.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
 
-[23
+[24
 
 ]
 Cap\'{\i }tulo 5.
@@ -959,35 +967,35 @@ Cap\'{\i }tulo 5.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 26.
 
-[24
+[25
 
 ]
-<imagens/euclidianManhattanknn21zonas.png, id=107, 596.2275pt x 486.31688pt>
+<imagens/euclidianManhattanknn21zonas.png, id=110, 596.2275pt x 486.31688pt>
 File: imagens/euclidianManhattanknn21zonas.png Graphic file (type png)
 
 <use imagens/euclidianManhattanknn21zonas.png>
 Package pdftex.def Info: imagens/euclidianManhattanknn21zonas.png used on input
  line 56.
 (pdftex.def)             Requested size: 318.66948pt x 259.92094pt.
- [25]
-<imagens/CrossValKNN25zonasvalorK.png, id=113, 530.98375pt x 484.81125pt>
+ [26]
+<imagens/CrossValKNN25zonasvalorK.png, id=116, 530.98375pt x 484.81125pt>
 File: imagens/CrossValKNN25zonasvalorK.png Graphic file (type png)
 
 <use imagens/CrossValKNN25zonasvalorK.png>
 Package pdftex.def Info: imagens/CrossValKNN25zonasvalorK.png used on input lin
 e 67.
 (pdftex.def)             Requested size: 318.66948pt x 290.96297pt.
- [26 <./imagens/euclidianManhattanknn21zonas.png (PNG copy)> <./imagens/CrossVa
+ [27 <./imagens/euclidianManhattanknn21zonas.png (PNG copy)> <./imagens/CrossVa
 lKNN25zonasvalorK.png>]
-<imagens/CROSSVALE4ZonasNNCERTO.png, id=118, 596.98032pt x 460.72125pt>
+<imagens/CROSSVALE4ZonasNNCERTO.png, id=121, 596.98032pt x 460.72125pt>
 File: imagens/CROSSVALE4ZonasNNCERTO.png Graphic file (type png)
 
 <use imagens/CROSSVALE4ZonasNNCERTO.png>
 Package pdftex.def Info: imagens/CROSSVALE4ZonasNNCERTO.png used on input line 
 89.
 (pdftex.def)             Requested size: 409.71692pt x 316.20377pt.
- [27 <./imagens/CROSSVALE4ZonasNNCERTO.png (PNG copy)>]
-<imagens/J48Validacaopredio1andar0.jpeg, id=122, 1957.3125pt x 1806.75pt>
+ [28 <./imagens/CROSSVALE4ZonasNNCERTO.png (PNG copy)>]
+<imagens/J48Validacaopredio1andar0.jpeg, id=125, 1957.3125pt x 1806.75pt>
 File: imagens/J48Validacaopredio1andar0.jpeg Graphic file (type jpg)
 
 <use imagens/J48Validacaopredio1andar0.jpeg>
@@ -999,96 +1007,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-[28 <./imagens/J48Validacaopredio1andar0.jpeg>]
-<imagens/J48xADAValidacaopredio1andar0.jpeg, id=126, 2007.5pt x 1706.375pt>
+[29 <./imagens/J48Validacaopredio1andar0.jpeg>]
+<imagens/J48xADAValidacaopredio1andar0.jpeg, id=130, 2007.5pt x 1706.375pt>
 File: imagens/J48xADAValidacaopredio1andar0.jpeg Graphic file (type jpg)
 
 <use imagens/J48xADAValidacaopredio1andar0.jpeg>
 Package pdftex.def Info: imagens/J48xADAValidacaopredio1andar0.jpeg used on inp
 ut line 123.
 (pdftex.def)             Requested size: 409.71692pt x 348.24692pt.
- [29 <./imagens/J48xADAValidacaopredio1andar0.jpeg>]
-<imagens/errorporzonaSMO.jpeg, id=131, 2007.5pt x 1706.375pt>
+ [30 <./imagens/J48xADAValidacaopredio1andar0.jpeg>]
+<imagens/errorporzonaSMO.jpeg, id=134, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaSMO.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaSMO.jpeg>
 Package pdftex.def Info: imagens/errorporzonaSMO.jpeg used on input line 141.
 (pdftex.def)             Requested size: 364.19667pt x 309.55571pt.
 
-<imagens/errorporzonaNN.jpeg, id=132, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaNN.jpeg, id=135, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaNN.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaNN.jpeg>
 Package pdftex.def Info: imagens/errorporzonaNN.jpeg used on input line 151.
 (pdftex.def)             Requested size: 364.19667pt x 309.55571pt.
 
-<imagens/errorporzonaKNN.jpeg, id=133, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaKNN.jpeg, id=136, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaKNN.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaKNN.jpeg>
 Package pdftex.def Info: imagens/errorporzonaKNN.jpeg used on input line 160.
 (pdftex.def)             Requested size: 364.19667pt x 309.55571pt.
 
-<imagens/errorporzonaJ48+Ada.jpeg, id=134, 2007.5pt x 1706.375pt>
+<imagens/errorporzonaJ48+Ada.jpeg, id=137, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaJ48+Ada.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaJ48+Ada.jpeg>
 Package pdftex.def Info: imagens/errorporzonaJ48+Ada.jpeg used on input line 17
 0.
 (pdftex.def)             Requested size: 364.19667pt x 309.55571pt.
- [30 <./imagens/errorporzonaSMO.jpeg>]
-[31 <./imagens/errorporzonaNN.jpeg> <./imagens/errorporzonaKNN.jpeg>]
-<imagens/errorporzonaVotos.jpeg, id=141, 2007.5pt x 1706.375pt>
+ [31 <./imagens/errorporzonaSMO.jpeg>]
+[32 <./imagens/errorporzonaNN.jpeg> <./imagens/errorporzonaKNN.jpeg>]
+<imagens/errorporzonaVotos.jpeg, id=144, 2007.5pt x 1706.375pt>
 File: imagens/errorporzonaVotos.jpeg Graphic file (type jpg)
 
 <use imagens/errorporzonaVotos.jpeg>
 Package pdftex.def Info: imagens/errorporzonaVotos.jpeg used on input line 192.
 
 (pdftex.def)             Requested size: 409.71692pt x 348.24692pt.
-) (chapters/implementacoes.tex [32 <./imagens/errorporzonaJ48+Ada.jpeg>] [33 <.
+) (chapters/implementacoes.tex [33 <./imagens/errorporzonaJ48+Ada.jpeg>] [34 <.
 /imagens/errorporzonaVotos.jpeg>]
 Cap\'{\i }tulo 6.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 19.
 
-[34
+[35
 
-] <imagens/screenshots/eletricaGo.png, id=151, 722.7pt x 1284.8pt>
+] <imagens/screenshots/eletricaGo.png, id=155, 722.7pt x 1284.8pt>
 File: imagens/screenshots/eletricaGo.png Graphic file (type png)
 
 <use imagens/screenshots/eletricaGo.png>
 Package pdftex.def Info: imagens/screenshots/eletricaGo.png used on input line 
 24.
 (pdftex.def)             Requested size: 318.66948pt x 566.52924pt.
-) (chapters/testes.tex [35 <./imagens/screenshots/eletricaGo.png>]
+) (chapters/testes.tex [36 <./imagens/screenshots/eletricaGo.png>]
 Cap\'{\i }tulo 7.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 11.
 
-[36
+[37
 
-]) (chapters/consideracoes.tex [37]
+]) (chapters/consideracoes.tex [38]
 Cap\'{\i }tulo 8.
 ) (monografia.bbl
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 3.
 
-[38
+[39
 
 ]) (attachments/telasApscanner.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
 
-[39
+[40
 
 
 ]
 Apendice A.
-<imagens/screenshots/telaLogin.png, id=169, 541.27219pt x 854.44218pt>
+<imagens/screenshots/telaLogin.png, id=172, 541.27219pt x 854.44218pt>
 File: imagens/screenshots/telaLogin.png Graphic file (type png)
 
 <use imagens/screenshots/telaLogin.png>
@@ -1096,7 +1104,7 @@ Package pdftex.def Info: imagens/screenshots/telaLogin.png used on input line 8
 .
 (pdftex.def)             Requested size: 182.09486pt x 287.44263pt.
 
-<imagens/screenshots/facilities.png, id=170, 542.025pt x 854.44218pt>
+<imagens/screenshots/facilities.png, id=173, 542.025pt x 854.44218pt>
 File: imagens/screenshots/facilities.png Graphic file (type png)
 
 <use imagens/screenshots/facilities.png>
@@ -1104,7 +1112,7 @@ Package pdftex.def Info: imagens/screenshots/facilities.png used on input line
 13.
 (pdftex.def)             Requested size: 182.09486pt x 287.0515pt.
 
-<imagens/screenshots/newFacility.png, id=171, 542.025pt x 849.1725pt>
+<imagens/screenshots/newFacility.png, id=174, 542.025pt x 849.1725pt>
 File: imagens/screenshots/newFacility.png Graphic file (type png)
 
 <use imagens/screenshots/newFacility.png>
@@ -1112,7 +1120,7 @@ Package pdftex.def Info: imagens/screenshots/newFacility.png used on input line
  21.
 (pdftex.def)             Requested size: 182.09486pt x 285.28114pt.
 
-<imagens/screenshots/newZone.png, id=172, 541.27219pt x 857.45343pt>
+<imagens/screenshots/newZone.png, id=175, 541.27219pt x 857.45343pt>
 File: imagens/screenshots/newZone.png Graphic file (type png)
 
 <use imagens/screenshots/newZone.png>
@@ -1124,10 +1132,10 @@ Package pdftex.def Info: imagens/screenshots/newZone.png used on input line 26.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 30.
 
-[40
+[41
 
  <./imagens/screenshots/telaLogin.png> <./imagens/screenshots/facilities.png>] 
-<imagens/screenshots/newMeasure.png, id=176, 542.025pt x 852.93657pt>
+<imagens/screenshots/newMeasure.png, id=180, 542.025pt x 852.93657pt>
 File: imagens/screenshots/newMeasure.png Graphic file (type png)
 
 <use imagens/screenshots/newMeasure.png>
@@ -1135,7 +1143,7 @@ Package pdftex.def Info: imagens/screenshots/newMeasure.png used on input line
 34.
 (pdftex.def)             Requested size: 182.09486pt x 286.54568pt.
 
-<imagens/screenshots/measuring.png, id=177, 541.27219pt x 858.20625pt>
+<imagens/screenshots/measuring.png, id=181, 541.27219pt x 858.20625pt>
 File: imagens/screenshots/measuring.png Graphic file (type png)
 
 <use imagens/screenshots/measuring.png>
@@ -1143,7 +1151,7 @@ Package pdftex.def Info: imagens/screenshots/measuring.png used on input line 3
 9.
 (pdftex.def)             Requested size: 182.09486pt x 288.70891pt.
 
-<imagens/screenshots/training.png, id=178, 542.025pt x 851.43094pt>
+<imagens/screenshots/training.png, id=182, 542.025pt x 851.43094pt>
 File: imagens/screenshots/training.png Graphic file (type png)
 
 <use imagens/screenshots/training.png>
@@ -1151,24 +1159,27 @@ Package pdftex.def Info: imagens/screenshots/training.png used on input line 47
 .
 (pdftex.def)             Requested size: 182.09486pt x 286.03987pt.
 
-<imagens/screenshots/result.png, id=179, 542.025pt x 849.92531pt>
+<imagens/screenshots/result.png, id=183, 542.025pt x 849.92531pt>
 File: imagens/screenshots/result.png Graphic file (type png)
 
 <use imagens/screenshots/result.png>
 Package pdftex.def Info: imagens/screenshots/result.png used on input line 52.
 (pdftex.def)             Requested size: 182.09486pt x 285.53404pt.
-) [41 <./imagens/screenshots/newFacility.png> <./imagens/screenshots/newZone.pn
+) [42 <./imagens/screenshots/newFacility.png> <./imagens/screenshots/newZone.pn
 g> <./imagens/screenshots/newMeasure.png> <./imagens/screenshots/measuring.png>
-] [42 <./imagens/screenshots/training.png> <./imagens/screenshots/result.png>] 
+] [43 <./imagens/screenshots/training.png> <./imagens/screenshots/result.png>] 
 (monografia.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 5443 strings out of 493333
- 73608 string characters out of 3139193
- 156082 words of memory out of 3000000
+ 5446 strings out of 493333
+ 73634 string characters out of 3139193
+ 156121 words of memory out of 3000000
  8760 multiletter control sequences out of 15000+200000
  13739 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1185,9 +1196,9 @@ fonts/cm/cmss10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on monografia.pdf (44 pages, 3893100 bytes).
+Output written on monografia.pdf (45 pages, 3643592 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
+ 234 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

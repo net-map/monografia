@@ -1,26 +1,26 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Algoritmo KNN aplicado com diferentes valores de K}}{15}
-\contentsline {figure}{\numberline {2}{\ignorespaces \IeC {\'A}rvore de Decis\IeC {\~a}o para prever a sobreviv\IeC {\^e}ncia de passageiros do Titanic}}{16}
-\contentsline {figure}{\numberline {3}{\ignorespaces SVM aplicado para classificar dados linearmente separ\IeC {\'a}veis}}{17}
-\contentsline {figure}{\numberline {4}{\ignorespaces SVM aplicado para classificar dados de maneira n\IeC {\~a}o linear}}{18}
-\contentsline {figure}{\numberline {5}{\ignorespaces Arquitetura do Sistema net.map}}{19}
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagrama das classes na API}}{22}
-\contentsline {figure}{\numberline {7}{\ignorespaces Erros para uso de Diferentes Dist\IeC {\^a}ncias}}{26}
-\contentsline {figure}{\numberline {8}{\ignorespaces Erro em fun\IeC {\c c}\IeC {\~a}o do n\IeC {\'u}mero de vizinhos}}{26}
-\contentsline {figure}{\numberline {9}{\ignorespaces Erro para diversas quantidades de neur\IeC {\^o}nios na rede neural.}}{27}
-\contentsline {figure}{\numberline {10}{\ignorespaces Teste de Valida\IeC {\c c}\IeC {\~a}o do Algoritmo C4.5}}{28}
-\contentsline {figure}{\numberline {11}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o do C4.5 com o uso do AdaBoost}}{29}
-\contentsline {figure}{\numberline {12}{\ignorespaces Erro do algoritmo SMO para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{30}
-\contentsline {figure}{\numberline {13}{\ignorespaces Erro do algoritmo de Redes Neurais para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{31}
-\contentsline {figure}{\numberline {14}{\ignorespaces Erro do algoritmo KNN para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{31}
-\contentsline {figure}{\numberline {15}{\ignorespaces Erro do algoritmo de \IeC {\'A}rvore de Decis\IeC {\~a}o com e sem o Adaboost para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{32}
-\contentsline {figure}{\numberline {16}{\ignorespaces Erro do Voto Simples e Voto Ponderado para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{33}
-\contentsline {figure}{\numberline {17}{\ignorespaces Tela do EletricaGO mostrando um \textit {Pok\IeC {\'e}mon} na sala C2-59 do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da POLI-USP}}{35}
-\contentsline {figure}{\numberline {18}{\ignorespaces Tela para o usu\IeC {\'a}rio efetuar o login}}{40}
-\contentsline {figure}{\numberline {19}{\ignorespaces Tela informando as instala\IeC {\c c}\IeC {\~o}es do usu\IeC {\'a}rio}}{40}
-\contentsline {figure}{\numberline {20}{\ignorespaces Tela para criar nova instala\IeC {\c c}\IeC {\~a}o}}{41}
-\contentsline {figure}{\numberline {21}{\ignorespaces Tela para criar nova zona no sistema}}{41}
-\contentsline {figure}{\numberline {22}{\ignorespaces Tela para iniciar aquisi\IeC {\c c}\IeC {\~a}o de sinais}}{41}
-\contentsline {figure}{\numberline {23}{\ignorespaces Tela do aplicativo adquirindo os sinais}}{41}
-\contentsline {figure}{\numberline {24}{\ignorespaces Tela informando que os dados est\IeC {\~a}o sendo treinados}}{42}
-\contentsline {figure}{\numberline {25}{\ignorespaces Tela do aplicativo informando a zona atual}}{42}
+\contentsline {figure}{\numberline {1}{\ignorespaces Algoritmo KNN aplicado com diferentes valores de K}}{16}
+\contentsline {figure}{\numberline {2}{\ignorespaces \IeC {\'A}rvore de Decis\IeC {\~a}o para prever a sobreviv\IeC {\^e}ncia de passageiros do Titanic}}{17}
+\contentsline {figure}{\numberline {3}{\ignorespaces SVM aplicado para classificar dados linearmente separ\IeC {\'a}veis}}{18}
+\contentsline {figure}{\numberline {4}{\ignorespaces SVM aplicado para classificar dados de maneira n\IeC {\~a}o linear}}{19}
+\contentsline {figure}{\numberline {5}{\ignorespaces Arquitetura do Sistema net.map}}{20}
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagrama das classes na API}}{23}
+\contentsline {figure}{\numberline {7}{\ignorespaces Erros para uso de Diferentes Dist\IeC {\^a}ncias}}{27}
+\contentsline {figure}{\numberline {8}{\ignorespaces Erro em fun\IeC {\c c}\IeC {\~a}o do n\IeC {\'u}mero de vizinhos}}{27}
+\contentsline {figure}{\numberline {9}{\ignorespaces Erro para diversas quantidades de neur\IeC {\^o}nios na rede neural.}}{28}
+\contentsline {figure}{\numberline {10}{\ignorespaces Teste de Valida\IeC {\c c}\IeC {\~a}o do Algoritmo C4.5}}{29}
+\contentsline {figure}{\numberline {11}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o do C4.5 com o uso do AdaBoost}}{30}
+\contentsline {figure}{\numberline {12}{\ignorespaces Erro do algoritmo SMO para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{31}
+\contentsline {figure}{\numberline {13}{\ignorespaces Erro do algoritmo de Redes Neurais para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{32}
+\contentsline {figure}{\numberline {14}{\ignorespaces Erro do algoritmo KNN para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{32}
+\contentsline {figure}{\numberline {15}{\ignorespaces Erro do algoritmo de \IeC {\'A}rvore de Decis\IeC {\~a}o com e sem o Adaboost para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{33}
+\contentsline {figure}{\numberline {16}{\ignorespaces Erro do Voto Simples e Voto Ponderado para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{34}
+\contentsline {figure}{\numberline {17}{\ignorespaces Tela do EletricaGO mostrando um \textit {Pok\IeC {\'e}mon} na sala C2-59 do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da POLI-USP}}{36}
+\contentsline {figure}{\numberline {18}{\ignorespaces Tela para o usu\IeC {\'a}rio efetuar o login}}{41}
+\contentsline {figure}{\numberline {19}{\ignorespaces Tela informando as instala\IeC {\c c}\IeC {\~o}es do usu\IeC {\'a}rio}}{41}
+\contentsline {figure}{\numberline {20}{\ignorespaces Tela para criar nova instala\IeC {\c c}\IeC {\~a}o}}{42}
+\contentsline {figure}{\numberline {21}{\ignorespaces Tela para criar nova zona no sistema}}{42}
+\contentsline {figure}{\numberline {22}{\ignorespaces Tela para iniciar aquisi\IeC {\c c}\IeC {\~a}o de sinais}}{42}
+\contentsline {figure}{\numberline {23}{\ignorespaces Tela do aplicativo adquirindo os sinais}}{42}
+\contentsline {figure}{\numberline {24}{\ignorespaces Tela informando que os dados est\IeC {\~a}o sendo treinados}}{43}
+\contentsline {figure}{\numberline {25}{\ignorespaces Tela do aplicativo informando a zona atual}}{43}
