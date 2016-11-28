@@ -7,10 +7,10 @@ Grande parte da pesquisa e fundamentação teórica feita sobre \textit{machine 
 
 
 
-\section{\textit{Bias} vs. Variância: Um \textit{tradeoff} }
+\section{\textit{Bias} vs. Variância: Um \textit{trade-off} }
 
 
-Um dilema comum que se aparece ao usar \textit{Machine Learning} é o de \textit{Bias} contra Variância. \textit{Bias} é a medida do erro do modelo treinado e da realidade que nós tentamos modelar. Variância é o erro decorrente de pequenas flutuações nos pontos de treino, ou seja, diversos modelos treinados com pequenas mudanças dos pontos de treino irão gerar erros drasticamente diferentes. Uma maneira comum de generalizar o erro de modelos de \textit{Machine Learning} é em dividi-lo em uma parcela de erro proveniente de \textit{bias}, outra de variância e uma terceira parcela de ruído com média nula. Esse dilema aparece pela contradição clara entre desejar reduzir \textit{bias} e variância ao mesmo tempo. Um modelo com baixo \textit{bias} é mais complexo, (e.g. um polinômio de ordem alta) de modo que a curva representa de maneira mais próxima os pontos de treino, porém, isso também acaba por fazer que o ruído desse conjunto particular de pontos de treino seja capturado pelo modelo, o que não é desejado, visto que queremos que o modelo se adeque a \textit{qualquer} conjunto de pontos, não apenas os que foram usados para treina-lo. A solução poderia ser diminuir então a complexidade do modelo, mas isso invariavelmente aumenta nosso erro de \textit{bias}, por mais que diminuia o de variância.
+Um dilema comum que se aparece ao usar \textit{Machine Learning} é o de \textit{Bias} contra Variância. \textit{Bias} é a medida do erro do modelo treinado e da realidade que nós tentamos modelar. Variância é o erro decorrente de pequenas flutuações nos pontos de treino, ou seja, diversos modelos treinados com pequenas mudanças dos pontos de treino irão gerar erros drasticamente diferentes. Uma maneira comum de generalizar o erro de modelos de \textit{Machine Learning} é em dividi-lo em uma parcela de erro proveniente de \textit{bias}, outra de variância e uma terceira parcela de ruído com média nula. Esse dilema aparece pela contradição clara entre desejar reduzir \textit{bias} e variância ao mesmo tempo. Um modelo com baixo \textit{bias} é mais complexo, (e.g. um polinômio de ordem alta) de modo que a curva representa de maneira mais próxima os pontos de treino, porém, isso também acaba por fazer que o ruído desse conjunto particular de pontos de treino seja capturado pelo modelo, o que não é desejado, visto que queremos que o modelo se adeque a \textit{qualquer} conjunto de pontos, não apenas os que foram usados para treiná-lo. Uma solução para isso é diminuir a complexidade do modelo, porém isso invariavelmente aumenta o erro de \textit{bias}, por mais que a variância fosse diminuída.
 
 
 \section{Algoritmos de Machine Learning}
@@ -78,7 +78,7 @@ No estudo e desenvolvimento da pesquisa, foi decidido finalmente combinar esses 
 \begin{enumerate}
 \item Combinar as saídas de diversos classificadores pode reduzir o risco de selecionar um único que possa funcionar mal naquele caso específico
 \item Os erros cometidos advindos de um classificador são geralmente compensados pela classificação correta de outro algoritmo no conjunto, de modo que a taxa de acerto \textit{do sistema} melhore
-\item Classificadores base devem ser diversos em natureza para que a desição final não sofra de \textit{bias}
+\item Classificadores base devem ser diversos em natureza para que a decisão final não sofra de enviesamento (\textit{bias})
 \end{enumerate}
 
 

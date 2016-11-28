@@ -47,7 +47,7 @@ A chamada \textit{cross-validation} dos modelos de ML é o teste para encontrar 
 
 
 Para o algoritmo de KNN, foram feitos dois testes de \textit{cross-validation}. No primeiro, a métrica de distância foi decidida, e no segundo, o número de vizinhos ($K$).
-Para que fosse definida a métrica de distância, foi usado o método  \textit{k-fold}  com $K=2$. E em cada \textit{fold} o modelo foi treinado com uma métrica diferente. Foram calculados 20 conjuntos diferentes de \textit{folds} e foi tirada a média do erro de validação para cada uma das métricas.
+Para que fosse definida a métrica de distância, foi usado o método  \textit{k-fold}  com $K=2$, com cada \textit{fold} utilizando uma métrica diferente. Foram calculados 20 conjuntos diferentes de \textit{folds} e foi tirada a média do erro de validação para cada uma das métricas.
 
 
 \begin{figure}[H]
@@ -70,7 +70,7 @@ Depois, foi usado o método  \textit{k-fold} com $K=10$ para a decisão do núme
 
 
 
-Podemos concluir então que (1) o erro é menor no geral com a distância de \textit{Manhattan} e (2) embora tenha muita variância envolvida no teste, o valor de K que minimiza o erro fica proximo de 4 vizinhos.
+Podemos concluir então que (1) o erro é menor no geral com a distância de \textit{Manhattan} e (2) embora tenha muita variância envolvida no teste, o valor de K que minimiza o erro fica próximo de 4 vizinhos.
 
 
 No restante do trabalho foi escolhido o valor de $K=4$ vizinhos.
@@ -79,7 +79,7 @@ No restante do trabalho foi escolhido o valor de $K=4$ vizinhos.
 
 \subsubsection{Rede Neural}
 
-Para a \textit{cross-validation} das Redes Neurais, também foi usado o método de  \textit{k-fold} com $K=10$. Para cada uns dos\textit{folds} foi testado um número de neurônios em uma  \textit{hidden-layer} única. (Outros testes mostraram não valer a pena para o nosso problema usar mais de uma camada de  \textit{hidden layer} ou \textit{deep learning}). Os resultados são mostrados a seguir:
+Para a \textit{cross-validation} das Redes Neurais, também foi usado o método de  \textit{k-fold} com $K=10$. Para cada uns dos\textit{folds} foi testado um número de neurônios em uma  \textit{hidden-layer} única. (Outros testes mostraram não valer a pena para o nosso problema usar mais de uma camada de \textit{hidden layer} ou \textit{deep learning}). Os resultados são mostrados a seguir:
 
 
 
@@ -96,7 +96,7 @@ Para a \textit{cross-validation} das Redes Neurais, também foi usado o método 
 
 Concluímos que o número ideal de neurônios na  \textit{hidden-layer} está próximo de 200. Porém, com estudos e testes mais detalhados ficou claro que as Redes Neurais não são ideias para o nosso projeto, por não conseguirem capturar de forma satisfatória o modelo do nosso problema. Além disso, o algoritmo de \textit{back propagation} se mostra muito mais custoso em relação a memória e processamento se comparado aos outros algoritmos usados no projeto, demorando cerca de 10 vezes mais para o treinamento que todos os outros modelos juntos. Portanto, seu uso foi descartado.
 
-\subsubsection{Arvore de decisão}
+\subsubsection{Árvore de decisão}
 
 
 Baseado no trabalho apresentado por \cite{comparative}, foi escolhida uma implementação do algoritmo C4.5 \cite{quinlan} em Java, da biblioteca Weka, para serem geradas árvores de decisão. Os métodos porém foram chamados pela interface da Weka para R, chamada RWeka.
@@ -114,7 +114,7 @@ A função J48 do Weka foi testada com o os pontos de treino referentes ao prime
 \textbf{Acoplamento com o Algoritmo AdaBoost}\\
 \par \textit{Boosting} é a ideia em ML de criar uma predição forte e precisa combinando diversas previsões mais fracas. O algoritmo AdaBoost \cite{adaboost} é um método para melhorar a precisão de classificadores fracos (i.e. \textit{Weak Learners}) por meio de uma votação ponderada que leva em conta o erro de diversos votadores fracos treinados no processo. É provado que o modelo final se torna um classificador forte \cite{explainingadaboost}. Por definição, um classificador fraco é aquele que consistentemente consegue ser melhor que um chute para a classificação (e.g. o erro é menor que 50\% para o caso de duas classes possíveis de classificação).
 
-Também baseados em \cite{comparative} e \cite{comparativeEN}. Usaremos o algoritmo AdaBoost  e sua implementação na biblioteca Weka para melhorar a precisão das árvores de decisão C4.5. A seguir vemos um gráfico comparando a classificação para o mesmo andar do \textit{dataset UJIIndoorLoc} com os mesmos pontos de teste e uma quantidade crescente de pontos de treino, assim como feito no tópico anterior.
+Também baseados em \cite{comparative} e \cite{comparativeEN}. Usaremos o algoritmo AdaBoost  e sua implementação na biblioteca Weka para melhorar a precisão das árvores de decisão C4.5. O gráfico \ref{fig:comparisonC4.5andAdaBoost} compara a classificação para o mesmo andar do \textit{dataset UJIIndoorLoc} com os mesmos pontos de teste e uma quantidade crescente de pontos de treino, assim como feito no tópico anterior.
 
 
 \begin{figure}[!h]
@@ -132,7 +132,7 @@ Podemos notar que com um número grande de pontos de treino, obtemos uma melhora
 \subsubsection{Comparação dos Modelos Usados}
 
 
-Reiterando o que foi explicado em outra sessão, os testes mostrados nas imagens \ref{fig:zonaSMO} à \ref{fig:zonaAda} irão contemplar todos os modelos usados. Os modelos tem seu erro testado para \textit{datasets} com um número crescente de zonas aleatórias a serem classificadas. Todos os testes foram feitos com os dados do primeiro andar do prédio 1 do \textit{dataset UJIIndoorLoc }(i.e. BuildingID 1, FloorID 0).
+Reforçando o que foi explicado em outra sessão, os testes mostrados nas imagens \ref{fig:zonaSMO} à \ref{fig:zonaAda} irão contemplar todos os modelos usados. Os modelos tem seu erro testado para \textit{datasets} com um número crescente de zonas aleatórias a serem classificadas. Todos os testes foram feitos com os dados do primeiro andar do prédio 1 do \textit{dataset UJIIndoorLoc }(i.e. BuildingID 1, FloorID 0).
 
 
 \begin{figure}[H]

@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {1.3}Justificativa}{13}
 \contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o}{14}
 \contentsline {chapter}{\numberline {2}Aspectos Conceituais}{15}
-\contentsline {section}{\numberline {2.1}\textit {Bias} vs. Vari\IeC {\^a}ncia: Um \textit {tradeoff} }{15}
+\contentsline {section}{\numberline {2.1}\textit {Bias} vs. Vari\IeC {\^a}ncia: Um \textit {trade-off} }{15}
 \contentsline {section}{\numberline {2.2}Algoritmos de Machine Learning}{16}
 \contentsline {subsection}{\numberline {2.2.1}KNN}{16}
 \contentsline {subsection}{\numberline {2.2.2}\IeC {\'A}rvore de Decis\IeC {\~a}o}{16}
@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {5.1.3}Modelos Usados e \textit {Cross-Validation} de par\IeC {\^a}metros }{26}
 \contentsline {subsubsection}{\numberline {5.1.3.1}KNN : K-Nearest-Neighbors }{26}
 \contentsline {subsubsection}{\numberline {5.1.3.2}Rede Neural}{28}
-\contentsline {subsubsection}{\numberline {5.1.3.3}Arvore de decis\IeC {\~a}o}{29}
+\contentsline {subsubsection}{\numberline {5.1.3.3}\IeC {\'A}rvore de decis\IeC {\~a}o}{29}
 \contentsline {subsubsection}{\numberline {5.1.3.4}Compara\IeC {\c c}\IeC {\~a}o dos Modelos Usados}{31}
 \contentsline {subsection}{\numberline {5.1.4}M\IeC {\'e}todos de Vota\IeC {\c c}\IeC {\~a}o}{33}
 \contentsline {subsection}{\numberline {5.1.5}Testes com os M\IeC {\'e}todos de Vota\IeC {\c c}\IeC {\~a}o}{34}
