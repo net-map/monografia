@@ -15,16 +15,17 @@
 \contentsline {figure}{\numberline {14}{\ignorespaces Erro do algoritmo KNN para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{32}
 \contentsline {figure}{\numberline {15}{\ignorespaces Erro do algoritmo de \IeC {\'A}rvore de Decis\IeC {\~a}o com e sem o Adaboost para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{33}
 \contentsline {figure}{\numberline {16}{\ignorespaces Erro do Voto Simples e Voto Ponderado para uma quantidade crescente de zonas de classifica\IeC {\c c}\IeC {\~a}o.}}{34}
-\contentsline {figure}{\numberline {17}{\ignorespaces Tela do EletricaGO mostrando um \textit {Pok\IeC {\'e}mon} na sala C2-59 do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da POLI-USP}}{37}
-\contentsline {figure}{\numberline {18}{\ignorespaces Acerto de Classifica\IeC {\c c}\IeC {\~a}o usando-se a M\IeC {\'e}dia Aritm\IeC {\'e}tica como m\IeC {\'e}todo de normaliza\IeC {\c c}\IeC {\~a}o dos dados}}{39}
-\contentsline {figure}{\numberline {19}{\ignorespaces Acerto de Classifica\IeC {\c c}\IeC {\~a}o usando-se o Filtro de Kalmann como m\IeC {\'e}todo de normaliza\IeC {\c c}\IeC {\~a}o dos dados}}{39}
-\contentsline {figure}{\numberline {20}{\ignorespaces Tela para o usu\IeC {\'a}rio efetuar o login}}{43}
-\contentsline {figure}{\numberline {21}{\ignorespaces Tela informando as instala\IeC {\c c}\IeC {\~o}es do usu\IeC {\'a}rio}}{43}
-\contentsline {figure}{\numberline {22}{\ignorespaces Tela para criar nova instala\IeC {\c c}\IeC {\~a}o}}{44}
-\contentsline {figure}{\numberline {23}{\ignorespaces Tela para criar nova zona no sistema}}{44}
-\contentsline {figure}{\numberline {24}{\ignorespaces Tela para iniciar aquisi\IeC {\c c}\IeC {\~a}o de sinais}}{44}
-\contentsline {figure}{\numberline {25}{\ignorespaces Tela do aplicativo adquirindo os sinais}}{44}
-\contentsline {figure}{\numberline {26}{\ignorespaces Tela informando que os dados est\IeC {\~a}o sendo treinados}}{45}
-\contentsline {figure}{\numberline {27}{\ignorespaces Tela do aplicativo informando a zona atual}}{45}
-\contentsline {figure}{\numberline {28}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o do 1\textsuperscript {o} andar do bloco B}}{46}
-\contentsline {figure}{\numberline {29}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o do andar t\IeC {\'e}rreo do bloco B}}{47}
+\contentsline {figure}{\numberline {17}{\ignorespaces Esquema mostrando como as aplica\IeC {\c c}\IeC {\~o}es no servidor interagem.}}{36}
+\contentsline {figure}{\numberline {18}{\ignorespaces Tela do EletricaGO mostrando um \textit {Pok\IeC {\'e}mon} na sala C2-59 do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da POLI-USP}}{38}
+\contentsline {figure}{\numberline {19}{\ignorespaces Acerto de Classifica\IeC {\c c}\IeC {\~a}o usando-se a M\IeC {\'e}dia Aritm\IeC {\'e}tica como m\IeC {\'e}todo de normaliza\IeC {\c c}\IeC {\~a}o dos dados}}{40}
+\contentsline {figure}{\numberline {20}{\ignorespaces Acerto de Classifica\IeC {\c c}\IeC {\~a}o usando-se o Filtro de Kalmann como m\IeC {\'e}todo de normaliza\IeC {\c c}\IeC {\~a}o dos dados}}{40}
+\contentsline {figure}{\numberline {21}{\ignorespaces Tela para o usu\IeC {\'a}rio efetuar o login}}{44}
+\contentsline {figure}{\numberline {22}{\ignorespaces Tela informando as instala\IeC {\c c}\IeC {\~o}es do usu\IeC {\'a}rio}}{44}
+\contentsline {figure}{\numberline {23}{\ignorespaces Tela para criar nova instala\IeC {\c c}\IeC {\~a}o}}{45}
+\contentsline {figure}{\numberline {24}{\ignorespaces Tela para criar nova zona no sistema}}{45}
+\contentsline {figure}{\numberline {25}{\ignorespaces Tela para iniciar aquisi\IeC {\c c}\IeC {\~a}o de sinais}}{45}
+\contentsline {figure}{\numberline {26}{\ignorespaces Tela do aplicativo adquirindo os sinais}}{45}
+\contentsline {figure}{\numberline {27}{\ignorespaces Tela informando que os dados est\IeC {\~a}o sendo treinados}}{46}
+\contentsline {figure}{\numberline {28}{\ignorespaces Tela do aplicativo informando a zona atual}}{46}
+\contentsline {figure}{\numberline {29}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o do 1\textsuperscript {o} andar do bloco B}}{47}
+\contentsline {figure}{\numberline {30}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o do andar t\IeC {\'e}rreo do bloco B}}{48}

@@ -56,6 +56,10 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/s13721-013-0034-x}.}
   um novo modelo de compra e inser{\c{c}}{\~a}o de m{\'\i}dia.
 2016.}
 
+\bibitem[Provos e Mazieres 1999]{provos1999bcrypt}
+\abntrefinfo{Provos e Mazieres}{PROVOS; MAZIERES}{1999}
+{PROVOS, N.; MAZIERES, D. Bcrypt algorithm. In:  USENIX. [S.l.], 1999.}
+
 \bibitem[Quinlan 1993]{quinlan}
 \abntrefinfo{Quinlan}{QUINLAN}{1993}
 {QUINLAN, R. \emph{C4.5: Programs for Machine Learning}. San Mateo, CA: Morgan

@@ -203,10 +203,35 @@ Conforme explicado no capítulo \ref{chp:espec}, as informações de redes \text
 \label{kalman}
 O filtro de Kalman é um método estatístico cujo propósito é utilizar medições de grandezas realizadas ao longo do tempo (contaminadas com ruído e outras incertezas) e gerar resultados que tendem a se aproximar dos valores reais (média da população) das grandezas medidas.
 \par
-Apesar de normalmente ser utilizado em tempo real, nada impede que o filtro seja aplicado em valores já medidos. Como é possível entender em \cite{7471364}, o filtro de Kalman é um método muito utilizado na obtenção de valores de ondas eletromagnéticas (como as ondas geradas por \textit{Access Points Wi-FI}, pois estas apresentam muita flutuação nos seus valores associados.
+Apesar de normalmente ser utilizado em tempo real, nada impede que o filtro seja aplicado em valores já medidos. Como é possível entender em \cite{7471364}, o filtro de Kalman é um método muito utilizado na obtenção de valores de ondas eletromagnéticas (como as ondas geradas por \textit{Access Points Wi-Fi}, pois estas apresentam muita flutuação nos seus valores associados.
 \par
 O filtro de Kalman é capaz de fazer uma média ponderada dos sinais lidos, dando um peso menor para aquelas amostras que se afastam muito da média de todos os sinais.
 \par Um comparativo entre o uso do filtro de Kalman e uma média aritmética simples existe na sessão \ref{testesinloco}.
 
 \section{Estrutura do servidor}
-O \textit{back end} do net.map está hospedado numa instância em nuvem do \textit{Amazon AWS EC2}, gratuito para estudantes. Nesse servidor se encontram o banco de dados MongoDB, a API Rails e os \textit{scripts} de \textit{Machine Learning} escritos em R
+O \textit{back end} do net.map está hospedado numa instância em nuvem do \textit{Amazon AWS EC2}, serviço de cloud gratuito para estudantes. Nesse servidor se encontram o banco de dados MongoDB, a API Rails e os \textit{scripts} de \textit{Machine Learning} escritos em R, rodando no sistema operacional Ubuntu 14.04, baseado em Linux.
+\par
+A API Rails, que opera em TCP na porta 3000 é responsável por:
+\begin{enumerate}
+\item Criar novos usuários
+\item Enviar \textit{token} de acesso após o \textit{login} do usuário
+\item Criar, modificar e deletar instalações e zonas enviadas pelos usuários
+\item Armazenar dados de captura enviados pelo aplicativo Android
+\end{enumerate} 
+
+Todos esses dados são salvos na instância do MongoDB rodando no mesmo servidor. As senhas criadas pelos usuários são criptografadas utilizando o Bcrypt, um esquema de \textit{hashing} baseado no Blowfish \cite{provos1999bcrypt}.
+\par
+Uma biblioteca \textit{open-source} chamada Devise\footnote{Disponível em https://github.com/plataformatec/devise} é responsável pelo gerenciamento dos usuários, suas senhas e seus tokens de acesso. Tudo isso pode ser feito se comunicando com a API através de requisições HTTP. Pode-se considerar que a API aqui apresentada é RESTful, ou seja, implementa todas as suas operações através de uma API REST.
+\par
+Os scripts de Machine Learning escritos em R rodam em segundo plano como processos \textit{daemonizáveis}, com a ajuda de uma biblioteca \textit{open-source} chamada Pumbler\footnote{https://github.com/trestletech/plumber}. Essa mesma biblioteca também atua como uma API RESTful na porta TCP 2000, possibilitando que o usuário treine os \textit{datasets} no banco de dados e que faça uma teste da zona atual após enviar uma requisição POST contendo dados de potência de sinais \textit{Wi-Fi}. A figura \ref{fig:servidor} mostra como o módulo de ML e a API interagem entre si e com o ambiente externo.
+
+
+\begin{figure}[H]
+	\centering
+	\caption{Esquema mostrando como as aplicações no servidor interagem.}
+  \includegraphics[width=1\textwidth]{servidor}
+\label{fig:servidor}
+
+\end{figure}
+
+

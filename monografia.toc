@@ -46,14 +46,14 @@
 \contentsline {section}{\numberline {5.2}Aquisi\IeC {\c c}\IeC {\~a}o de dados}{34}
 \contentsline {subsection}{\numberline {5.2.1}Filtro de Kalman}{35}
 \contentsline {section}{\numberline {5.3}Estrutura do servidor}{35}
-\contentsline {chapter}{\numberline {6}Aplica\IeC {\c c}\IeC {\~o}es do net.map}{36}
-\contentsline {section}{\numberline {6.1}APScanner}{36}
-\contentsline {section}{\numberline {6.2}EletricaGO}{36}
-\contentsline {chapter}{\numberline {7}Testes \textit {in loco} e Avalia\IeC {\c c}\IeC {\~a}o de Resultados}{38}
-\contentsline {section}{\numberline {7.1}Testes \textit {in loco}}{38}
-\contentsline {subsection}{\numberline {7.1.1}M\IeC {\'e}todo de Teste}{38}
-\contentsline {section}{\numberline {7.2}Objetivos e Resultados}{40}
-\contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{41}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{42}
-\contentsline {chapter}{Anexo{} A{} -- Telas do aplicativo APScanner}{43}
-\contentsline {chapter}{Anexo{} B{} -- Plantas do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da Poli-USP com medi\IeC {\c c}\IeC {\~o}es}{46}
+\contentsline {chapter}{\numberline {6}Aplica\IeC {\c c}\IeC {\~o}es do net.map}{37}
+\contentsline {section}{\numberline {6.1}APScanner}{37}
+\contentsline {section}{\numberline {6.2}EletricaGO}{37}
+\contentsline {chapter}{\numberline {7}Testes \textit {in loco} e Avalia\IeC {\c c}\IeC {\~a}o de Resultados}{39}
+\contentsline {section}{\numberline {7.1}Testes \textit {in loco}}{39}
+\contentsline {subsection}{\numberline {7.1.1}M\IeC {\'e}todo de Teste}{39}
+\contentsline {section}{\numberline {7.2}Objetivos e Resultados}{41}
+\contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{42}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{43}
+\contentsline {chapter}{Anexo{} A{} -- Telas do aplicativo APScanner}{44}
+\contentsline {chapter}{Anexo{} B{} -- Plantas do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da Poli-USP com medi\IeC {\c c}\IeC {\~o}es}{47}
