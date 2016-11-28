@@ -54,6 +54,11 @@
 \contentsline {subsection}{\numberline {7.1.1}M\IeC {\'e}todo de Teste}{44}
 \contentsline {section}{\numberline {7.2}Objetivos e Resultados}{46}
 \contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{47}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{48}
-\contentsline {chapter}{Anexo{} A{} -- Telas do aplicativo APScanner}{49}
-\contentsline {chapter}{Anexo{} B{} -- Plantas do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da Poli-USP com medi\IeC {\c c}\IeC {\~o}es}{52}
+\contentsline {section}{\numberline {8.1}N\IeC {\~a}o-Escopos e problemas eventuais na cria\IeC {\c c}\IeC {\~a}o de um produto}{47}
+\contentsline {section}{\numberline {8.2}Aplica\IeC {\c c}\IeC {\~o}es}{47}
+\contentsline {subsection}{\numberline {8.2.1}\textit {Kit} did\IeC {\'a}tico de \textit {IOT} em uma nova disciplina na POLI}{47}
+\contentsline {subsection}{\numberline {8.2.2}Guia para exposi\IeC {\c c}\IeC {\~o}es}{48}
+\contentsline {section}{\numberline {8.3}Coment\IeC {\'a}rios sobre o projeto}{48}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{49}
+\contentsline {chapter}{Anexo{} A{} -- Telas do aplicativo APScanner}{50}
+\contentsline {chapter}{Anexo{} B{} -- Plantas do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da Poli-USP com medi\IeC {\c c}\IeC {\~o}es}{53}
