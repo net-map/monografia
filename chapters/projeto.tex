@@ -193,3 +193,17 @@ Como na sessão de comparação dos modelos, os métodos tem seu erro testado pa
 \label{fig:zonaVotos}
 
 \end{figure}
+
+
+\section{Aquisição de dados}
+
+Conforme explicado no capítulo \ref{chp:espec}, as informações de redes \textit{Wi-Fi} são obtidas através de um dispositivo Android. Ao tocar no botão de captura num aplicativo instalado no dispositivo, o sistema aguarda o sensor \textit{Wi-Fi} atualizar sua lista de redes disponíveis para conexão, e assim que essa lista é atualizada, os dados obtidos são armazenados. O processo é repetido n vezes, n sendo o número de amostras por ponto determinado pelo usuário. Após isso, os dados são normalizados, seja com uma média simples ou com o uso filtro de Kalman, explicado em \ref{kalman}.
+
+\subsection{Filtro de Kalman}
+\label{kalman}
+O filtro de Kalman é um método estatístico cujo propósito é utilizar medições de grandezas realizadas ao longo do tempo (contaminadas com ruído e outras incertezas) e gerar resultados que tendem a se aproximar dos valores reais (média da população) das grandezas medidas.
+\par
+Apesar de normalmente ser utilizado em tempo real, nada impede que o filtro seja aplicado em valores já medidos. Como é possível entender em \cite{7471364}, o filtro de Kalman é um método muito utilizado na obtenção de valores de ondas eletromagnéticas (como as ondas geradas por \textit{Access Points Wi-FI}, pois estas apresentam muita flutuação nos seus valores associados.
+\par
+O filtro de Kalman é capaz de fazer uma média ponderada dos sinais lidos, dando um peso menor para aquelas amostras que se afastam muito da média de todos os sinais.
+\par Um comparativo entre o uso do filtro de Kalman e uma média aritmética simples existe na sessão \ref{testesinloco}.

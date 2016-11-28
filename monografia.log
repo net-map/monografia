@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  28 NOV 2016 02:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.19)  28 NOV 2016 02:51
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -876,7 +876,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 49.
+(Font)              using `OT1/cmss/bx/n' instead on input line 51.
 
 [10])
 \tf@toc=\write5
@@ -1053,63 +1053,64 @@ File: imagens/errorporzonaVotos.jpeg Graphic file (type jpg)
 Package pdftex.def Info: imagens/errorporzonaVotos.jpeg used on input line 192.
 
 (pdftex.def)             Requested size: 409.71692pt x 348.24692pt.
-) (chapters/implementacoes.tex [34 <./imagens/errorporzonaVotos.jpeg>]
+ [34 <./imagens/errorporzonaVotos.jpeg>])
+(chapters/implementacoes.tex [35]
 Cap\'{\i }tulo 6.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 19.
 
-[35
+[36
 
-] <imagens/screenshots/eletricaGo.png, id=156, 722.7pt x 1284.8pt>
+] <imagens/screenshots/eletricaGo.png, id=159, 722.7pt x 1284.8pt>
 File: imagens/screenshots/eletricaGo.png Graphic file (type png)
 
 <use imagens/screenshots/eletricaGo.png>
 Package pdftex.def Info: imagens/screenshots/eletricaGo.png used on input line 
 24.
 (pdftex.def)             Requested size: 318.66948pt x 566.52924pt.
-) (chapters/testes.tex [36 <./imagens/screenshots/eletricaGo.png>]
+) (chapters/testes.tex [37 <./imagens/screenshots/eletricaGo.png>]
 Cap\'{\i }tulo 7.
-<imagens/eletrica_media.jpeg, id=161, 481.8pt x 409.53pt>
+<imagens/eletrica_media.jpeg, id=164, 481.8pt x 409.53pt>
 File: imagens/eletrica_media.jpeg Graphic file (type jpg)
 
 <use imagens/eletrica_media.jpeg>
-Package pdftex.def Info: imagens/eletrica_media.jpeg used on input line 19.
+Package pdftex.def Info: imagens/eletrica_media.jpeg used on input line 20.
 (pdftex.def)             Requested size: 318.66948pt x 270.87802pt.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 23.
+less on input line 24.
 
-[37
+[38
 
-] <imagens/eletrica_kalman.jpeg, id=165, 481.8pt x 409.53pt>
+] <imagens/eletrica_kalman.jpeg, id=168, 481.8pt x 409.53pt>
 File: imagens/eletrica_kalman.jpeg Graphic file (type jpg)
 
 <use imagens/eletrica_kalman.jpeg>
-Package pdftex.def Info: imagens/eletrica_kalman.jpeg used on input line 29.
+Package pdftex.def Info: imagens/eletrica_kalman.jpeg used on input line 30.
 (pdftex.def)             Requested size: 318.66948pt x 270.87802pt.
- [38 <./imagens/eletrica_media.jpeg> <./imagens/eletrica_kalman.jpeg>]) (chapte
-rs/consideracoes.tex [39]
+ [39 <./imagens/eletrica_media.jpeg> <./imagens/eletrica_kalman.jpeg>]) (chapte
+rs/consideracoes.tex [40]
 Cap\'{\i }tulo 8.
 ) (monografia.bbl
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 3.
 
-[40
+[41
 
 ]) (attachments/telasApscanner.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 1.
 
-[41
+[42
 
 
 ]
 Anexo A.
-<imagens/screenshots/telaLogin.png, id=179, 541.27219pt x 854.44218pt>
+<imagens/screenshots/telaLogin.png, id=182, 541.27219pt x 854.44218pt>
 File: imagens/screenshots/telaLogin.png Graphic file (type png)
 
 <use imagens/screenshots/telaLogin.png>
@@ -1117,7 +1118,7 @@ Package pdftex.def Info: imagens/screenshots/telaLogin.png used on input line 7
 .
 (pdftex.def)             Requested size: 182.09486pt x 287.44263pt.
 
-<imagens/screenshots/facilities.png, id=180, 542.025pt x 854.44218pt>
+<imagens/screenshots/facilities.png, id=183, 542.025pt x 854.44218pt>
 File: imagens/screenshots/facilities.png Graphic file (type png)
 
 <use imagens/screenshots/facilities.png>
@@ -1125,7 +1126,7 @@ Package pdftex.def Info: imagens/screenshots/facilities.png used on input line
 12.
 (pdftex.def)             Requested size: 182.09486pt x 287.0515pt.
 
-<imagens/screenshots/newFacility.png, id=181, 542.025pt x 849.1725pt>
+<imagens/screenshots/newFacility.png, id=184, 542.025pt x 849.1725pt>
 File: imagens/screenshots/newFacility.png Graphic file (type png)
 
 <use imagens/screenshots/newFacility.png>
@@ -1133,7 +1134,7 @@ Package pdftex.def Info: imagens/screenshots/newFacility.png used on input line
  20.
 (pdftex.def)             Requested size: 182.09486pt x 285.28114pt.
 
-<imagens/screenshots/newZone.png, id=182, 541.27219pt x 857.45343pt>
+<imagens/screenshots/newZone.png, id=185, 541.27219pt x 857.45343pt>
 File: imagens/screenshots/newZone.png Graphic file (type png)
 
 <use imagens/screenshots/newZone.png>
@@ -1145,10 +1146,10 @@ Package pdftex.def Info: imagens/screenshots/newZone.png used on input line 25.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 29.
 
-[42
+[43
 
  <./imagens/screenshots/telaLogin.png> <./imagens/screenshots/facilities.png>] 
-<imagens/screenshots/newMeasure.png, id=186, 542.025pt x 852.93657pt>
+<imagens/screenshots/newMeasure.png, id=189, 542.025pt x 852.93657pt>
 File: imagens/screenshots/newMeasure.png Graphic file (type png)
 
 <use imagens/screenshots/newMeasure.png>
@@ -1156,7 +1157,7 @@ Package pdftex.def Info: imagens/screenshots/newMeasure.png used on input line
 33.
 (pdftex.def)             Requested size: 182.09486pt x 286.54568pt.
 
-<imagens/screenshots/measuring.png, id=187, 541.27219pt x 858.20625pt>
+<imagens/screenshots/measuring.png, id=190, 541.27219pt x 858.20625pt>
 File: imagens/screenshots/measuring.png Graphic file (type png)
 
 <use imagens/screenshots/measuring.png>
@@ -1164,7 +1165,7 @@ Package pdftex.def Info: imagens/screenshots/measuring.png used on input line 3
 8.
 (pdftex.def)             Requested size: 182.09486pt x 288.70891pt.
 
-<imagens/screenshots/training.png, id=188, 542.025pt x 851.43094pt>
+<imagens/screenshots/training.png, id=191, 542.025pt x 851.43094pt>
 File: imagens/screenshots/training.png Graphic file (type png)
 
 <use imagens/screenshots/training.png>
@@ -1172,24 +1173,24 @@ Package pdftex.def Info: imagens/screenshots/training.png used on input line 46
 .
 (pdftex.def)             Requested size: 182.09486pt x 286.03987pt.
 
-<imagens/screenshots/result.png, id=189, 542.025pt x 849.92531pt>
+<imagens/screenshots/result.png, id=192, 542.025pt x 849.92531pt>
 File: imagens/screenshots/result.png Graphic file (type png)
 
 <use imagens/screenshots/result.png>
 Package pdftex.def Info: imagens/screenshots/result.png used on input line 51.
 (pdftex.def)             Requested size: 182.09486pt x 285.53404pt.
-) (attachments/plantas.tex [43 <./imagens/screenshots/newFacility.png> <./image
+) (attachments/plantas.tex [44 <./imagens/screenshots/newFacility.png> <./image
 ns/screenshots/newZone.png> <./imagens/screenshots/newMeasure.png> <./imagens/s
-creenshots/measuring.png>] [44 <./imagens/screenshots/training.png> <./imagens/
+creenshots/measuring.png>] [45 <./imagens/screenshots/training.png> <./imagens/
 screenshots/result.png>]
 Anexo B.
-<imagens/2andar.png, id=197, 895.84688pt x 829.59938pt>
+<imagens/2andar.png, id=200, 895.84688pt x 829.59938pt>
 File: imagens/2andar.png Graphic file (type png)
 
 <use imagens/2andar.png>
 Package pdftex.def Info: imagens/2andar.png used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 421.57106pt.
- <imagens/1andar.png, id=198, 939.51pt x 1186.4325pt>
+ <imagens/1andar.png, id=201, 939.51pt x 1186.4325pt>
 File: imagens/1andar.png Graphic file (type png)
 
 <use imagens/1andar.png>
@@ -1200,9 +1201,9 @@ Package pdftex.def Info: imagens/1andar.png used on input line 17.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 22.
 
-[45
+[46
 
- <./imagens/2andar.png>]) [46 <./imagens/1andar.png>] (monografia.aux)
+ <./imagens/2andar.png>]) [47 <./imagens/1andar.png>] (monografia.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1211,13 +1212,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5475 strings out of 493333
- 74270 string characters out of 3139193
- 156148 words of memory out of 3000000
- 8781 multiletter control sequences out of 15000+200000
+ 5482 strings out of 493333
+ 74364 string characters out of 3139193
+ 156266 words of memory out of 3000000
+ 8788 multiletter control sequences out of 15000+200000
  14039 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,14n,45p,1414b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,14n,45p,1414b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Program Files/MiKTe
@@ -1231,9 +1232,9 @@ fb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on monografia.pdf (48 pages, 4134234 bytes).
+Output written on monografia.pdf (49 pages, 4136723 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
+ 255 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
