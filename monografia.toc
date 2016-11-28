@@ -41,15 +41,16 @@
 \contentsline {subsubsection}{\numberline {5.1.3.2}Rede Neural}{28}
 \contentsline {subsubsection}{\numberline {5.1.3.3}Arvore de decis\IeC {\~a}o}{29}
 \contentsline {subsubsection}{\numberline {5.1.3.4}Compara\IeC {\c c}\IeC {\~a}o dos Modelos Usados}{31}
-\contentsline {subsection}{\numberline {5.1.4}M\IeC {\'e}todos de Vota\IeC {\c c}\IeC {\~a}o}{31}
-\contentsline {subsection}{\numberline {5.1.5}Testes com os M\IeC {\'e}todos de Vota\IeC {\c c}\IeC {\~a}o}{33}
+\contentsline {subsection}{\numberline {5.1.4}M\IeC {\'e}todos de Vota\IeC {\c c}\IeC {\~a}o}{33}
+\contentsline {subsection}{\numberline {5.1.5}Testes com os M\IeC {\'e}todos de Vota\IeC {\c c}\IeC {\~a}o}{34}
 \contentsline {chapter}{\numberline {6}Aplica\IeC {\c c}\IeC {\~o}es do net.map}{35}
 \contentsline {section}{\numberline {6.1}APScanner}{35}
 \contentsline {section}{\numberline {6.2}EletricaGO}{35}
 \contentsline {chapter}{\numberline {7}Testes \textit {in loco} e Avalia\IeC {\c c}\IeC {\~a}o de Resultados}{37}
 \contentsline {section}{\numberline {7.1}Testes \textit {in loco}}{37}
-\contentsline {section}{\numberline {7.2}Objetivos e Resultados}{37}
-\contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{39}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{40}
-\contentsline {chapter}{Anexo{} A}{41}
-\contentsline {section}{\numberline {A.1}Telas do aplicativo APScanner}{41}
+\contentsline {subsection}{\numberline {7.1.1}M\IeC {\'e}todo de Teste}{37}
+\contentsline {section}{\numberline {7.2}Objetivos e Resultados}{39}
+\contentsline {chapter}{\numberline {8}Considera\IeC {\c c}\IeC {\~o}es Finais}{40}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{41}
+\contentsline {chapter}{Anexo{} A{} -- Telas do aplicativo APScanner}{42}
+\contentsline {chapter}{Anexo{} B{} -- Plantas do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da Poli-USP com medi\IeC {\c c}\IeC {\~o}es}{45}

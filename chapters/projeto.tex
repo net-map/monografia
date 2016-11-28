@@ -132,10 +132,10 @@ Podemos notar que com um número grande de pontos de treino, obtemos uma melhora
 \subsubsection{Comparação dos Modelos Usados}
 
 
-Reiterando o que foi explicado em outra sessão, os testes a seguir irão contemplar todos os modelos usados. Os modelos tem seu erro testado para \textit{datasets} com um número crescente de zonas aleatórias a serem classificadas. Todos os testes foram feitos com os dados do primeiro andar do prédio 1 do \textit{dataset UJIIndoorLoc }(i.e. BuildingID 1, FloorID 0).
+Reiterando o que foi explicado em outra sessão, os testes mostrados nas imagens \ref{fig:zonaSMO} à \ref{fig:zonaAda} irão contemplar todos os modelos usados. Os modelos tem seu erro testado para \textit{datasets} com um número crescente de zonas aleatórias a serem classificadas. Todos os testes foram feitos com os dados do primeiro andar do prédio 1 do \textit{dataset UJIIndoorLoc }(i.e. BuildingID 1, FloorID 0).
 
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\caption{Erro do algoritmo SMO  para uma quantidade crescente de zonas de classificação.}
   \includegraphics[width=0.8\textwidth]{errorporzonaSMO}
@@ -145,7 +145,7 @@ Reiterando o que foi explicado em outra sessão, os testes a seguir irão contem
 
 
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\caption{Erro do algoritmo de Redes Neurais  para uma quantidade crescente de zonas de classificação.}
   \includegraphics[width=0.8\textwidth]{errorporzonaNN}
@@ -154,7 +154,7 @@ Reiterando o que foi explicado em outra sessão, os testes a seguir irão contem
 \end{figure}
 
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\caption{Erro do algoritmo KNN para uma quantidade crescente de zonas de classificação.}
   \includegraphics[width=0.8\textwidth]{errorporzonaKNN}
@@ -164,7 +164,7 @@ Reiterando o que foi explicado em outra sessão, os testes a seguir irão contem
 
 
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\caption{Erro do algoritmo de Árvore de Decisão com e sem o Adaboost  para uma quantidade crescente de zonas de classificação.}
   \includegraphics[width=0.8\textwidth]{errorporzonaJ48+Ada}
