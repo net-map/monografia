@@ -1,20 +1,10 @@
 \begin{resumo}
 
-Mapas físicos tornam-se cada vez menos utilizados com o desenvolvimento progressivo
-de sistemas de posicionamento cada vez melhores. O sistema americano
-GPS é possivelmente o mais utilizado, sendo que ele possibilita qualquer um ter informações
-sobre sua localização, dando apoio, por exemplo, à praticantes de trilhas e
-acampamentos, principalmente em casos de emergência. Porém, em ambientes fechados,
-as ondas eletromagnéticas utilizadas pelos satélites sofrem atenuações e interferências
-devidos aos materiais de construção, e assim o sistema perde precisão e não
-funciona com toda a precisão esperada. Como uma alternativa para esta dificuldade,
-procurou-se desenvolver um sistema, que consegue obter a posição do usuário em um
-ambiente fechado com precisão, sendo usado para isso técnicas de machine learning,
-aliadas com dados obtidos de redes em fio já instaladas no local. O sistema consistirá
-de um servidor central, onde serão enviados os dados e os mesmos serão processados.
-Os dados serão coletados por meio de um aplicativo de Android, este possuirá
-duas versões: versão de usuário final, que usará os dados do servidor para localizá-lo, e a
-versão de administrador, que irá coletar dados novos para serem usados em futuras medições.
+Hoje em dia presenciamos a existência de milhares de aplicações que necessitam o uso da localização do usuário para funcionarem, tais como mapas, aplicativos de recomendação, jogos de realidade aumentada, entre muitos outros. Em sua maioria, utilizam o GPS como ferramenta de localização, por ser gratuito e preciso em ambientes abertos. Entretanto, em ambientes fechados ou cobertos, o GPS se mostra uma péssima solução, se mostrando inoperante devido às atenuações das ondas eletromagnéticas de suas transmissões.
+\par
+Este projeto busca justamente explorar esse ponto fraco do GPS para oferecer um sistema de localização \textit{indoor} para dispositivos móveis, aplicando algoritmos de \textit{Machine Learning} a dados de intensidade de sinal de redes \textit{Wi-Fi} no ambiente em questão. Assim, é possível criar diversas aplicações que usam a localização do usuário em ambientes fechados, tais como \textit{shopping centers}, galpões de eventos e museus.
+\par
+Neste documento será apresentado como os algoritmos de aprendizado funcionam. Também será apresentado um aplicativo capaz de mapear instalações cobertas. Por fim, há uma breve explicação de um jogo de realidade aumentada para ambientes fechados.
 %
 \\[3\baselineskip]
 %
