@@ -223,7 +223,7 @@ Todos esses dados são salvos na instância do MongoDB rodando no mesmo servidor
 \par
 Uma biblioteca \textit{open-source} chamada Devise\footnote{Disponível em https://github.com/plataformatec/devise} é responsável pelo gerenciamento dos usuários, suas senhas e seus tokens de acesso. Tudo isso pode ser feito se comunicando com a API através de requisições HTTP. Pode-se considerar que a API aqui apresentada é RESTful, ou seja, implementa todas as suas operações através de uma API REST.
 \par
-Os scripts de Machine Learning escritos em R rodam em segundo plano como processos \textit{daemonizáveis}, com a ajuda de uma biblioteca \textit{open-source} chamada Pumbler\footnote{https://github.com/trestletech/plumber}. Essa mesma biblioteca também atua como uma API RESTful na porta TCP 2000, possibilitando que o usuário treine os \textit{datasets} no banco de dados e que faça uma teste da zona atual após enviar uma requisição POST contendo dados de potência de sinais \textit{Wi-Fi}. A figura \ref{fig:servidor} mostra como o módulo de ML e a API interagem entre si e com o ambiente externo.
+Os scripts de Machine Learning escritos em R rodam em segundo plano como processos \textit{daemonizáveis}, com a ajuda de uma biblioteca \textit{open-source} chamada Plumber\footnote{https://github.com/trestletech/plumber}. Essa mesma biblioteca também atua como uma API RESTful na porta TCP 2000, possibilitando que o usuário treine os \textit{datasets} no banco de dados e que faça uma teste da zona atual após enviar uma requisição POST contendo dados de potência de sinais \textit{Wi-Fi}. A figura \ref{fig:servidor} mostra como o módulo de ML e a API interagem entre si e com o ambiente externo.
 
 
 \begin{figure}[H]
