@@ -18,7 +18,7 @@ Um dilema comum que se aparece ao usar \textit{Machine Learning} é o de \textit
 \subsection{KNN}
 
 
-O Algoritmo KNN busca criar regiões de classificação no espaço pelo voto majoritário dos K pontos de treino mais próximos, sendo K um parâmetro do algoritmo. Na imagem a seguir podemos ver essa classificação em duas dimensões, supondo que os pontos roxos representam uma classe, e os verdes, outra. A imagem da esquerda representa a saída do algoritmo para um valor de K escolhido pequeno, e a da direta, para um valor grande K, com o risto de \textit{overfit}. Pode-se reparar que com um K maior, um ponto solitário que pode representar um erro dos dados de treino é ignorado por estar cercado de pontos que representam outra classe.
+O Algoritmo KNN busca criar regiões de classificação no espaço pelo voto majoritário dos K pontos de treino mais próximos, sendo K um parâmetro do algoritmo. Na imagem a seguir podemos observar essa classificação em duas dimensões, supondo que os pontos roxos representam uma classe, e os verdes, outra. A imagem da esquerda representa a saída do algoritmo para um valor de K escolhido pequeno, e a da direta, para um valor grande K, com o risto de \textit{overfit}. Pode-se reparar que com um K maior, um ponto solitário que pode representar um erro dos dados de treino é ignorado por estar cercado de pontos que representam outra classe.
 
 \begin{figure}[ht]
 	\centering
@@ -32,7 +32,7 @@ O Algoritmo KNN busca criar regiões de classificação no espaço pelo voto maj
 
 
 
-Em sua forma mais simples, árvores de decisão são uma classe de algoritmos que buscam (no caso de classificação) achar a classe de um ponto de treino testando intervalos de suas \textit{features}. Vejamos o exemplo de uma árvore treinada a seguir:
+Em sua forma mais simples, árvores de decisão são uma classe de algoritmos que buscam (no caso de classificação) achar a classe de um ponto de treino testando intervalos de suas \textit{features}. A Figura 2 mostra um exemplo de uma árvore treinada:
 
 
 \begin{figure}[ht]
@@ -61,7 +61,7 @@ Essa classe de algoritmos busca, para um conjunto de dados N-dimensionais, encon
 
 
 
-A reta na figura \ref{fig:svm1} foi encontrada de modo a separar o espaço de classificação da classe "azul" do espaço de classificação da classe "vermelha". A linha pontilhada representa a margem de classificação, o algoritmo busca chegar a um hiperplano que tenha ainda uma distância dos pontos mais próximos da região de separação. A seguir, um exemplo mais complexo usando um \textit{kernel}  para poder classificar dados não linearmente separáveis:
+A reta na Figura \ref{fig:svm1} foi encontrada de modo a separar o espaço de classificação da classe "azul" do espaço de classificação da classe "vermelha". A linha pontilhada representa a margem de classificação, o algoritmo busca chegar a um hiperplano que tenha ainda uma distância dos pontos mais próximos da região de separação. A seguir, um exemplo mais complexo usando um \textit{kernel}  para poder classificar dados não linearmente separáveis:
 
 \begin{figure}[H]
 	\centering
