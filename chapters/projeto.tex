@@ -36,7 +36,7 @@ $ZoneID$ & $BSSID_1$ & $BSSID_2$ & ... &  $BSSID_n$ \\
 \end{blockarray}
 \end{center}
 
-Cada coluna representa a medida de uma \textit{BSSID} (i.e. um Roteador), ou seja, uma \textit{feature} para o ML, e cada linha é um ponto de treino (i.e.  uma medida para cada  \textit{BSSID}, nossas \textit{features}).
+Cada coluna representa as medidas da potência de sinal de cada \textit{BSSID}, que corresponde ao \textit{MAC address} de cada ponto de acesso (i.e. um Roteador), ou seja, uma \textit{feature} para o ML. Por sua vez, cada linha é um ponto de treino (i.e.  uma medida para cada \textit{BSSID}, nossas \textit{features}), assim, elas possuem o ID da zona escaneada e as medidas correspondentes a cada ponto de acesso identificado.
 
 
 \subsection{Modelos Usados e \textit{Cross-Validation} de parâmetros }
