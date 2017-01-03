@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[beaconstac]{bluecost1}
+\abntrefinfo{beaconstac}{BEACONSTAC}{}
+{BEACONSTAC.
+  \url{https://blog.beaconstac.com/2016/05/li-fi-vs-wi-fi-vs-ibeacon-ble-technology/}.
+Accessed: 2016-12-25.}
+
 \bibitem[Bozkurt et al. 2015]{comparative}
 \abntrefinfo{Bozkurt et al.}{BOZKURT et al.}{2015}
 {BOZKURT, S. et al. A comparative study on machine learning algorithms for
@@ -23,6 +29,12 @@
 \abntrefinfo{Freund e Schapire}{FREUND; SCHAPIRE}{1996}
 {FREUND, Y.; SCHAPIRE, R.~E. \emph{A Decision-Theoretic Generalization of
   on-Line Learning and an Application to Boosting}. 1996.}
+
+\bibitem[infoworld]{bluecost2}
+\abntrefinfo{infoworld}{INFOWORLD}{}
+{INFOWORLD.
+  \url{http://www.infoworld.com/article/2983166/bluetooth/beacons-are-harder-to-deploy-than-you-think.html}.
+Accessed: 2016-12-25.}
 
 \bibitem[James et al. 2014]{statbook}
 \abntrefinfo{James et al.}{JAMES et al.}{2014}
@@ -50,11 +62,23 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/s13721-013-0034-x}.}
 {NG, A. Stanford cs229 - machine learning - ng.
 2008.}
 
+\bibitem[nodesagency]{bluecost4}
+\abntrefinfo{nodesagency}{NODESAGENCY}{}
+{NODESAGENCY.
+  \url{https://www.nodesagency.com/list-9-biggest-beacon-manufacturers/}.
+Accessed: 2016-12-25.}
+
 \bibitem[PIMENTA 2016]{dapokemon}
 \abntrefinfo{PIMENTA}{PIMENTA}{2016}
 {PIMENTA, R.~D. da H. Pok{\'e}mon go: imers{\~a}o, publicidade e ludicidade em
   um novo modelo de compra e inser{\c{c}}{\~a}o de m{\'\i}dia.
 2016.}
+
+\bibitem[pointrlabs]{bluecost3}
+\abntrefinfo{pointrlabs}{POINTRLABS}{}
+{POINTRLABS.
+  \url{http://www.pointrlabs.com/blog/beacons-everything-you-need-to-know/}.
+Accessed: 2016-12-25.}
 
 \bibitem[Provos e Mazieres 1999]{provos1999bcrypt}
 \abntrefinfo{Provos e Mazieres}{PROVOS; MAZIERES}{1999}

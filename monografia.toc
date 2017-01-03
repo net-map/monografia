@@ -60,6 +60,6 @@
 \contentsline {subsection}{\numberline {8.2.2}Guia para exposi\IeC {\c c}\IeC {\~o}es}{50}
 \contentsline {section}{\numberline {8.3}Coment\IeC {\'a}rios finais}{50}
 \contentsline {chapter}{Refer\IeC {\^e}ncias}{51}
-\contentsline {chapter}{Anexo{} A{} -- Telas do aplicativo APScanner}{52}
-\contentsline {chapter}{Anexo{} B{} -- Plantas do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da Poli-USP com medi\IeC {\c c}\IeC {\~o}es}{55}
-\contentsline {chapter}{Anexo{} C{} -- C\IeC {\'o}digos das aplica\IeC {\c c}\IeC {\~o}es desenvolvidas}{57}
+\contentsline {chapter}{Anexo{} A{} -- Telas do aplicativo APScanner}{53}
+\contentsline {chapter}{Anexo{} B{} -- Plantas do pr\IeC {\'e}dio de Engenharia El\IeC {\'e}trica da Poli-USP com medi\IeC {\c c}\IeC {\~o}es}{56}
+\contentsline {chapter}{Anexo{} C{} -- C\IeC {\'o}digos das aplica\IeC {\c c}\IeC {\~o}es desenvolvidas}{58}

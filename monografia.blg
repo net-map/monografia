@@ -2,8 +2,13 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: monografia.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: citations.bib
+Warning--campo year vazio ou faltando em bluecost1
+Warning--campo year vazio ou faltando em bluecost2
+Warning--campo year vazio ou faltando em bluecost4
+Warning--campo year vazio ou faltando em bluecost3
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
+(There were 4 warnings)

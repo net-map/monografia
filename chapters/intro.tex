@@ -24,20 +24,19 @@ eventos em galpões, sem ter que investir altos valores em infraestrutura. Para 
 \par
 A tabela \ref{comparativoLocaliz} compara as tecnologias de localização citadas acima.
 
+
 \begin{table}[H]
 \centering
-\caption{Comparativo entre diferentes métodos de localização}
-\label{comparativoLocaliz}
-\begin{tabular}{c|c|c|c|}
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{l|l|l|l|l}
 \cline{2-4}
-                                                                                                           & \textbf{GPS}                                                               & \textbf{\begin{tabular}[c]{@{}c@{}}Triangulação\\ por Bluetooth\end{tabular}}                                                 & \textbf{\begin{tabular}[c]{@{}c@{}}Wi-Fi e\\ Machine Learning\end{tabular}}                                                                          \\ \hline
-\multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Localização em\\ ambientes fechados \end{tabular}}} & \xmark                                                                     & \cmark                                                                                                                        & \cmark                                                                                                                                               \\ \hline
-\multicolumn{1}{|c|}{\textbf{Precisão}}                                                                    & \begin{tabular}[c]{@{}c@{}}Boa\\ (Quando o sinal\\ é estável)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Boa $\sim$ Média\\ (Depende de como\\ foi instalado)\end{tabular}                                  & \begin{tabular}[c]{@{}c@{}}Boa $\sim$ Média\\ (Depende da quantidade\\ de Access Points e\\ medidas no ambiente)\end{tabular}                        \\ \hline
-\multicolumn{1}{|c|}{\textbf{Custo}}                                                                       & Uso gratuito                                                               & \begin{tabular}[c]{@{}c@{}}É necessário\\ adquirir, instalar\\ e arcar com a\\ manutenção de\\ Beacons Bluetooth\end{tabular} & \begin{tabular}[c]{@{}c@{}}Custo somente no\\ acesso aos servidores.\\ Leva em consideração\\ que o ambiente já\\ possui Access Points.\end{tabular} \\ \hline
-\multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Gasto de bateria\\ para o usuário\end{tabular}}}   & Alto                                                                       & Médio                                                                                                                         & Baixo                                                                                                                                                \\ \hline
+                                         & Beacons + Bluetooth                                                                                                                                                                                                                                     & Wi-Fi e Machine Learning                                                                                                       & GPS          &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{Localização Indoor} & Sim                                                                                                                                                                                                                                                     & Sim                                                                                                                            & Não          &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{Custo}              & \begin{tabular}[c]{@{}l@{}}de \$10 até \$50,\\ dependendo do fabricante\\ É necessário adquirir, \\ instalar e arcar com a \\ manutenção de Beacons Bluetooth.\\ \cite{bluecost1}\cite{bluecost2}\\ \cite{bluecost3}\cite{bluecost4}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Nulo, dado que o ambiente já \\ tenha uma infra-estrutura \\ de Access Points de Wi-Fi\end{tabular} & Uso gratuito &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{Gasto de Bateria}   & \begin{tabular}[c]{@{}l@{}}Depende do padrão \\ Bluetooth usado.\\  Mas é necessário que \\ o Bluetooth esteja \\ constantemente\\  ligado no aparelho.\end{tabular}                                                                                    & Baixo                                                                                                                          & Alto         &  \\ \cline{1-4}
 \end{tabular}
 \end{table}
-
 Esta abordagem se mostra interessante ao ponto de que sua implementação não
 necessita de configurações particulares nas redes ao redor, uma vez que se baseia
 em leituras feitas pelo aparelho móvel e no processamento dos dados feitos em um
