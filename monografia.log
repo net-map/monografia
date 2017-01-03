@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.29)  3 JAN 2017 18:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.29)  3 JAN 2017 20:11
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -707,9 +707,6 @@ LaTeX Info: Redefining \citeonline on input line 677.
 
 LaTeX Warning: Label `my-label' multiply defined.
 
-
-LaTeX Warning: Label `my-label' multiply defined.
-
 )
 \openout1 = `monografia.aux'.
 
@@ -919,11 +916,7 @@ less on input line 1.
 
 Cap\'{\i }tulo 1.
 
-LaTeX Warning: Reference `comparativoLocaliz' on page 17 undefined on input lin
-e 25.
-
-
-Overfull \hbox (91.44879pt too wide) in paragraph at lines 32--39
+Overfull \hbox (36.1244pt too wide) in paragraph at lines 32--39
  [][] 
  []
 
@@ -1270,16 +1263,13 @@ less on input line 195.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  6562 strings out of 493334
- 93633 string characters out of 3139231
- 174302 words of memory out of 3000000
+ 93626 string characters out of 3139231
+ 174311 words of memory out of 3000000
  9859 multiletter control sequences out of 15000+200000
  14339 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1296,7 +1286,7 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on monografia.pdf (62 pages, 4722524 bytes).
+Output written on monografia.pdf (62 pages, 4737047 bytes).
 PDF statistics:
  294 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
