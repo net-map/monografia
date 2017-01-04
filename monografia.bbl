@@ -25,6 +25,11 @@ Accessed: 2016-12-25.}
   Conference on Internet-of-Things Design and Implementation (IoTDI)}. [S.l.:
   s.n.], 2016. p. 211--222.}
 
+\bibitem[Curran et al. 2011]{evaluation}
+\abntrefinfo{Curran et al.}{CURRAN et al.}{2011}
+{CURRAN, K. et al. An evaluation of indoor location determination technologies.
+\emph{Journal of Location}, Vol. 5, No. 2,, 2011.}
+
 \bibitem[Freund e Schapire 1996]{adaboost}
 \abntrefinfo{Freund e Schapire}{FREUND; SCHAPIRE}{1996}
 {FREUND, Y.; SCHAPIRE, R.~E. \emph{A Decision-Theoretic Generalization of
@@ -99,5 +104,11 @@ Accessed: 2016-12-25.}
   database for wlan fingerprint-based indoor localization problems. In:
   \emph{Indoor Positioning and Indoor Navigation (IPIN), 2014 International
   Conference on}. [S.l.: s.n.], 2014. p. 261--270.}
+
+\bibitem[Zhongliang et al. 2014]{situationIndoor}
+\abntrefinfo{Zhongliang et al.}{ZHONGLIANG et al.}{2014}
+{ZHONGLIANG, D. et al. Situation and development tendency of indoor
+  positioning.
+\emph{China Communications}, 2014.}
 
 \end{thebibliography}
